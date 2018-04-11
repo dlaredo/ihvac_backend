@@ -89,3 +89,13 @@ Database/*.vpp.bak*
 *.ist
 
 *.bbl
+
+Code/\.ipynb_checkpoints/
+
+*.profile
+
+Code/DataRetrieval/\.ipynb_checkpoints/
+
+code/untracked/
+
+code/*.png
