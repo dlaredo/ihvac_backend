@@ -1,0 +1,1642 @@
+server,location,branch,sub_branch,control_program,point,path
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,Cl Req,#ahu-1_0206/m045
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,Duct SP AHU,#ahu-1_0206/st_press1
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,Final Filter Diff. Press.,#ahu-1_0206/ffilter_dp
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,OA Temp,#ahu-1_0206/oa_temperature
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,Occ Mode,#ahu-1_0206/m041
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,Pre-Filter Diff. Press.,#ahu-1_0206/pfilter_dp
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,St Req,#ahu-1_0206/m496
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,Static SP1,#ahu-1_0206/m124
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,Static SP2,#ahu-1_0206/m415
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,Sup Fan A Velocity Pressure,#ahu-1_0206/sf1_vel_press
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,Sup Fan B Velocity Pressure,#ahu-1_0206/sf2_vel_press
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,Sup Fan C Velocity Pressure,#ahu-1_0206/sf3_vel_press
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,Sup Fan D Velocity Pressure,#ahu-1_0206/sf4_vel_press
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,Supply Fan  CFM,#ahu-1_0206/sf_cfm_tnd
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,Supply Fan 1 CFM,#ahu-1_0206/sf1_cfm_tnd
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,Supply Fan 2 CFM,#ahu-1_0206/sf2_cfm_tnd
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,Supply Fan 3 CFM,#ahu-1_0206/sf3_cfm_tnd
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,Supply Fan 4 CFM,#ahu-1_0206/sf4_cfm_tnd
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-1,Supply Temp,#ahu-1_0206/sa_temp
+10.20.0.47,Science & Engineering 2: 0206,VFD,,AHU-1A Supply,1610_power_kw,#ahu_1a_supply/power_kw_1610_tn
+10.20.0.47,Science & Engineering 2: 0206,VFD,,AHU-1A Supply,1617_speed_rpm,#ahu_1a_supply/speed_rpm_1617_tn
+10.20.0.47,Science & Engineering 2: 0206,VFD,,AHU-1B Supply,1610_power_kw,#ahu_1b_supply/power_kw_1610_tn
+10.20.0.47,Science & Engineering 2: 0206,VFD,,AHU-1B Supply,1617_speed_rpm,#ahu_1b_supply/speed_rpm_1617_tn
+10.20.0.47,Science & Engineering 2: 0206,VFD,,AHU-1C Supply,1610_power_kw,#ahu_1c_supply/power_kw_1610_tn
+10.20.0.47,Science & Engineering 2: 0206,VFD,,AHU-1C Supply,1617_speed_rpm,#ahu_1c_supply/speed_rpm_1617_tn
+10.20.0.47,Science & Engineering 2: 0206,VFD,,AHU-1D Supply,1610_power_kw,#ahu_1d_supply/power_kw_1610_tn
+10.20.0.47,Science & Engineering 2: 0206,VFD,,AHU-1D Supply,1617_speed_rpm,#ahu_1d_supply/speed_rpm_1617_tn
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,Cl Req,#ahu-2_0206/m045
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,Duct SP 2nd floor,#ahu-2_0206/st_press1
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,Final Filter Diff. Press.,#ahu-2_0206/ffilter_dp
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,OA Temp,#ahu-2_0206/oa_temperature
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,Occ Mode,#ahu-2_0206/m041
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,Pre-Filter Diff. Press.,#ahu-2_0206/pfilter_dp
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,St Req,#ahu-2_0206/m496
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,Static SP1,#ahu-2_0206/m124
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,Static SP2,#ahu-2_0206/m415
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,Sup Fan A Velocity Pressure,#ahu-2_0206/sf1_vel_press
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,Sup Fan B Velocity Pressure,#ahu-2_0206/sf2_vel_press
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,Sup Fan C Velocity Pressure,#ahu-2_0206/sf3_vel_press
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,Sup Fan D Velocity Pressure,#ahu-2_0206/sf4_vel_press
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,Supply Fan 1 CFM,#ahu-2_0206/sf_cfm_tnd
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,Supply Fan 1 CFM,#ahu-2_0206/sf1_cfm_tnd
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,Supply Fan 2 CFM,#ahu-2_0206/sf2_cfm_tnd
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,Supply Fan 3 CFM,#ahu-2_0206/sf3_cfm_tnd
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,Supply Fan 4 CFM,#ahu-2_0206/sf4_cfm_tnd
+10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-2,Supply Temp,#ahu-2_0206/sa_temp
+10.20.0.47,Science & Engineering 2: 0206,VFD,,AHU-2A Supply,1610_power_kw,#ahu_2a_supply/power_kw_1610_tn
+10.20.0.47,Science & Engineering 2: 0206,VFD,,AHU-2A Supply,1617_speed_rpm,#ahu_2a_supply/speed_rpm_1617_tn
+10.20.0.47,Science & Engineering 2: 0206,VFD,,AHU-2B Supply,1610_power_kw,#ahu_2b_supply/power_kw_1610_tn
+10.20.0.47,Science & Engineering 2: 0206,VFD,,AHU-2B Supply,1617_speed_rpm,#ahu_2b_supply/speed_rpm_1617_tn
+10.20.0.47,Science & Engineering 2: 0206,VFD,,AHU-2C Supply,1610_power_kw,#ahu_2c_supply/power_kw_1610_tn
+10.20.0.47,Science & Engineering 2: 0206,VFD,,AHU-2C Supply,1617_speed_rpm,#ahu_2c_supply/speed_rpm_1617_tn
+10.20.0.47,Science & Engineering 2: 0206,VFD,,AHU-2D Supply,1610_power_kw,#ahu_2d_supply/power_kw_1610_tn
+10.20.0.47,Science & Engineering 2: 0206,VFD,,AHU-2D Supply,1617_speed_rpm,#ahu_2d_supply/speed_rpm_1617_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Autoclave 355 SAV-3A15-B,GEX Dmpr Pos,#sav-3a15-b/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Autoclave 355 SAV-3A15-B,Cool Requests,#sav-3a15-b/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Autoclave 355 SAV-3A15-B,Heat Requests,#sav-3a15-b/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Autoclave 355 SAV-3A15-B,SAV Dmpr Pos,#sav-3a15-b/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Autoclave 355 SAV-3A15-B,Exhaust Flow,#sav-3a15-b/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Autoclave 355 SAV-3A15-B,Supply Flow,#sav-3a15-b/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Autoclave 355 SAV-3A15-B,Flow Difference,#sav-3a15-b/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Autoclave 355 SAV-3A15-B,Exhaust Flow Stpt,#sav-3a15-b/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Autoclave 355 SAV-3A15-B,Discharge Temp,#sav-3a15-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Autoclave 355 SAV-3A15-B,HW Valve,#sav-3a15-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Autoclave 355 SAV-3A15-B,CHW Valve,#sav-3a15-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Autoclave 355 SAV-3A15-B,Clg%,#sav-3a15-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Autoclave 355 SAV-3A15-B,Htg%,#sav-3a15-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Autoclave 355 SAV-3A15-B,Clg Stpt,#sav-3a15-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Autoclave 355 SAV-3A15-B,Htg Stpt,#sav-3a15-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Autoclave 355 SAV-3A15-B,Zone Temp / Zone Temp,#sav-3a15-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 Center SAV-3A13-E,GEX Dmpr Pos,#sav-3a13-e/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 Center SAV-3A13-E,Cool Requests,#sav-3a13-e/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 Center SAV-3A13-E,Heat Requests,#sav-3a13-e/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 Center SAV-3A13-E,SAV Dmpr Pos,#sav-3a13-e/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 Center SAV-3A13-E,Exhaust Flow,#sav-3a13-e/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 Center SAV-3A13-E,Supply Flow,#sav-3a13-e/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 Center SAV-3A13-E,Flow Difference,#sav-3a13-e/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 Center SAV-3A13-E,Exhaust Flow Stpt,#sav-3a13-e/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 Center SAV-3A13-E,Discharge Temp,#sav-3a13-e/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 Center SAV-3A13-E,HW Valve,#sav-3a13-e/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 Center SAV-3A13-E,CHW Valve,#sav-3a13-e/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 Center SAV-3A13-E,Clg%,#sav-3a13-e/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 Center SAV-3A13-E,Htg%,#sav-3a13-e/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 Center SAV-3A13-E,Clg Stpt,#sav-3a13-e/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 Center SAV-3A13-E,Htg Stpt,#sav-3a13-e/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 Center SAV-3A13-E,Zone Temp / Zone Temp,#sav-3a13-e/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 East SAV-3A18-E,GEX Dmpr Pos,#sav-3a18-e/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 East SAV-3A18-E,Cool Requests,#sav-3a18-e/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 East SAV-3A18-E,Heat Requests,#sav-3a18-e/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 East SAV-3A18-E,SAV Dmpr Pos,#sav-3a18-e/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 East SAV-3A18-E,Exhaust Flow,#sav-3a18-e/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 East SAV-3A18-E,Supply Flow,#sav-3a18-e/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 East SAV-3A18-E,Flow Difference,#sav-3a18-e/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 East SAV-3A18-E,Exhaust Flow Stpt,#sav-3a18-e/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 East SAV-3A18-E,Discharge Temp,#sav-3a18-e/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 East SAV-3A18-E,HW Valve,#sav-3a18-e/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 East SAV-3A18-E,CHW Valve,#sav-3a18-e/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 East SAV-3A18-E,Clg%,#sav-3a18-e/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 East SAV-3A18-E,Htg%,#sav-3a18-e/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 East SAV-3A18-E,Clg Stpt,#sav-3a18-e/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 East SAV-3A18-E,Htg Stpt,#sav-3a18-e/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 East SAV-3A18-E,Zone Temp / Zone Temp,#sav-3a18-e/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 West SAV-3A8-E,GEX Dmpr Pos,#sav-3a8-e/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 West SAV-3A8-E,Cool Requests,#sav-3a8-e/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 West SAV-3A8-E,Heat Requests,#sav-3a8-e/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 West SAV-3A8-E,SAV Dmpr Pos,#sav-3a8-e/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 West SAV-3A8-E,Exhaust Flow,#sav-3a8-e/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 West SAV-3A8-E,Supply Flow,#sav-3a8-e/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 West SAV-3A8-E,Flow Difference,#sav-3a8-e/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 West SAV-3A8-E,Exhaust Flow Stpt,#sav-3a8-e/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 West SAV-3A8-E,Discharge Temp,#sav-3a8-e/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 West SAV-3A8-E,HW Valve,#sav-3a8-e/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 West SAV-3A8-E,CHW Valve,#sav-3a8-e/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 West SAV-3A8-E,Clg%,#sav-3a8-e/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 West SAV-3A8-E,Htg%,#sav-3a8-e/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 West SAV-3A8-E,Clg Stpt,#sav-3a8-e/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 West SAV-3A8-E,Htg Stpt,#sav-3a8-e/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 West SAV-3A8-E,Zone Temp / Zone Temp,#sav-3a8-e/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Breakout 290 SAV-2A1-C,GEX Dmpr Pos,#sav-2a1-c/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Breakout 290 SAV-2A1-C,Cool Requests,#sav-2a1-c/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Breakout 290 SAV-2A1-C,Heat Requests,#sav-2a1-c/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Breakout 290 SAV-2A1-C,SAV Dmpr Pos,#sav-2a1-c/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Breakout 290 SAV-2A1-C,Exhaust Flow,#sav-2a1-c/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Breakout 290 SAV-2A1-C,Supply Flow,#sav-2a1-c/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Breakout 290 SAV-2A1-C,Flow Difference,#sav-2a1-c/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Breakout 290 SAV-2A1-C,Exhaust Flow Stpt,#sav-2a1-c/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Breakout 290 SAV-2A1-C,Discharge Temp,#sav-2a1-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Breakout 290 SAV-2A1-C,HW Valve,#sav-2a1-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Breakout 290 SAV-2A1-C,CHW Valve,#sav-2a1-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Breakout 290 SAV-2A1-C,Clg%,#sav-2a1-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Breakout 290 SAV-2A1-C,Htg%,#sav-2a1-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Breakout 290 SAV-2A1-C,Clg Stpt,#sav-2a1-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Breakout 290 SAV-2A1-C,Htg Stpt,#sav-2a1-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Breakout 290 SAV-2A1-C,Zone Temp / Zone Temp,#sav-2a1-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Breakout 390 SAV-3A1-C,GEX Dmpr Pos,#sav-3a1-c/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Breakout 390 SAV-3A1-C,Cool Requests,#sav-3a1-c/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Breakout 390 SAV-3A1-C,Heat Requests,#sav-3a1-c/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Breakout 390 SAV-3A1-C,SAV Dmpr Pos,#sav-3a1-c/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Breakout 390 SAV-3A1-C,Exhaust Flow,#sav-3a1-c/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Breakout 390 SAV-3A1-C,Supply Flow,#sav-3a1-c/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Breakout 390 SAV-3A1-C,Flow Difference,#sav-3a1-c/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Breakout 390 SAV-3A1-C,Exhaust Flow Stpt,#sav-3a1-c/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Breakout 390 SAV-3A1-C,Discharge Temp,#sav-3a1-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Breakout 390 SAV-3A1-C,HW Valve,#sav-3a1-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Breakout 390 SAV-3A1-C,CHW Valve,#sav-3a1-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Breakout 390 SAV-3A1-C,Clg%,#sav-3a1-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Breakout 390 SAV-3A1-C,Htg%,#sav-3a1-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Breakout 390 SAV-3A1-C,Clg Stpt,#sav-3a1-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Breakout 390 SAV-3A1-C,Htg Stpt,#sav-3a1-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Breakout 390 SAV-3A1-C,Zone Temp / Zone Temp,#sav-3a1-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340C SAV-3A17-A,GEX Dmpr Pos,#sav-3a17-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340C SAV-3A17-A,Cool Requests,#sav-3a17-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340C SAV-3A17-A,Heat Requests,#sav-3a17-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340C SAV-3A17-A,SAV Dmpr Pos,#sav-3a17-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340C SAV-3A17-A,Exhaust Flow,#sav-3a17-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340C SAV-3A17-A,Supply Flow,#sav-3a17-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340C SAV-3A17-A,Flow Difference,#sav-3a17-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340C SAV-3A17-A,Exhaust Flow Stpt,#sav-3a17-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340C SAV-3A17-A,Discharge Temp,#sav-3a17-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340C SAV-3A17-A,HW Valve,#sav-3a17-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340C SAV-3A17-A,CHW Valve,#sav-3a17-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340C SAV-3A17-A,Clg%,#sav-3a17-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340C SAV-3A17-A,Htg%,#sav-3a17-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340C SAV-3A17-A,Clg Stpt,#sav-3a17-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340C SAV-3A17-A,Htg Stpt,#sav-3a17-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340C SAV-3A17-A,Zone Temp / Zone Temp,#sav-3a17-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340F SAV-3A16-B,GEX Dmpr Pos,#sav-3a16-b/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340F SAV-3A16-B,Cool Requests,#sav-3a16-b/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340F SAV-3A16-B,Heat Requests,#sav-3a16-b/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340F SAV-3A16-B,SAV Dmpr Pos,#sav-3a16-b/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340F SAV-3A16-B,Exhaust Flow,#sav-3a16-b/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340F SAV-3A16-B,Supply Flow,#sav-3a16-b/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340F SAV-3A16-B,Flow Difference,#sav-3a16-b/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340F SAV-3A16-B,Exhaust Flow Stpt,#sav-3a16-b/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340F SAV-3A16-B,Discharge Temp,#sav-3a16-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340F SAV-3A16-B,HW Valve,#sav-3a16-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340F SAV-3A16-B,CHW Valve,#sav-3a16-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340F SAV-3A16-B,Clg%,#sav-3a16-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340F SAV-3A16-B,Htg%,#sav-3a16-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340F SAV-3A16-B,Clg Stpt,#sav-3a16-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340F SAV-3A16-B,Htg Stpt,#sav-3a16-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340F SAV-3A16-B,Zone Temp / Zone Temp,#sav-3a16-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340G SAV-3A14-A,GEX Dmpr Pos,#sav-3a14-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340G SAV-3A14-A,Cool Requests,#sav-3a14-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340G SAV-3A14-A,Heat Requests,#sav-3a14-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340G SAV-3A14-A,SAV Dmpr Pos,#sav-3a14-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340G SAV-3A14-A,Exhaust Flow,#sav-3a14-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340G SAV-3A14-A,Supply Flow,#sav-3a14-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340G SAV-3A14-A,Flow Difference,#sav-3a14-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340G SAV-3A14-A,Exhaust Flow Stpt,#sav-3a14-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340G SAV-3A14-A,Discharge Temp,#sav-3a14-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340G SAV-3A14-A,HW Valve,#sav-3a14-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340G SAV-3A14-A,CHW Valve,#sav-3a14-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340G SAV-3A14-A,Clg%,#sav-3a14-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340G SAV-3A14-A,Htg%,#sav-3a14-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340G SAV-3A14-A,Clg Stpt,#sav-3a14-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340G SAV-3A14-A,Htg Stpt,#sav-3a14-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340G SAV-3A14-A,Zone Temp / Zone Temp,#sav-3a14-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340H SAV-3A12-B,GEX Dmpr Pos,#sav-3a12-b/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340H SAV-3A12-B,Cool Requests,#sav-3a12-b/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340H SAV-3A12-B,Heat Requests,#sav-3a12-b/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340H SAV-3A12-B,SAV Dmpr Pos,#sav-3a12-b/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340H SAV-3A12-B,Exhaust Flow,#sav-3a12-b/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340H SAV-3A12-B,Supply Flow,#sav-3a12-b/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340H SAV-3A12-B,Flow Difference,#sav-3a12-b/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340H SAV-3A12-B,Exhaust Flow Stpt,#sav-3a12-b/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340H SAV-3A12-B,Discharge Temp,#sav-3a12-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340H SAV-3A12-B,HW Valve,#sav-3a12-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340H SAV-3A12-B,CHW Valve,#sav-3a12-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340H SAV-3A12-B,Clg%,#sav-3a12-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340H SAV-3A12-B,Htg%,#sav-3a12-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340H SAV-3A12-B,Clg Stpt,#sav-3a12-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340H SAV-3A12-B,Htg Stpt,#sav-3a12-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340H SAV-3A12-B,Zone Temp / Zone Temp,#sav-3a12-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340J SAV-3A10-B,GEX Dmpr Pos,#sav-3a10-b/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340J SAV-3A10-B,Cool Requests,#sav-3a10-b/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340J SAV-3A10-B,Heat Requests,#sav-3a10-b/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340J SAV-3A10-B,SAV Dmpr Pos,#sav-3a10-b/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340J SAV-3A10-B,Exhaust Flow,#sav-3a10-b/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340J SAV-3A10-B,Supply Flow,#sav-3a10-b/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340J SAV-3A10-B,Flow Difference,#sav-3a10-b/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340J SAV-3A10-B,Exhaust Flow Stpt,#sav-3a10-b/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340J SAV-3A10-B,Discharge Temp,#sav-3a10-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340J SAV-3A10-B,HW Valve,#sav-3a10-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340J SAV-3A10-B,CHW Valve,#sav-3a10-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340J SAV-3A10-B,Clg%,#sav-3a10-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340J SAV-3A10-B,Htg%,#sav-3a10-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340J SAV-3A10-B,Clg Stpt,#sav-3a10-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340J SAV-3A10-B,Htg Stpt,#sav-3a10-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340J SAV-3A10-B,Zone Temp / Zone Temp,#sav-3a10-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340L SAV-3A9-A,GEX Dmpr Pos,#sav-3a9-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340L SAV-3A9-A,Cool Requests,#sav-3a9-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340L SAV-3A9-A,Heat Requests,#sav-3a9-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340L SAV-3A9-A,SAV Dmpr Pos,#sav-3a9-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340L SAV-3A9-A,Exhaust Flow,#sav-3a9-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340L SAV-3A9-A,Supply Flow,#sav-3a9-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340L SAV-3A9-A,Flow Difference,#sav-3a9-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340L SAV-3A9-A,Exhaust Flow Stpt,#sav-3a9-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340L SAV-3A9-A,Discharge Temp,#sav-3a9-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340L SAV-3A9-A,HW Valve,#sav-3a9-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340L SAV-3A9-A,CHW Valve,#sav-3a9-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340L SAV-3A9-A,Clg%,#sav-3a9-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340L SAV-3A9-A,Htg%,#sav-3a9-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340L SAV-3A9-A,Clg Stpt,#sav-3a9-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340L SAV-3A9-A,Htg Stpt,#sav-3a9-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340L SAV-3A9-A,Zone Temp / Zone Temp,#sav-3a9-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,CER 50H SAV-B23-A,GEX Dmpr Pos,#sav-b23-a_/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,CER 50H SAV-B23-A,Cool Requests,#sav-b23-a_/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,CER 50H SAV-B23-A,Heat Requests,#sav-b23-a_/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,CER 50H SAV-B23-A,SAV Dmpr Pos,#sav-b23-a_/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,CER 50H SAV-B23-A,Exhaust Flow,#sav-b23-a_/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,CER 50H SAV-B23-A,Supply Flow,#sav-b23-a_/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,CER 50H SAV-B23-A,Flow Difference,#sav-b23-a_/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,CER 50H SAV-B23-A,Exhaust Flow Stpt,#sav-b23-a_/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,CER 50H SAV-B23-A,CER Temp,#sav-b23-a_/m423
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,CER 50H SAV-B23-A,Discharge Temp,#sav-b23-a_/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,CER 50H SAV-B23-A,CHW Valve,#sav-b23-a_/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,CER 50H SAV-B23-A,Clg%,#sav-b23-a_/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,CER 50H SAV-B23-A,Htg%,#sav-b23-a_/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,CER 50H SAV-B23-A,Clg Stpt,#sav-b23-a_/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,CER 50H SAV-B23-A,Htg Stpt,#sav-b23-a_/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 050B SAV-B31-A,GEX Dmpr Pos,#sav-b31-a_/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 050B SAV-B31-A,Cool Requests,#sav-b31-a_/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 050B SAV-B31-A,Heat Requests,#sav-b31-a_/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 050B SAV-B31-A,SAV Dmpr Pos,#sav-b31-a_/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 050B SAV-B31-A,Exhaust Flow,#sav-b31-a_/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 050B SAV-B31-A,Supply Flow,#sav-b31-a_/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 050B SAV-B31-A,Flow Difference,#sav-b31-a_/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 050B SAV-B31-A,Exhaust Flow Stpt,#sav-b31-a_/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 050B SAV-B31-A,Discharge Temp,#sav-b31-a_/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 050B SAV-B31-A,HW Valve,#sav-b31-a_/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 050B SAV-B31-A,CHW Valve,#sav-b31-a_/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 050B SAV-B31-A,Clg%,#sav-b31-a_/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 050B SAV-B31-A,Htg%,#sav-b31-a_/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 050B SAV-B31-A,Clg Stpt,#sav-b31-a_/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 050B SAV-B31-A,Htg Stpt,#sav-b31-a_/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 050B SAV-B31-A,Zone Temp / Zone Temp,#sav-b31-a_/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 080A SAV-B19-A,GEX Dmpr Pos,#sav-b19-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 080A SAV-B19-A,Cool Requests,#sav-b19-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 080A SAV-B19-A,Heat Requests,#sav-b19-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 080A SAV-B19-A,SAV Dmpr Pos,#sav-b19-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 080A SAV-B19-A,Exhaust Flow,#sav-b19-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 080A SAV-B19-A,Supply Flow,#sav-b19-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 080A SAV-B19-A,Flow Difference,#sav-b19-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 080A SAV-B19-A,Exhaust Flow Stpt,#sav-b19-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 080A SAV-B19-A,Discharge Temp,#sav-b19-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 080A SAV-B19-A,HW Valve,#sav-b19-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 080A SAV-B19-A,CHW Valve,#sav-b19-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 080A SAV-B19-A,Clg%,#sav-b19-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 080A SAV-B19-A,Htg%,#sav-b19-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 080A SAV-B19-A,Clg Stpt,#sav-b19-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 080A SAV-B19-A,Htg Stpt,#sav-b19-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 080A SAV-B19-A,Zone Temp / Zone Temp,#sav-b19-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230A SAV-2A23-C,GEX Dmpr Pos,#sav-2a23-c/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230A SAV-2A23-C,Cool Requests,#sav-2a23-c/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230A SAV-2A23-C,Heat Requests,#sav-2a23-c/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230A SAV-2A23-C,SAV Dmpr Pos,#sav-2a23-c/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230A SAV-2A23-C,Exhaust Flow,#sav-2a23-c/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230A SAV-2A23-C,Supply Flow,#sav-2a23-c/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230A SAV-2A23-C,Flow Difference,#sav-2a23-c/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230A SAV-2A23-C,Exhaust Flow Stpt,#sav-2a23-c/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230A SAV-2A23-C,Discharge Temp,#sav-2a23-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230A SAV-2A23-C,HW Valve,#sav-2a23-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230A SAV-2A23-C,CHW Valve,#sav-2a23-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230A SAV-2A23-C,Clg%,#sav-2a23-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230A SAV-2A23-C,Htg%,#sav-2a23-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230A SAV-2A23-C,Clg Stpt,#sav-2a23-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230A SAV-2A23-C,Htg Stpt,#sav-2a23-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230A SAV-2A23-C,Zone Temp / Zone Temp,#sav-2a23-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230Q SAV-2A3-A,GEX Dmpr Pos,#sav-2a3-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230Q SAV-2A3-A,Cool Requests,#sav-2a3-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230Q SAV-2A3-A,Heat Requests,#sav-2a3-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230Q SAV-2A3-A,SAV Dmpr Pos,#sav-2a3-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230Q SAV-2A3-A,Exhaust Flow,#sav-2a3-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230Q SAV-2A3-A,Supply Flow,#sav-2a3-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230Q SAV-2A3-A,Flow Difference,#sav-2a3-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230Q SAV-2A3-A,Exhaust Flow Stpt,#sav-2a3-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230Q SAV-2A3-A,Discharge Temp,#sav-2a3-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230Q SAV-2A3-A,HW Valve,#sav-2a3-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230Q SAV-2A3-A,CHW Valve,#sav-2a3-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230Q SAV-2A3-A,Clg%,#sav-2a3-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230Q SAV-2A3-A,Htg%,#sav-2a3-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230Q SAV-2A3-A,Clg Stpt,#sav-2a3-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230Q SAV-2A3-A,Htg Stpt,#sav-2a3-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230Q SAV-2A3-A,Zone Temp / Zone Temp,#sav-2a3-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Dual Beam 090A SAV-B7-B,GEX Dmpr Pos,#sav-b7-b/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Dual Beam 090A SAV-B7-B,Cool Requests,#sav-b7-b/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Dual Beam 090A SAV-B7-B,Heat Requests,#sav-b7-b/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Dual Beam 090A SAV-B7-B,SAV Dmpr Pos,#sav-b7-b/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Dual Beam 090A SAV-B7-B,Exhaust Flow,#sav-b7-b/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Dual Beam 090A SAV-B7-B,Supply Flow,#sav-b7-b/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Dual Beam 090A SAV-B7-B,Flow Difference,#sav-b7-b/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Dual Beam 090A SAV-B7-B,Exhaust Flow Stpt,#sav-b7-b/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Dual Beam 090A SAV-B7-B,Discharge Temp,#sav-b7-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Dual Beam 090A SAV-B7-B,HW Valve,#sav-b7-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Dual Beam 090A SAV-B7-B,CHW Valve,#sav-b7-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Dual Beam 090A SAV-B7-B,Clg%,#sav-b7-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Dual Beam 090A SAV-B7-B,Htg%,#sav-b7-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Dual Beam 090A SAV-B7-B,Clg Stpt,#sav-b7-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Dual Beam 090A SAV-B7-B,Htg Stpt,#sav-b7-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Dual Beam 090A SAV-B7-B,Zone Temp / Zone Temp,#sav-b7-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Electronics 155 SAV-1B16-C,GEX Dmpr Pos,#sav-1b16-c/m277
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Electronics 155 SAV-1B16-C,Cool Requests,#sav-1b16-c/m285
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Electronics 155 SAV-1B16-C,Heat Requests,#sav-1b16-c/m288
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Electronics 155 SAV-1B16-C,SAV Dmpr Pos,#sav-1b16-c/m310
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Electronics 155 SAV-1B16-C,Exhaust Flow,#sav-1b16-c/m318
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Electronics 155 SAV-1B16-C,Supply Flow,#sav-1b16-c/m320
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Electronics 155 SAV-1B16-C,Flow Difference,#sav-1b16-c/m322
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Electronics 155 SAV-1B16-C,Exhaust Flow Stpt,#sav-1b16-c/m328
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Electronics 155 SAV-1B16-C,Discharge Temp,#sav-1b16-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Electronics 155 SAV-1B16-C,HW Valve,#sav-1b16-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Electronics 155 SAV-1B16-C,CHW Valve,#sav-1b16-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Electronics 155 SAV-1B16-C,Clg%,#sav-1b16-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Electronics 155 SAV-1B16-C,Htg%,#sav-1b16-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Electronics 155 SAV-1B16-C,Clg Stpt,#sav-1b16-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Electronics 155 SAV-1B16-C,Htg Stpt,#sav-1b16-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Electronics 155 SAV-1B16-C,Zone Temp / Zone Temp,#sav-1b16-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 East SAV-B28-E,GEX Dmpr Pos,#sav-b28-e_/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 East SAV-B28-E,Cool Requests,#sav-b28-e_/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 East SAV-B28-E,Heat Requests,#sav-b28-e_/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 East SAV-B28-E,SAV Dmpr Pos,#sav-b28-e_/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 East SAV-B28-E,Exhaust Flow,#sav-b28-e_/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 East SAV-B28-E,Supply Flow,#sav-b28-e_/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 East SAV-B28-E,Flow Difference,#sav-b28-e_/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 East SAV-B28-E,Exhaust Flow Stpt,#sav-b28-e_/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 East SAV-B28-E,Discharge Temp,#sav-b28-e_/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 East SAV-B28-E,HW Valve,#sav-b28-e_/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 East SAV-B28-E,CHW Valve,#sav-b28-e_/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 East SAV-B28-E,Clg%,#sav-b28-e_/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 East SAV-B28-E,Htg%,#sav-b28-e_/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 East SAV-B28-E,Clg Stpt,#sav-b28-e_/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 East SAV-B28-E,Htg Stpt,#sav-b28-e_/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 East SAV-B28-E,Zone Temp / Zone Temp,#sav-b28-e_/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 West SAV-B27-E,GEX Dmpr Pos,#sav-b27-e_/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 West SAV-B27-E,Cool Requests,#sav-b27-e_/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 West SAV-B27-E,Heat Requests,#sav-b27-e_/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 West SAV-B27-E,SAV Dmpr Pos,#sav-b27-e_/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 West SAV-B27-E,Exhaust Flow,#sav-b27-e_/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 West SAV-B27-E,Supply Flow,#sav-b27-e_/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 West SAV-B27-E,Flow Difference,#sav-b27-e_/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 West SAV-B27-E,Exhaust Flow Stpt,#sav-b27-e_/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 West SAV-B27-E,Discharge Temp,#sav-b27-e_/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 West SAV-B27-E,HW Valve,#sav-b27-e_/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 West SAV-B27-E,CHW Valve,#sav-b27-e_/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 West SAV-B27-E,Clg%,#sav-b27-e_/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 West SAV-B27-E,Htg%,#sav-b27-e_/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 West SAV-B27-E,Clg Stpt,#sav-b27-e_/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 West SAV-B27-E,Htg Stpt,#sav-b27-e_/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 West SAV-B27-E,Zone Temp / Zone Temp,#sav-b27-e_/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050D SAV-B25-B,GEX Dmpr Pos,#sav-b25-b/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050D SAV-B25-B,Cool Requests,#sav-b25-b/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050D SAV-B25-B,Heat Requests,#sav-b25-b/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050D SAV-B25-B,SAV Dmpr Pos,#sav-b25-b/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050D SAV-B25-B,Exhaust Flow,#sav-b25-b/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050D SAV-B25-B,Supply Flow,#sav-b25-b/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050D SAV-B25-B,Flow Difference,#sav-b25-b/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050D SAV-B25-B,Exhaust Flow Stpt,#sav-b25-b/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050D SAV-B25-B,Discharge Temp,#sav-b25-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050D SAV-B25-B,HW Valve,#sav-b25-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050D SAV-B25-B,CHW Valve,#sav-b25-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050D SAV-B25-B,Clg%,#sav-b25-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050D SAV-B25-B,Htg%,#sav-b25-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050D SAV-B25-B,Clg Stpt,#sav-b25-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050D SAV-B25-B,Htg Stpt,#sav-b25-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050D SAV-B25-B,Zone Temp / Zone Temp,#sav-b25-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050E SAV-B32-B,GEX Dmpr Pos,#sav-b32-b_/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050E SAV-B32-B,Cool Requests,#sav-b32-b_/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050E SAV-B32-B,Heat Requests,#sav-b32-b_/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050E SAV-B32-B,SAV Dmpr Pos,#sav-b32-b_/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050E SAV-B32-B,Exhaust Flow,#sav-b32-b_/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050E SAV-B32-B,Supply Flow,#sav-b32-b_/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050E SAV-B32-B,Flow Difference,#sav-b32-b_/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050E SAV-B32-B,Exhaust Flow Stpt,#sav-b32-b_/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050E SAV-B32-B,Discharge Temp,#sav-b32-b_/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050E SAV-B32-B,HW Valve,#sav-b32-b_/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050E SAV-B32-B,CHW Valve,#sav-b32-b_/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050E SAV-B32-B,Clg%,#sav-b32-b_/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050E SAV-B32-B,Htg%,#sav-b32-b_/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050E SAV-B32-B,Clg Stpt,#sav-b32-b_/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050E SAV-B32-B,Htg Stpt,#sav-b32-b_/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050E SAV-B32-B,Zone Temp / Zone Temp,#sav-b32-b_/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 080C SAV-B14-B,GEX Dmpr Pos,#sav-b14-b/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 080C SAV-B14-B,Cool Requests,#sav-b14-b/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 080C SAV-B14-B,Heat Requests,#sav-b14-b/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 080C SAV-B14-B,SAV Dmpr Pos,#sav-b14-b/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 080C SAV-B14-B,Exhaust Flow,#sav-b14-b/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 080C SAV-B14-B,Supply Flow,#sav-b14-b/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 080C SAV-B14-B,Flow Difference,#sav-b14-b/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 080C SAV-B14-B,Exhaust Flow Stpt,#sav-b14-b/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 080C SAV-B14-B,Discharge Temp,#sav-b14-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 080C SAV-B14-B,HW Valve,#sav-b14-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 080C SAV-B14-B,CHW Valve,#sav-b14-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 080C SAV-B14-B,Clg%,#sav-b14-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 080C SAV-B14-B,Htg%,#sav-b14-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 080C SAV-B14-B,Clg Stpt,#sav-b14-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 080C SAV-B14-B,Htg Stpt,#sav-b14-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 080C SAV-B14-B,Zone Temp / Zone Temp,#sav-b14-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Hallway 0C9 SAV-B17-C,GEX Dmpr Pos,#sav-b17-c_/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Hallway 0C9 SAV-B17-C,Cool Requests,#sav-b17-c_/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Hallway 0C9 SAV-B17-C,Heat Requests,#sav-b17-c_/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Hallway 0C9 SAV-B17-C,SAV Dmpr Pos,#sav-b17-c_/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Hallway 0C9 SAV-B17-C,Exhaust Flow,#sav-b17-c_/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Hallway 0C9 SAV-B17-C,Supply Flow,#sav-b17-c_/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Hallway 0C9 SAV-B17-C,Flow Difference,#sav-b17-c_/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Hallway 0C9 SAV-B17-C,Exhaust Flow Stpt,#sav-b17-c_/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Hallway 0C9 SAV-B17-C,Discharge Temp,#sav-b17-c_/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Hallway 0C9 SAV-B17-C,HW Valve,#sav-b17-c_/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Hallway 0C9 SAV-B17-C,CHW Valve,#sav-b17-c_/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Hallway 0C9 SAV-B17-C,Clg%,#sav-b17-c_/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Hallway 0C9 SAV-B17-C,Htg%,#sav-b17-c_/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Hallway 0C9 SAV-B17-C,Clg Stpt,#sav-b17-c_/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Hallway 0C9 SAV-B17-C,Htg Stpt,#sav-b17-c_/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Hallway 0C9 SAV-B17-C,Zone Temp / Zone Temp,#sav-b17-c_/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A10-C,GEX Dmpr Pos,#sav-2a10-c/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A10-C,Cool Requests,#sav-2a10-c/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A10-C,Heat Requests,#sav-2a10-c/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A10-C,SAV Dmpr Pos,#sav-2a10-c/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A10-C,Exhaust Flow,#sav-2a10-c/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A10-C,Supply Flow,#sav-2a10-c/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A10-C,Flow Difference,#sav-2a10-c/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A10-C,Exhaust Flow Stpt,#sav-2a10-c/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A10-C,Discharge Temp,#sav-2a10-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A10-C,HW Valve,#sav-2a10-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A10-C,CHW Valve,#sav-2a10-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A10-C,Clg%,#sav-2a10-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A10-C,Htg%,#sav-2a10-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A10-C,Clg Stpt,#sav-2a10-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A10-C,Htg Stpt,#sav-2a10-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A10-C,Zone Temp / Zone Temp,#sav-2a10-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A17-A,GEX Dmpr Pos,#sav-2a17-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A17-A,Cool Requests,#sav-2a17-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A17-A,Heat Requests,#sav-2a17-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A17-A,SAV Dmpr Pos,#sav-2a17-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A17-A,Exhaust Flow,#sav-2a17-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A17-A,Supply Flow,#sav-2a17-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A17-A,Flow Difference,#sav-2a17-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A17-A,Exhaust Flow Stpt,#sav-2a17-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A17-A,Discharge Temp,#sav-2a17-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A17-A,HW Valve,#sav-2a17-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A17-A,CHW Valve,#sav-2a17-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A17-A,Clg%,#sav-2a17-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A17-A,Htg%,#sav-2a17-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A17-A,Clg Stpt,#sav-2a17-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A17-A,Htg Stpt,#sav-2a17-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A17-A,Zone Temp / Zone Temp,#sav-2a17-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 2C9 SAV-2A11-A,GEX Dmpr Pos,#sav-2a11-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 2C9 SAV-2A11-A,Cool Requests,#sav-2a11-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 2C9 SAV-2A11-A,Heat Requests,#sav-2a11-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 2C9 SAV-2A11-A,SAV Dmpr Pos,#sav-2a11-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 2C9 SAV-2A11-A,Exhaust Flow,#sav-2a11-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 2C9 SAV-2A11-A,Supply Flow,#sav-2a11-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 2C9 SAV-2A11-A,Flow Difference,#sav-2a11-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 2C9 SAV-2A11-A,Exhaust Flow Stpt,#sav-2a11-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 2C9 SAV-2A11-A,Discharge Temp,#sav-2a11-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 2C9 SAV-2A11-A,HW Valve,#sav-2a11-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 2C9 SAV-2A11-A,CHW Valve,#sav-2a11-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 2C9 SAV-2A11-A,Clg%,#sav-2a11-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 2C9 SAV-2A11-A,Htg%,#sav-2a11-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 2C9 SAV-2A11-A,Clg Stpt,#sav-2a11-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 2C9 SAV-2A11-A,Htg Stpt,#sav-2a11-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 2C9 SAV-2A11-A,Zone Temp / Zone Temp,#sav-2a11-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Hallway 3C9 SAV-3A11-A,GEX Dmpr Pos,#sav-3a11-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Hallway 3C9 SAV-3A11-A,Cool Requests,#sav-3a11-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Hallway 3C9 SAV-3A11-A,Heat Requests,#sav-3a11-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Hallway 3C9 SAV-3A11-A,SAV Dmpr Pos,#sav-3a11-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Hallway 3C9 SAV-3A11-A,Exhaust Flow,#sav-3a11-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Hallway 3C9 SAV-3A11-A,Supply Flow,#sav-3a11-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Hallway 3C9 SAV-3A11-A,Flow Difference,#sav-3a11-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Hallway 3C9 SAV-3A11-A,Exhaust Flow Stpt,#sav-3a11-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Hallway 3C9 SAV-3A11-A,Discharge Temp,#sav-3a11-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Hallway 3C9 SAV-3A11-A,HW Valve,#sav-3a11-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Hallway 3C9 SAV-3A11-A,CHW Valve,#sav-3a11-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Hallway 3C9 SAV-3A11-A,Clg%,#sav-3a11-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Hallway 3C9 SAV-3A11-A,Htg%,#sav-3a11-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Hallway 3C9 SAV-3A11-A,Clg Stpt,#sav-3a11-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Hallway 3C9 SAV-3A11-A,Htg Stpt,#sav-3a11-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Hallway 3C9 SAV-3A11-A,Zone Temp / Zone Temp,#sav-3a11-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,GEX Dmpr Pos,#sav-b3-b/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,Cool Requests,#sav-b3-b/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,Heat Requests,#sav-b3-b/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,SAV Dmpr Pos,#sav-b3-b/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,Exhaust Flow,#sav-b3-b/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,Supply Flow,#sav-b3-b/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,Flow Difference,#sav-b3-b/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,Exhaust Flow Stpt,#sav-b3-b/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,Discharge Temp,#sav-b3-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,HW Valve,#sav-b3-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,CHW Valve,#sav-b3-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,Clg%,#sav-b3-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,Htg%,#sav-b3-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,Clg Stpt,#sav-b3-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,Htg Stpt,#sav-b3-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,Zone Temp / Zone Temp,#sav-b3-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Instructor Support 190 SAV-1A3-B,GEX Dmpr Pos,#sav-1a3-b/m277
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Instructor Support 190 SAV-1A3-B,Cool Requests,#sav-1a3-b/m285
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Instructor Support 190 SAV-1A3-B,Heat Requests,#sav-1a3-b/m288
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Instructor Support 190 SAV-1A3-B,SAV Dmpr Pos,#sav-1a3-b/m310
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Instructor Support 190 SAV-1A3-B,Exhaust Flow,#sav-1a3-b/m318
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Instructor Support 190 SAV-1A3-B,Supply Flow,#sav-1a3-b/m320
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Instructor Support 190 SAV-1A3-B,Flow Difference,#sav-1a3-b/m322
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Instructor Support 190 SAV-1A3-B,Exhaust Flow Stpt,#sav-1a3-b/m328
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Instructor Support 190 SAV-1A3-B,Discharge Temp,#sav-1a3-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Instructor Support 190 SAV-1A3-B,HW Valve,#sav-1a3-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Instructor Support 190 SAV-1A3-B,CHW Valve,#sav-1a3-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Instructor Support 190 SAV-1A3-B,Clg%,#sav-1a3-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Instructor Support 190 SAV-1A3-B,Htg%,#sav-1a3-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Instructor Support 190 SAV-1A3-B,Clg Stpt,#sav-1a3-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Instructor Support 190 SAV-1A3-B,Htg Stpt,#sav-1a3-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Instructor Support 190 SAV-1A3-B,Zone Temp / Zone Temp,#sav-1a3-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050C SAV-B30-A,GEX Dmpr Pos,#sav-b30-a_/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050C SAV-B30-A,Cool Requests,#sav-b30-a_/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050C SAV-B30-A,Heat Requests,#sav-b30-a_/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050C SAV-B30-A,SAV Dmpr Pos,#sav-b30-a_/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050C SAV-B30-A,Exhaust Flow,#sav-b30-a_/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050C SAV-B30-A,Supply Flow,#sav-b30-a_/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050C SAV-B30-A,Flow Difference,#sav-b30-a_/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050C SAV-B30-A,Exhaust Flow Stpt,#sav-b30-a_/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050C SAV-B30-A,Discharge Temp,#sav-b30-a_/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050C SAV-B30-A,HW Valve,#sav-b30-a_/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050C SAV-B30-A,CHW Valve,#sav-b30-a_/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050C SAV-B30-A,Clg%,#sav-b30-a_/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050C SAV-B30-A,Htg%,#sav-b30-a_/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050C SAV-B30-A,Clg Stpt,#sav-b30-a_/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050C SAV-B30-A,Htg Stpt,#sav-b30-a_/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050C SAV-B30-A,Zone Temp / Zone Temp,#sav-b30-a_/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050F SAV-B26-A,GEX Dmpr Pos,#sav-b26-a_/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050F SAV-B26-A,Cool Requests,#sav-b26-a_/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050F SAV-B26-A,Heat Requests,#sav-b26-a_/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050F SAV-B26-A,SAV Dmpr Pos,#sav-b26-a_/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050F SAV-B26-A,Exhaust Flow,#sav-b26-a_/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050F SAV-B26-A,Supply Flow,#sav-b26-a_/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050F SAV-B26-A,Flow Difference,#sav-b26-a_/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050F SAV-B26-A,Exhaust Flow Stpt,#sav-b26-a_/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050F SAV-B26-A,Discharge Temp,#sav-b26-a_/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050F SAV-B26-A,HW Valve,#sav-b26-a_/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050F SAV-B26-A,CHW Valve,#sav-b26-a_/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050F SAV-B26-A,Clg%,#sav-b26-a_/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050F SAV-B26-A,Htg%,#sav-b26-a_/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050F SAV-B26-A,Clg Stpt,#sav-b26-a_/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050F SAV-B26-A,Htg Stpt,#sav-b26-a_/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050F SAV-B26-A,Zone Temp / Zone Temp,#sav-b26-a_/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080D SAV-B16-A,GEX Dmpr Pos,#sav-b16-a_/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080D SAV-B16-A,Cool Requests,#sav-b16-a_/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080D SAV-B16-A,Heat Requests,#sav-b16-a_/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080D SAV-B16-A,SAV Dmpr Pos,#sav-b16-a_/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080D SAV-B16-A,Exhaust Flow,#sav-b16-a_/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080D SAV-B16-A,Supply Flow,#sav-b16-a_/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080D SAV-B16-A,Flow Difference,#sav-b16-a_/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080D SAV-B16-A,Exhaust Flow Stpt,#sav-b16-a_/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080D SAV-B16-A,Discharge Temp,#sav-b16-a_/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080D SAV-B16-A,HW Valve,#sav-b16-a_/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080D SAV-B16-A,CHW Valve,#sav-b16-a_/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080D SAV-B16-A,Clg%,#sav-b16-a_/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080D SAV-B16-A,Htg%,#sav-b16-a_/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080D SAV-B16-A,Clg Stpt,#sav-b16-a_/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080D SAV-B16-A,Htg Stpt,#sav-b16-a_/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080D SAV-B16-A,Zone Temp / Zone Temp,#sav-b16-a_/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080E SAV-B15-A,GEX Dmpr Pos,#sav-b15-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080E SAV-B15-A,Cool Requests,#sav-b15-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080E SAV-B15-A,Heat Requests,#sav-b15-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080E SAV-B15-A,SAV Dmpr Pos,#sav-b15-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080E SAV-B15-A,Exhaust Flow,#sav-b15-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080E SAV-B15-A,Supply Flow,#sav-b15-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080E SAV-B15-A,Flow Difference,#sav-b15-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080E SAV-B15-A,Exhaust Flow Stpt,#sav-b15-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080E SAV-B15-A,Discharge Temp,#sav-b15-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080E SAV-B15-A,HW Valve,#sav-b15-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080E SAV-B15-A,CHW Valve,#sav-b15-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080E SAV-B15-A,Clg%,#sav-b15-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080E SAV-B15-A,Htg%,#sav-b15-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080E SAV-B15-A,Clg Stpt,#sav-b15-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080E SAV-B15-A,Htg Stpt,#sav-b15-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080E SAV-B15-A,Zone Temp / Zone Temp,#sav-b15-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080F SAV-B12-A,GEX Dmpr Pos,#sav-b12-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080F SAV-B12-A,Cool Requests,#sav-b12-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080F SAV-B12-A,Heat Requests,#sav-b12-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080F SAV-B12-A,SAV Dmpr Pos,#sav-b12-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080F SAV-B12-A,Exhaust Flow,#sav-b12-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080F SAV-B12-A,Supply Flow,#sav-b12-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080F SAV-B12-A,Flow Difference,#sav-b12-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080F SAV-B12-A,Exhaust Flow Stpt,#sav-b12-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080F SAV-B12-A,Discharge Temp,#sav-b12-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080F SAV-B12-A,HW Valve,#sav-b12-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080F SAV-B12-A,CHW Valve,#sav-b12-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080F SAV-B12-A,Clg%,#sav-b12-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080F SAV-B12-A,Htg%,#sav-b12-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080F SAV-B12-A,Clg Stpt,#sav-b12-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080F SAV-B12-A,Htg Stpt,#sav-b12-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080F SAV-B12-A,Zone Temp / Zone Temp,#sav-b12-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080G SAV-B11-A,GEX Dmpr Pos,#sav-b11-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080G SAV-B11-A,Cool Requests,#sav-b11-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080G SAV-B11-A,Heat Requests,#sav-b11-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080G SAV-B11-A,SAV Dmpr Pos,#sav-b11-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080G SAV-B11-A,Exhaust Flow,#sav-b11-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080G SAV-B11-A,Supply Flow,#sav-b11-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080G SAV-B11-A,Flow Difference,#sav-b11-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080G SAV-B11-A,Exhaust Flow Stpt,#sav-b11-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080G SAV-B11-A,Discharge Temp,#sav-b11-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080G SAV-B11-A,HW Valve,#sav-b11-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080G SAV-B11-A,CHW Valve,#sav-b11-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080G SAV-B11-A,Clg%,#sav-b11-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080G SAV-B11-A,Htg%,#sav-b11-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080G SAV-B11-A,Clg Stpt,#sav-b11-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080G SAV-B11-A,Htg Stpt,#sav-b11-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080G SAV-B11-A,Zone Temp / Zone Temp,#sav-b11-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340B SAV-3A20-A,GEX Dmpr Pos,#sav-3a20-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340B SAV-3A20-A,Cool Requests,#sav-3a20-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340B SAV-3A20-A,Heat Requests,#sav-3a20-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340B SAV-3A20-A,SAV Dmpr Pos,#sav-3a20-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340B SAV-3A20-A,Exhaust Flow,#sav-3a20-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340B SAV-3A20-A,Supply Flow,#sav-3a20-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340B SAV-3A20-A,Flow Difference,#sav-3a20-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340B SAV-3A20-A,Exhaust Flow Stpt,#sav-3a20-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340B SAV-3A20-A,Discharge Temp,#sav-3a20-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340B SAV-3A20-A,HW Valve,#sav-3a20-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340B SAV-3A20-A,CHW Valve,#sav-3a20-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340B SAV-3A20-A,Clg%,#sav-3a20-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340B SAV-3A20-A,Htg%,#sav-3a20-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340B SAV-3A20-A,Clg Stpt,#sav-3a20-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340B SAV-3A20-A,Htg Stpt,#sav-3a20-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340B SAV-3A20-A,Zone Temp / Zone Temp,#sav-3a20-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340D SAV-3A19-A,GEX Dmpr Pos,#sav-3a19-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340D SAV-3A19-A,Cool Requests,#sav-3a19-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340D SAV-3A19-A,Heat Requests,#sav-3a19-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340D SAV-3A19-A,SAV Dmpr Pos,#sav-3a19-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340D SAV-3A19-A,Exhaust Flow,#sav-3a19-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340D SAV-3A19-A,Supply Flow,#sav-3a19-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340D SAV-3A19-A,Flow Difference,#sav-3a19-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340D SAV-3A19-A,Exhaust Flow Stpt,#sav-3a19-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340D SAV-3A19-A,Discharge Temp,#sav-3a19-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340D SAV-3A19-A,HW Valve,#sav-3a19-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340D SAV-3A19-A,CHW Valve,#sav-3a19-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340D SAV-3A19-A,Clg%,#sav-3a19-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340D SAV-3A19-A,Htg%,#sav-3a19-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340D SAV-3A19-A,Clg Stpt,#sav-3a19-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340D SAV-3A19-A,Htg Stpt,#sav-3a19-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340D SAV-3A19-A,Zone Temp / Zone Temp,#sav-3a19-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340N SAV-3A7-A,GEX Dmpr Pos,#sav-3a7-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340N SAV-3A7-A,Cool Requests,#sav-3a7-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340N SAV-3A7-A,Heat Requests,#sav-3a7-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340N SAV-3A7-A,SAV Dmpr Pos,#sav-3a7-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340N SAV-3A7-A,Exhaust Flow,#sav-3a7-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340N SAV-3A7-A,Supply Flow,#sav-3a7-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340N SAV-3A7-A,Flow Difference,#sav-3a7-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340N SAV-3A7-A,Exhaust Flow Stpt,#sav-3a7-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340N SAV-3A7-A,Discharge Temp,#sav-3a7-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340N SAV-3A7-A,HW Valve,#sav-3a7-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340N SAV-3A7-A,CHW Valve,#sav-3a7-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340N SAV-3A7-A,Clg%,#sav-3a7-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340N SAV-3A7-A,Htg%,#sav-3a7-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340N SAV-3A7-A,Clg Stpt,#sav-3a7-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340N SAV-3A7-A,Htg Stpt,#sav-3a7-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340N SAV-3A7-A,Zone Temp / Zone Temp,#sav-3a7-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340P SAV-3A4-A,GEX Dmpr Pos,#sav-3a4-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340P SAV-3A4-A,Cool Requests,#sav-3a4-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340P SAV-3A4-A,Heat Requests,#sav-3a4-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340P SAV-3A4-A,SAV Dmpr Pos,#sav-3a4-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340P SAV-3A4-A,Exhaust Flow,#sav-3a4-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340P SAV-3A4-A,Supply Flow,#sav-3a4-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340P SAV-3A4-A,Flow Difference,#sav-3a4-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340P SAV-3A4-A,Exhaust Flow Stpt,#sav-3a4-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340P SAV-3A4-A,Discharge Temp,#sav-3a4-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340P SAV-3A4-A,HW Valve,#sav-3a4-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340P SAV-3A4-A,CHW Valve,#sav-3a4-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340P SAV-3A4-A,Clg%,#sav-3a4-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340P SAV-3A4-A,Htg%,#sav-3a4-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340P SAV-3A4-A,Clg Stpt,#sav-3a4-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340P SAV-3A4-A,Htg Stpt,#sav-3a4-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340P SAV-3A4-A,Zone Temp / Zone Temp,#sav-3a4-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340Q SAV-3A6-A,GEX Dmpr Pos,#sav-3a6-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340Q SAV-3A6-A,Cool Requests,#sav-3a6-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340Q SAV-3A6-A,Heat Requests,#sav-3a6-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340Q SAV-3A6-A,SAV Dmpr Pos,#sav-3a6-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340Q SAV-3A6-A,Exhaust Flow,#sav-3a6-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340Q SAV-3A6-A,Supply Flow,#sav-3a6-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340Q SAV-3A6-A,Flow Difference,#sav-3a6-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340Q SAV-3A6-A,Exhaust Flow Stpt,#sav-3a6-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340Q SAV-3A6-A,Discharge Temp,#sav-3a6-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340Q SAV-3A6-A,HW Valve,#sav-3a6-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340Q SAV-3A6-A,CHW Valve,#sav-3a6-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340Q SAV-3A6-A,Clg%,#sav-3a6-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340Q SAV-3A6-A,Htg%,#sav-3a6-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340Q SAV-3A6-A,Clg Stpt,#sav-3a6-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340Q SAV-3A6-A,Htg Stpt,#sav-3a6-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340Q SAV-3A6-A,Zone Temp / Zone Temp,#sav-3a6-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340R SAV-3A5-B,GEX Dmpr Pos,#sav-3a5-b/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340R SAV-3A5-B,Cool Requests,#sav-3a5-b/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340R SAV-3A5-B,Heat Requests,#sav-3a5-b/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340R SAV-3A5-B,SAV Dmpr Pos,#sav-3a5-b/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340R SAV-3A5-B,Exhaust Flow,#sav-3a5-b/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340R SAV-3A5-B,Supply Flow,#sav-3a5-b/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340R SAV-3A5-B,Flow Difference,#sav-3a5-b/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340R SAV-3A5-B,Exhaust Flow Stpt,#sav-3a5-b/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340R SAV-3A5-B,Discharge Temp,#sav-3a5-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340R SAV-3A5-B,HW Valve,#sav-3a5-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340R SAV-3A5-B,CHW Valve,#sav-3a5-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340R SAV-3A5-B,Clg%,#sav-3a5-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340R SAV-3A5-B,Htg%,#sav-3a5-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340R SAV-3A5-B,Clg Stpt,#sav-3a5-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340R SAV-3A5-B,Htg Stpt,#sav-3a5-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340R SAV-3A5-B,Zone Temp / Zone Temp,#sav-3a5-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Laser lab 070 SAV-B20-B,GEX Dmpr Pos,#sav-b20-b/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Laser lab 070 SAV-B20-B,Cool Requests,#sav-b20-b/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Laser lab 070 SAV-B20-B,Heat Requests,#sav-b20-b/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Laser lab 070 SAV-B20-B,SAV Dmpr Pos,#sav-b20-b/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Laser lab 070 SAV-B20-B,Exhaust Flow,#sav-b20-b/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Laser lab 070 SAV-B20-B,Supply Flow,#sav-b20-b/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Laser lab 070 SAV-B20-B,Flow Difference,#sav-b20-b/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Laser lab 070 SAV-B20-B,Exhaust Flow Stpt,#sav-b20-b/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Laser lab 070 SAV-B20-B,Discharge Temp,#sav-b20-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Laser lab 070 SAV-B20-B,HW Valve,#sav-b20-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Laser lab 070 SAV-B20-B,CHW Valve,#sav-b20-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Laser lab 070 SAV-B20-B,Clg%,#sav-b20-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Laser lab 070 SAV-B20-B,Htg%,#sav-b20-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Laser lab 070 SAV-B20-B,Clg Stpt,#sav-b20-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Laser lab 070 SAV-B20-B,Htg Stpt,#sav-b20-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Laser lab 070 SAV-B20-B,Zone Temp / Zone Temp,#sav-b20-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 East SAV-1B10-C,GEX Dmpr Pos,#sav-1b10-c/m277
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 East SAV-1B10-C,Cool Requests,#sav-1b10-c/m285
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 East SAV-1B10-C,Heat Requests,#sav-1b10-c/m288
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 East SAV-1B10-C,SAV Dmpr Pos,#sav-1b10-c/m310
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 East SAV-1B10-C,Exhaust Flow,#sav-1b10-c/m318
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 East SAV-1B10-C,Supply Flow,#sav-1b10-c/m320
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 East SAV-1B10-C,Flow Difference,#sav-1b10-c/m322
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 East SAV-1B10-C,Exhaust Flow Stpt,#sav-1b10-c/m328
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 East SAV-1B10-C,Discharge Temp,#sav-1b10-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 East SAV-1B10-C,HW Valve,#sav-1b10-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 East SAV-1B10-C,CHW Valve,#sav-1b10-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 East SAV-1B10-C,Clg%,#sav-1b10-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 East SAV-1B10-C,Htg%,#sav-1b10-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 East SAV-1B10-C,Clg Stpt,#sav-1b10-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 East SAV-1B10-C,Htg Stpt,#sav-1b10-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 East SAV-1B10-C,Zone Temp / Zone Temp,#sav-1b10-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 West SAV-1B9-C,GEX Dmpr Pos,#sav-1b9-c/m277
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 West SAV-1B9-C,Cool Requests,#sav-1b9-c/m285
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 West SAV-1B9-C,Heat Requests,#sav-1b9-c/m288
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 West SAV-1B9-C,SAV Dmpr Pos,#sav-1b9-c/m310
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 West SAV-1B9-C,Exhaust Flow,#sav-1b9-c/m318
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 West SAV-1B9-C,Supply Flow,#sav-1b9-c/m320
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 West SAV-1B9-C,Flow Difference,#sav-1b9-c/m322
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 West SAV-1B9-C,Exhaust Flow Stpt,#sav-1b9-c/m328
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 West SAV-1B9-C,Discharge Temp,#sav-1b9-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 West SAV-1B9-C,HW Valve,#sav-1b9-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 West SAV-1B9-C,CHW Valve,#sav-1b9-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 West SAV-1B9-C,Clg%,#sav-1b9-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 West SAV-1B9-C,Htg%,#sav-1b9-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 West SAV-1B9-C,Clg Stpt,#sav-1b9-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 West SAV-1B9-C,Htg Stpt,#sav-1b9-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 West SAV-1B9-C,Zone Temp / Zone Temp,#sav-1b9-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Machine Shop 175 SAV-1A8-C,GEX Dmpr Pos,#sav-1a8-c/m277
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Machine Shop 175 SAV-1A8-C,Cool Requests,#sav-1a8-c/m285
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Machine Shop 175 SAV-1A8-C,Heat Requests,#sav-1a8-c/m288
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Machine Shop 175 SAV-1A8-C,SAV Dmpr Pos,#sav-1a8-c/m310
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Machine Shop 175 SAV-1A8-C,Exhaust Flow,#sav-1a8-c/m318
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Machine Shop 175 SAV-1A8-C,Supply Flow,#sav-1a8-c/m320
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Machine Shop 175 SAV-1A8-C,Flow Difference,#sav-1a8-c/m322
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Machine Shop 175 SAV-1A8-C,Exhaust Flow Stpt,#sav-1a8-c/m328
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Machine Shop 175 SAV-1A8-C,Discharge Temp,#sav-1a8-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Machine Shop 175 SAV-1A8-C,HW Valve,#sav-1a8-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Machine Shop 175 SAV-1A8-C,CHW Valve,#sav-1a8-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Machine Shop 175 SAV-1A8-C,Clg%,#sav-1a8-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Machine Shop 175 SAV-1A8-C,Htg%,#sav-1a8-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Machine Shop 175 SAV-1A8-C,Clg Stpt,#sav-1a8-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Machine Shop 175 SAV-1A8-C,Htg Stpt,#sav-1a8-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Machine Shop 175 SAV-1A8-C,Zone Temp / Zone Temp,#sav-1a8-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,GEX Dmpr Pos,#sav-b37-d_/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,Cool Requests,#sav-b37-d_/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,Heat Requests,#sav-b37-d_/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,SAV Dmpr Pos,#sav-b37-d_/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,Exhaust Flow,#sav-b37-d_/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,Supply Flow,#sav-b37-d_/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,Flow Difference,#sav-b37-d_/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,Exhaust Flow Stpt,#sav-b37-d_/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,Discharge Temp,#sav-b37-d_/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,HW Valve,#sav-b37-d_/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,CHW Valve,#sav-b37-d_/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,Clg%,#sav-b37-d_/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,Htg%,#sav-b37-d_/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,Clg Stpt,#sav-b37-d_/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,Htg Stpt,#sav-b37-d_/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,Zone Temp / Zone Temp,#sav-b37-d_/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 East SAV-B18-E,GEX Dmpr Pos,#sav-b18-e_/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 East SAV-B18-E,Cool Requests,#sav-b18-e_/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 East SAV-B18-E,Heat Requests,#sav-b18-e_/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 East SAV-B18-E,SAV Dmpr Pos,#sav-b18-e_/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 East SAV-B18-E,Exhaust Flow,#sav-b18-e_/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 East SAV-B18-E,Supply Flow,#sav-b18-e_/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 East SAV-B18-E,Flow Difference,#sav-b18-e_/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 East SAV-B18-E,Exhaust Flow Stpt,#sav-b18-e_/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 East SAV-B18-E,Discharge Temp,#sav-b18-e_/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 East SAV-B18-E,HW Valve,#sav-b18-e_/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 East SAV-B18-E,CHW Valve,#sav-b18-e_/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 East SAV-B18-E,Clg%,#sav-b18-e_/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 East SAV-B18-E,Htg%,#sav-b18-e_/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 East SAV-B18-E,Clg Stpt,#sav-b18-e_/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 East SAV-B18-E,Htg Stpt,#sav-b18-e_/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 East SAV-B18-E,Zone Temp / Zone Temp,#sav-b18-e_/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 West SAV-B13-E,GEX Dmpr Pos,#sav-b13-e_/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 West SAV-B13-E,Cool Requests,#sav-b13-e_/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 West SAV-B13-E,Heat Requests,#sav-b13-e_/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 West SAV-B13-E,SAV Dmpr Pos,#sav-b13-e_/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 West SAV-B13-E,Exhaust Flow,#sav-b13-e_/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 West SAV-B13-E,Supply Flow,#sav-b13-e_/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 West SAV-B13-E,Flow Difference,#sav-b13-e_/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 West SAV-B13-E,Exhaust Flow Stpt,#sav-b13-e_/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 West SAV-B13-E,Discharge Temp,#sav-b13-e_/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 West SAV-B13-E,HW Valve,#sav-b13-e_/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 West SAV-B13-E,CHW Valve,#sav-b13-e_/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 West SAV-B13-E,Clg%,#sav-b13-e_/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 West SAV-B13-E,Htg%,#sav-b13-e_/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 West SAV-B13-E,Clg Stpt,#sav-b13-e_/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 West SAV-B13-E,Htg Stpt,#sav-b13-e_/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 West SAV-B13-E,Zone Temp / Zone Temp,#sav-b13-e_/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080B SAV-B21-E,GEX Dmpr Pos,#sav-b21-e/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080B SAV-B21-E,Cool Requests,#sav-b21-e/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080B SAV-B21-E,Heat Requests,#sav-b21-e/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080B SAV-B21-E,SAV Dmpr Pos,#sav-b21-e/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080B SAV-B21-E,Exhaust Flow,#sav-b21-e/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080B SAV-B21-E,Supply Flow,#sav-b21-e/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080B SAV-B21-E,Flow Difference,#sav-b21-e/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080B SAV-B21-E,Exhaust Flow Stpt,#sav-b21-e/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080B SAV-B21-E,Discharge Temp,#sav-b21-e/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080B SAV-B21-E,HW Valve,#sav-b21-e/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080B SAV-B21-E,CHW Valve,#sav-b21-e/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080B SAV-B21-E,Clg%,#sav-b21-e/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080B SAV-B21-E,Htg%,#sav-b21-e/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080B SAV-B21-E,Clg Stpt,#sav-b21-e/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080B SAV-B21-E,Htg Stpt,#sav-b21-e/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080B SAV-B21-E,Zone Temp / Zone Temp,#sav-b21-e/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech Engineering 230K SAV-2A9-B,GEX Dmpr Pos,#sav-2a9-b/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech Engineering 230K SAV-2A9-B,Cool Requests,#sav-2a9-b/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech Engineering 230K SAV-2A9-B,Heat Requests,#sav-2a9-b/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech Engineering 230K SAV-2A9-B,SAV Dmpr Pos,#sav-2a9-b/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech Engineering 230K SAV-2A9-B,Exhaust Flow,#sav-2a9-b/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech Engineering 230K SAV-2A9-B,Supply Flow,#sav-2a9-b/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech Engineering 230K SAV-2A9-B,Flow Difference,#sav-2a9-b/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech Engineering 230K SAV-2A9-B,Exhaust Flow Stpt,#sav-2a9-b/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech Engineering 230K SAV-2A9-B,Discharge Temp,#sav-2a9-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech Engineering 230K SAV-2A9-B,HW Valve,#sav-2a9-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech Engineering 230K SAV-2A9-B,CHW Valve,#sav-2a9-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech Engineering 230K SAV-2A9-B,Clg%,#sav-2a9-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech Engineering 230K SAV-2A9-B,Htg%,#sav-2a9-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech Engineering 230K SAV-2A9-B,Clg Stpt,#sav-2a9-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech Engineering 230K SAV-2A9-B,Htg Stpt,#sav-2a9-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech Engineering 230K SAV-2A9-B,Zone Temp / Zone Temp,#sav-2a9-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230C SAV-2A22-A,GEX Dmpr Pos,#sav-2a22-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230C SAV-2A22-A,Cool Requests,#sav-2a22-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230C SAV-2A22-A,Heat Requests,#sav-2a22-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230C SAV-2A22-A,SAV Dmpr Pos,#sav-2a22-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230C SAV-2A22-A,Exhaust Flow,#sav-2a22-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230C SAV-2A22-A,Supply Flow,#sav-2a22-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230C SAV-2A22-A,Flow Difference,#sav-2a22-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230C SAV-2A22-A,Exhaust Flow Stpt,#sav-2a22-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230C SAV-2A22-A,Discharge Temp,#sav-2a22-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230C SAV-2A22-A,HW Valve,#sav-2a22-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230C SAV-2A22-A,CHW Valve,#sav-2a22-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230C SAV-2A22-A,Clg%,#sav-2a22-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230C SAV-2A22-A,Htg%,#sav-2a22-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230C SAV-2A22-A,Clg Stpt,#sav-2a22-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230C SAV-2A22-A,Htg Stpt,#sav-2a22-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230C SAV-2A22-A,Zone Temp / Zone Temp,#sav-2a22-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230D SAV-2A21-C,GEX Dmpr Pos,#sav-2a21-c/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230D SAV-2A21-C,Cool Requests,#sav-2a21-c/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230D SAV-2A21-C,Heat Requests,#sav-2a21-c/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230D SAV-2A21-C,SAV Dmpr Pos,#sav-2a21-c/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230D SAV-2A21-C,Exhaust Flow,#sav-2a21-c/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230D SAV-2A21-C,Supply Flow,#sav-2a21-c/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230D SAV-2A21-C,Flow Difference,#sav-2a21-c/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230D SAV-2A21-C,Exhaust Flow Stpt,#sav-2a21-c/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230D SAV-2A21-C,Discharge Temp,#sav-2a21-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230D SAV-2A21-C,HW Valve,#sav-2a21-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230D SAV-2A21-C,CHW Valve,#sav-2a21-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230D SAV-2A21-C,Clg%,#sav-2a21-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230D SAV-2A21-C,Htg%,#sav-2a21-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230D SAV-2A21-C,Clg Stpt,#sav-2a21-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230D SAV-2A21-C,Htg Stpt,#sav-2a21-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230D SAV-2A21-C,Zone Temp / Zone Temp,#sav-2a21-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230E SAV-2A19-D,GEX Dmpr Pos,#sav-2a19-d/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230E SAV-2A19-D,Cool Requests,#sav-2a19-d/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230E SAV-2A19-D,Heat Requests,#sav-2a19-d/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230E SAV-2A19-D,SAV Dmpr Pos,#sav-2a19-d/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230E SAV-2A19-D,Exhaust Flow,#sav-2a19-d/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230E SAV-2A19-D,Supply Flow,#sav-2a19-d/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230E SAV-2A19-D,Flow Difference,#sav-2a19-d/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230E SAV-2A19-D,Exhaust Flow Stpt,#sav-2a19-d/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230E SAV-2A19-D,Discharge Temp,#sav-2a19-d/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230E SAV-2A19-D,HW Valve,#sav-2a19-d/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230E SAV-2A19-D,CHW Valve,#sav-2a19-d/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230E SAV-2A19-D,Clg%,#sav-2a19-d/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230E SAV-2A19-D,Htg%,#sav-2a19-d/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230E SAV-2A19-D,Clg Stpt,#sav-2a19-d/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230E SAV-2A19-D,Htg Stpt,#sav-2a19-d/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230E SAV-2A19-D,Zone Temp / Zone Temp,#sav-2a19-d/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230F SAV-2A16-B,GEX Dmpr Pos,#sav-2a16-b/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230F SAV-2A16-B,Cool Requests,#sav-2a16-b/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230F SAV-2A16-B,Heat Requests,#sav-2a16-b/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230F SAV-2A16-B,SAV Dmpr Pos,#sav-2a16-b/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230F SAV-2A16-B,Exhaust Flow,#sav-2a16-b/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230F SAV-2A16-B,Supply Flow,#sav-2a16-b/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230F SAV-2A16-B,Flow Difference,#sav-2a16-b/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230F SAV-2A16-B,Exhaust Flow Stpt,#sav-2a16-b/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230F SAV-2A16-B,Discharge Temp,#sav-2a16-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230F SAV-2A16-B,HW Valve,#sav-2a16-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230F SAV-2A16-B,CHW Valve,#sav-2a16-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230F SAV-2A16-B,Clg%,#sav-2a16-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230F SAV-2A16-B,Htg%,#sav-2a16-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230F SAV-2A16-B,Clg Stpt,#sav-2a16-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230F SAV-2A16-B,Htg Stpt,#sav-2a16-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230F SAV-2A16-B,Zone Temp / Zone Temp,#sav-2a16-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230H SAV-2A15-C,GEX Dmpr Pos,#sav-2a15-c/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230H SAV-2A15-C,Cool Requests,#sav-2a15-c/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230H SAV-2A15-C,Heat Requests,#sav-2a15-c/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230H SAV-2A15-C,SAV Dmpr Pos,#sav-2a15-c/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230H SAV-2A15-C,Exhaust Flow,#sav-2a15-c/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230H SAV-2A15-C,Supply Flow,#sav-2a15-c/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230H SAV-2A15-C,Flow Difference,#sav-2a15-c/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230H SAV-2A15-C,Exhaust Flow Stpt,#sav-2a15-c/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230H SAV-2A15-C,Discharge Temp,#sav-2a15-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230H SAV-2A15-C,HW Valve,#sav-2a15-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230H SAV-2A15-C,CHW Valve,#sav-2a15-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230H SAV-2A15-C,Clg%,#sav-2a15-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230H SAV-2A15-C,Htg%,#sav-2a15-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230H SAV-2A15-C,Clg Stpt,#sav-2a15-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230H SAV-2A15-C,Htg Stpt,#sav-2a15-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230H SAV-2A15-C,Zone Temp / Zone Temp,#sav-2a15-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230J SAV-2A13-B,GEX Dmpr Pos,#sav-2a13-b/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230J SAV-2A13-B,Cool Requests,#sav-2a13-b/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230J SAV-2A13-B,Heat Requests,#sav-2a13-b/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230J SAV-2A13-B,SAV Dmpr Pos,#sav-2a13-b/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230J SAV-2A13-B,Exhaust Flow,#sav-2a13-b/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230J SAV-2A13-B,Supply Flow,#sav-2a13-b/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230J SAV-2A13-B,Flow Difference,#sav-2a13-b/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230J SAV-2A13-B,Exhaust Flow Stpt,#sav-2a13-b/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230J SAV-2A13-B,Discharge Temp,#sav-2a13-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230J SAV-2A13-B,HW Valve,#sav-2a13-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230J SAV-2A13-B,CHW Valve,#sav-2a13-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230J SAV-2A13-B,Clg%,#sav-2a13-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230J SAV-2A13-B,Htg%,#sav-2a13-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230J SAV-2A13-B,Clg Stpt,#sav-2a13-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230J SAV-2A13-B,Htg Stpt,#sav-2a13-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230J SAV-2A13-B,Zone Temp / Zone Temp,#sav-2a13-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230N SAV-2A5-C,GEX Dmpr Pos,#sav-2a5-c/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230N SAV-2A5-C,Cool Requests,#sav-2a5-c/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230N SAV-2A5-C,Heat Requests,#sav-2a5-c/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230N SAV-2A5-C,SAV Dmpr Pos,#sav-2a5-c/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230N SAV-2A5-C,Exhaust Flow,#sav-2a5-c/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230N SAV-2A5-C,Supply Flow,#sav-2a5-c/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230N SAV-2A5-C,Flow Difference,#sav-2a5-c/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230N SAV-2A5-C,Exhaust Flow Stpt,#sav-2a5-c/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230N SAV-2A5-C,Discharge Temp,#sav-2a5-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230N SAV-2A5-C,HW Valve,#sav-2a5-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230N SAV-2A5-C,CHW Valve,#sav-2a5-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230N SAV-2A5-C,Clg%,#sav-2a5-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230N SAV-2A5-C,Htg%,#sav-2a5-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230N SAV-2A5-C,Clg Stpt,#sav-2a5-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230N SAV-2A5-C,Htg Stpt,#sav-2a5-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230N SAV-2A5-C,Zone Temp / Zone Temp,#sav-2a5-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230R  SAV-2A8-A,GEX Dmpr Pos,#sav-2a8-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230R  SAV-2A8-A,Cool Requests,#sav-2a8-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230R  SAV-2A8-A,Heat Requests,#sav-2a8-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230R  SAV-2A8-A,SAV Dmpr Pos,#sav-2a8-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230R  SAV-2A8-A,Exhaust Flow,#sav-2a8-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230R  SAV-2A8-A,Supply Flow,#sav-2a8-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230R  SAV-2A8-A,Flow Difference,#sav-2a8-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230R  SAV-2A8-A,Exhaust Flow Stpt,#sav-2a8-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230R  SAV-2A8-A,Discharge Temp,#sav-2a8-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230R  SAV-2A8-A,HW Valve,#sav-2a8-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230R  SAV-2A8-A,CHW Valve,#sav-2a8-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230R  SAV-2A8-A,Clg%,#sav-2a8-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230R  SAV-2A8-A,Htg%,#sav-2a8-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230R  SAV-2A8-A,Clg Stpt,#sav-2a8-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230R  SAV-2A8-A,Htg Stpt,#sav-2a8-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230R  SAV-2A8-A,Zone Temp / Zone Temp,#sav-2a8-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230S SAV-2A12-A,GEX Dmpr Pos,#sav-2a12-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230S SAV-2A12-A,Cool Requests,#sav-2a12-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230S SAV-2A12-A,Heat Requests,#sav-2a12-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230S SAV-2A12-A,SAV Dmpr Pos,#sav-2a12-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230S SAV-2A12-A,Exhaust Flow,#sav-2a12-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230S SAV-2A12-A,Supply Flow,#sav-2a12-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230S SAV-2A12-A,Flow Difference,#sav-2a12-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230S SAV-2A12-A,Exhaust Flow Stpt,#sav-2a12-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230S SAV-2A12-A,Discharge Temp,#sav-2a12-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230S SAV-2A12-A,HW Valve,#sav-2a12-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230S SAV-2A12-A,CHW Valve,#sav-2a12-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230S SAV-2A12-A,Clg%,#sav-2a12-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230S SAV-2A12-A,Htg%,#sav-2a12-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230S SAV-2A12-A,Clg Stpt,#sav-2a12-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230S SAV-2A12-A,Htg Stpt,#sav-2a12-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230S SAV-2A12-A,Zone Temp / Zone Temp,#sav-2a12-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230T SAV-2A14-A,GEX Dmpr Pos,#sav-2a14-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230T SAV-2A14-A,Cool Requests,#sav-2a14-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230T SAV-2A14-A,Heat Requests,#sav-2a14-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230T SAV-2A14-A,SAV Dmpr Pos,#sav-2a14-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230T SAV-2A14-A,Exhaust Flow,#sav-2a14-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230T SAV-2A14-A,Supply Flow,#sav-2a14-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230T SAV-2A14-A,Flow Difference,#sav-2a14-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230T SAV-2A14-A,Exhaust Flow Stpt,#sav-2a14-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230T SAV-2A14-A,Discharge Temp,#sav-2a14-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230T SAV-2A14-A,HW Valve,#sav-2a14-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230T SAV-2A14-A,CHW Valve,#sav-2a14-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230T SAV-2A14-A,Clg%,#sav-2a14-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230T SAV-2A14-A,Htg%,#sav-2a14-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230T SAV-2A14-A,Clg Stpt,#sav-2a14-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230T SAV-2A14-A,Htg Stpt,#sav-2a14-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230T SAV-2A14-A,Zone Temp / Zone Temp,#sav-2a14-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230U SAV-2A18-A,GEX Dmpr Pos,#sav-2a18-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230U SAV-2A18-A,Cool Requests,#sav-2a18-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230U SAV-2A18-A,Heat Requests,#sav-2a18-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230U SAV-2A18-A,SAV Dmpr Pos,#sav-2a18-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230U SAV-2A18-A,Exhaust Flow,#sav-2a18-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230U SAV-2A18-A,Supply Flow,#sav-2a18-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230U SAV-2A18-A,Flow Difference,#sav-2a18-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230U SAV-2A18-A,Exhaust Flow Stpt,#sav-2a18-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230U SAV-2A18-A,Discharge Temp,#sav-2a18-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230U SAV-2A18-A,HW Valve,#sav-2a18-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230U SAV-2A18-A,CHW Valve,#sav-2a18-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230U SAV-2A18-A,Clg%,#sav-2a18-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230U SAV-2A18-A,Htg%,#sav-2a18-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230U SAV-2A18-A,Clg Stpt,#sav-2a18-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230U SAV-2A18-A,Htg Stpt,#sav-2a18-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230U SAV-2A18-A,Zone Temp / Zone Temp,#sav-2a18-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230V SAV-2A20-A,GEX Dmpr Pos,#sav-2a20-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230V SAV-2A20-A,Cool Requests,#sav-2a20-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230V SAV-2A20-A,Heat Requests,#sav-2a20-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230V SAV-2A20-A,SAV Dmpr Pos,#sav-2a20-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230V SAV-2A20-A,Exhaust Flow,#sav-2a20-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230V SAV-2A20-A,Supply Flow,#sav-2a20-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230V SAV-2A20-A,Flow Difference,#sav-2a20-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230V SAV-2A20-A,Exhaust Flow Stpt,#sav-2a20-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230V SAV-2A20-A,Discharge Temp,#sav-2a20-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230V SAV-2A20-A,HW Valve,#sav-2a20-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230V SAV-2A20-A,CHW Valve,#sav-2a20-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230V SAV-2A20-A,Clg%,#sav-2a20-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230V SAV-2A20-A,Htg%,#sav-2a20-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230V SAV-2A20-A,Clg Stpt,#sav-2a20-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230V SAV-2A20-A,Htg Stpt,#sav-2a20-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230V SAV-2A20-A,Zone Temp / Zone Temp,#sav-2a20-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230M SAV-2A7-B,GEX Dmpr Pos,#sav-2a7-b/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230M SAV-2A7-B,Cool Requests,#sav-2a7-b/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230M SAV-2A7-B,Heat Requests,#sav-2a7-b/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230M SAV-2A7-B,SAV Dmpr Pos,#sav-2a7-b/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230M SAV-2A7-B,Exhaust Flow,#sav-2a7-b/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230M SAV-2A7-B,Supply Flow,#sav-2a7-b/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230M SAV-2A7-B,Flow Difference,#sav-2a7-b/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230M SAV-2A7-B,Exhaust Flow Stpt,#sav-2a7-b/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230M SAV-2A7-B,Discharge Temp,#sav-2a7-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230M SAV-2A7-B,HW Valve,#sav-2a7-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230M SAV-2A7-B,CHW Valve,#sav-2a7-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230M SAV-2A7-B,Clg%,#sav-2a7-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230M SAV-2A7-B,Htg%,#sav-2a7-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230M SAV-2A7-B,Clg Stpt,#sav-2a7-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230M SAV-2A7-B,Htg Stpt,#sav-2a7-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230M SAV-2A7-B,Zone Temp / Zone Temp,#sav-2a7-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230P SAV-2A4-A,GEX Dmpr Pos,#sav-2a4-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230P SAV-2A4-A,Cool Requests,#sav-2a4-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230P SAV-2A4-A,Heat Requests,#sav-2a4-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230P SAV-2A4-A,SAV Dmpr Pos,#sav-2a4-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230P SAV-2A4-A,Exhaust Flow,#sav-2a4-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230P SAV-2A4-A,Supply Flow,#sav-2a4-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230P SAV-2A4-A,Flow Difference,#sav-2a4-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230P SAV-2A4-A,Exhaust Flow Stpt,#sav-2a4-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230P SAV-2A4-A,Discharge Temp,#sav-2a4-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230P SAV-2A4-A,HW Valve,#sav-2a4-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230P SAV-2A4-A,CHW Valve,#sav-2a4-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230P SAV-2A4-A,Clg%,#sav-2a4-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230P SAV-2A4-A,Htg%,#sav-2a4-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230P SAV-2A4-A,Clg Stpt,#sav-2a4-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230P SAV-2A4-A,Htg Stpt,#sav-2a4-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230P SAV-2A4-A,Zone Temp / Zone Temp,#sav-2a4-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Microtome 090F SAV-B1-A,GEX Dmpr Pos,#sav-b1-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Microtome 090F SAV-B1-A,Cool Requests,#sav-b1-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Microtome 090F SAV-B1-A,Heat Requests,#sav-b1-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Microtome 090F SAV-B1-A,SAV Dmpr Pos,#sav-b1-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Microtome 090F SAV-B1-A,Exhaust Flow,#sav-b1-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Microtome 090F SAV-B1-A,Supply Flow,#sav-b1-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Microtome 090F SAV-B1-A,Flow Difference,#sav-b1-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Microtome 090F SAV-B1-A,Exhaust Flow Stpt,#sav-b1-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Microtome 090F SAV-B1-A,Discharge Temp,#sav-b1-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Microtome 090F SAV-B1-A,HW Valve,#sav-b1-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Microtome 090F SAV-B1-A,CHW Valve,#sav-b1-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Microtome 090F SAV-B1-A,Clg%,#sav-b1-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Microtome 090F SAV-B1-A,Htg%,#sav-b1-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Microtome 090F SAV-B1-A,Clg Stpt,#sav-b1-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Microtome 090F SAV-B1-A,Htg Stpt,#sav-b1-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Microtome 090F SAV-B1-A,Zone Temp / Zone Temp,#sav-b1-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,NMR Pumps 020C SAV-B38-A,GEX Dmpr Pos,#sav-b38-a_/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,NMR Pumps 020C SAV-B38-A,Cool Requests,#sav-b38-a_/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,NMR Pumps 020C SAV-B38-A,Heat Requests,#sav-b38-a_/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,NMR Pumps 020C SAV-B38-A,SAV Dmpr Pos,#sav-b38-a_/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,NMR Pumps 020C SAV-B38-A,Exhaust Flow,#sav-b38-a_/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,NMR Pumps 020C SAV-B38-A,Supply Flow,#sav-b38-a_/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,NMR Pumps 020C SAV-B38-A,Flow Difference,#sav-b38-a_/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,NMR Pumps 020C SAV-B38-A,Exhaust Flow Stpt,#sav-b38-a_/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,NMR Pumps 020C SAV-B38-A,Discharge Temp,#sav-b38-a_/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,NMR Pumps 020C SAV-B38-A,HW Valve,#sav-b38-a_/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,NMR Pumps 020C SAV-B38-A,CHW Valve,#sav-b38-a_/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,NMR Pumps 020C SAV-B38-A,Clg%,#sav-b38-a_/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,NMR Pumps 020C SAV-B38-A,Htg%,#sav-b38-a_/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,NMR Pumps 020C SAV-B38-A,Clg Stpt,#sav-b38-a_/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,NMR Pumps 020C SAV-B38-A,Htg Stpt,#sav-b38-a_/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,NMR Pumps 020C SAV-B38-A,Zone Temp / Zone Temp,#sav-b38-a_/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Office 265 SAV-2A6-CA,GEX Dmpr Pos,#sav-2a6-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Office 265 SAV-2A6-CA,Cool Requests,#sav-2a6-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Office 265 SAV-2A6-CA,Heat Requests,#sav-2a6-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Office 265 SAV-2A6-CA,SAV Dmpr Pos,#sav-2a6-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Office 265 SAV-2A6-CA,Exhaust Flow,#sav-2a6-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Office 265 SAV-2A6-CA,Supply Flow,#sav-2a6-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Office 265 SAV-2A6-CA,Flow Difference,#sav-2a6-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Office 265 SAV-2A6-CA,Exhaust Flow Stpt,#sav-2a6-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Office 265 SAV-2A6-CA,Discharge Temp,#sav-2a6-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Office 265 SAV-2A6-CA,HW Valve,#sav-2a6-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Office 265 SAV-2A6-CA,CHW Valve,#sav-2a6-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Office 265 SAV-2A6-CA,Clg%,#sav-2a6-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Office 265 SAV-2A6-CA,Htg%,#sav-2a6-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Office 265 SAV-2A6-CA,Clg Stpt,#sav-2a6-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Office 265 SAV-2A6-CA,Htg Stpt,#sav-2a6-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Office 265 SAV-2A6-CA,Zone Temp / Zone Temp,#sav-2a6-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Office Support 365 SAV-3A3-A,GEX Dmpr Pos,#sav-3a3-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Office Support 365 SAV-3A3-A,Cool Requests,#sav-3a3-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Office Support 365 SAV-3A3-A,Heat Requests,#sav-3a3-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Office Support 365 SAV-3A3-A,SAV Dmpr Pos,#sav-3a3-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Office Support 365 SAV-3A3-A,Exhaust Flow,#sav-3a3-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Office Support 365 SAV-3A3-A,Supply Flow,#sav-3a3-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Office Support 365 SAV-3A3-A,Flow Difference,#sav-3a3-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Office Support 365 SAV-3A3-A,Exhaust Flow Stpt,#sav-3a3-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Office Support 365 SAV-3A3-A,Discharge Temp,#sav-3a3-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Office Support 365 SAV-3A3-A,HW Valve,#sav-3a3-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Office Support 365 SAV-3A3-A,CHW Valve,#sav-3a3-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Office Support 365 SAV-3A3-A,Clg%,#sav-3a3-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Office Support 365 SAV-3A3-A,Htg%,#sav-3a3-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Office Support 365 SAV-3A3-A,Clg Stpt,#sav-3a3-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Office Support 365 SAV-3A3-A,Htg Stpt,#sav-3a3-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Office Support 365 SAV-3A3-A,Zone Temp / Zone Temp,#sav-3a3-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Offices 291-293 SAV-2A2-C,Ht Req,#sav-2a2-c/m044
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Offices 291-293 SAV-2A2-C,Cl Req,#sav-2a2-c/m045
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Offices 291-293 SAV-2A2-C,Cool Requests,#sav-2a2-c/m285
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Offices 291-293 SAV-2A2-C,Heat Requests,#sav-2a2-c/m288
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Offices 291-293 SAV-2A2-C,SAV Dmpr Pos,#sav-2a2-c/m310
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Offices 291-293 SAV-2A2-C,Supply Flow,#sav-2a2-c/m320
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Offices 291-293 SAV-2A2-C,Discharge Temp,#sav-2a2-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Offices 291-293 SAV-2A2-C,CHW Valve,#sav-2a2-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Offices 291-293 SAV-2A2-C,Clg%,#sav-2a2-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Offices 291-293 SAV-2A2-C,Htg%,#sav-2a2-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Offices 291-293 SAV-2A2-C,Cool Stpt,#sav-2a2-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Offices 291-293 SAV-2A2-C,Heat Stpt,#sav-2a2-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Offices 291-293 SAV-2A2-C,Zone Temp / Zone Temp,#sav-2a2-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Offices 391-393 SAV-3A2-C,Ht Req,#sav-3a2-c/m044
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Offices 391-393 SAV-3A2-C,Cl Req,#sav-3a2-c/m045
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Offices 391-393 SAV-3A2-C,Cool Requests,#sav-3a2-c/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Offices 391-393 SAV-3A2-C,Heat Requests,#sav-3a2-c/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Offices 391-393 SAV-3A2-C,SAV Dmpr Pos,#sav-3a2-c/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Offices 391-393 SAV-3A2-C,Supply Flow,#sav-3a2-c/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Offices 391-393 SAV-3A2-C,Discharge Temp,#sav-3a2-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Offices 391-393 SAV-3A2-C,CHW Valve,#sav-3a2-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Offices 391-393 SAV-3A2-C,Clg%,#sav-3a2-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Offices 391-393 SAV-3A2-C,Htg%,#sav-3a2-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Offices 391-393 SAV-3A2-C,Cool Stpt,#sav-3a2-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Offices 391-393 SAV-3A2-C,Heat Stpt,#sav-3a2-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Offices 391-393 SAV-3A2-C,Zone Temp / Zone Temp,#sav-3a2-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 330  3A22,GEX Dmpr Pos,#copy_of_sav-b38-a_/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 330  3A22,Cool Requests,#copy_of_sav-b38-a_/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 330  3A22,Heat Requests,#copy_of_sav-b38-a_/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 330  3A22,SAV Dmpr Pos,#copy_of_sav-b38-a_/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 330  3A22,Exhaust Flow,#copy_of_sav-b38-a_/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 330  3A22,Supply Flow,#copy_of_sav-b38-a_/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 330  3A22,Flow Difference,#copy_of_sav-b38-a_/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 330  3A22,Exhaust Flow Stpt,#copy_of_sav-b38-a_/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 330  3A22,Discharge Temp,#copy_of_sav-b38-a_/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 330  3A22,HW Valve,#copy_of_sav-b38-a_/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 330  3A22,CHW Valve,#copy_of_sav-b38-a_/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 330  3A22,Clg%,#copy_of_sav-b38-a_/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 330  3A22,Htg%,#copy_of_sav-b38-a_/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 330  3A22,Clg Stpt,#copy_of_sav-b38-a_/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 330  3A22,Htg Stpt,#copy_of_sav-b38-a_/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 330  3A22,Zone Temp / Zone Temp,#copy_of_sav-b38-a_/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 335 SAV-3A21-A,GEX Dmpr Pos,#sav-3a21-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 335 SAV-3A21-A,Cool Requests,#sav-3a21-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 335 SAV-3A21-A,Heat Requests,#sav-3a21-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 335 SAV-3A21-A,SAV Dmpr Pos,#sav-3a21-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 335 SAV-3A21-A,Exhaust Flow,#sav-3a21-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 335 SAV-3A21-A,Supply Flow,#sav-3a21-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 335 SAV-3A21-A,Flow Difference,#sav-3a21-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 335 SAV-3A21-A,Exhaust Flow Stpt,#sav-3a21-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 335 SAV-3A21-A,Discharge Temp,#sav-3a21-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 335 SAV-3A21-A,HW Valve,#sav-3a21-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 335 SAV-3A21-A,CHW Valve,#sav-3a21-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 335 SAV-3A21-A,Clg%,#sav-3a21-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 335 SAV-3A21-A,Htg%,#sav-3a21-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 335 SAV-3A21-A,Clg Stpt,#sav-3a21-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 335 SAV-3A21-A,Htg Stpt,#sav-3a21-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 335 SAV-3A21-A,Zone Temp / Zone Temp,#sav-3a21-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Prep 090G SAV-B2-C,GEX Dmpr Pos,#sav-b2-c/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Prep 090G SAV-B2-C,Cool Requests,#sav-b2-c/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Prep 090G SAV-B2-C,Heat Requests,#sav-b2-c/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Prep 090G SAV-B2-C,SAV Dmpr Pos,#sav-b2-c/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Prep 090G SAV-B2-C,Exhaust Flow,#sav-b2-c/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Prep 090G SAV-B2-C,Supply Flow,#sav-b2-c/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Prep 090G SAV-B2-C,Flow Difference,#sav-b2-c/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Prep 090G SAV-B2-C,Exhaust Flow Stpt,#sav-b2-c/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Prep 090G SAV-B2-C,Discharge Temp,#sav-b2-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Prep 090G SAV-B2-C,HW Valve,#sav-b2-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Prep 090G SAV-B2-C,CHW Valve,#sav-b2-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Prep 090G SAV-B2-C,Clg%,#sav-b2-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Prep 090G SAV-B2-C,Htg%,#sav-b2-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Prep 090G SAV-B2-C,Clg Stpt,#sav-b2-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Prep 090G SAV-B2-C,Htg Stpt,#sav-b2-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Prep 090G SAV-B2-C,Zone Temp / Zone Temp,#sav-b2-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 140 SAV-1B13-C,GEX Dmpr Pos,#sav-1b13-c/m277
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 140 SAV-1B13-C,Cool Requests,#sav-1b13-c/m285
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 140 SAV-1B13-C,Heat Requests,#sav-1b13-c/m288
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 140 SAV-1B13-C,SAV Dmpr Pos,#sav-1b13-c/m310
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 140 SAV-1B13-C,Exhaust Flow,#sav-1b13-c/m318
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 140 SAV-1B13-C,Supply Flow,#sav-1b13-c/m320
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 140 SAV-1B13-C,Flow Difference,#sav-1b13-c/m322
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 140 SAV-1B13-C,Exhaust Flow Stpt,#sav-1b13-c/m328
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 140 SAV-1B13-C,Discharge Temp,#sav-1b13-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 140 SAV-1B13-C,HW Valve,#sav-1b13-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 140 SAV-1B13-C,CHW Valve,#sav-1b13-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 140 SAV-1B13-C,Clg%,#sav-1b13-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 140 SAV-1B13-C,Htg%,#sav-1b13-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 140 SAV-1B13-C,Clg Stpt,#sav-1b13-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 140 SAV-1B13-C,Htg Stpt,#sav-1b13-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 140 SAV-1B13-C,Zone Temp / Zone Temp,#sav-1b13-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 170 SAV-1A5-C,GEX Dmpr Pos,#sav-1a5-c/m277
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 170 SAV-1A5-C,Cool Requests,#sav-1a5-c/m285
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 170 SAV-1A5-C,Heat Requests,#sav-1a5-c/m288
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 170 SAV-1A5-C,SAV Dmpr Pos,#sav-1a5-c/m310
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 170 SAV-1A5-C,Exhaust Flow,#sav-1a5-c/m318
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 170 SAV-1A5-C,Supply Flow,#sav-1a5-c/m320
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 170 SAV-1A5-C,Flow Difference,#sav-1a5-c/m322
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 170 SAV-1A5-C,Exhaust Flow Stpt,#sav-1a5-c/m328
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 170 SAV-1A5-C,Discharge Temp,#sav-1a5-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 170 SAV-1A5-C,HW Valve,#sav-1a5-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 170 SAV-1A5-C,CHW Valve,#sav-1a5-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 170 SAV-1A5-C,Clg%,#sav-1a5-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 170 SAV-1A5-C,Htg%,#sav-1a5-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 170 SAV-1A5-C,Clg Stpt,#sav-1a5-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 170 SAV-1A5-C,Htg Stpt,#sav-1a5-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 170 SAV-1A5-C,Zone Temp / Zone Temp,#sav-1a5-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Pump 085 SAV-B9-B,GEX Dmpr Pos,#sav-b9-b/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Pump 085 SAV-B9-B,Cool Requests,#sav-b9-b/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Pump 085 SAV-B9-B,Heat Requests,#sav-b9-b/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Pump 085 SAV-B9-B,SAV Dmpr Pos,#sav-b9-b/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Pump 085 SAV-B9-B,Exhaust Flow,#sav-b9-b/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Pump 085 SAV-B9-B,Supply Flow,#sav-b9-b/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Pump 085 SAV-B9-B,Flow Difference,#sav-b9-b/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Pump 085 SAV-B9-B,Exhaust Flow Stpt,#sav-b9-b/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Pump 085 SAV-B9-B,Discharge Temp,#sav-b9-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Pump 085 SAV-B9-B,HW Valve,#sav-b9-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Pump 085 SAV-B9-B,CHW Valve,#sav-b9-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Pump 085 SAV-B9-B,Clg%,#sav-b9-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Pump 085 SAV-B9-B,Htg%,#sav-b9-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Pump 085 SAV-B9-B,Clg Stpt,#sav-b9-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Pump 085 SAV-B9-B,Htg Stpt,#sav-b9-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Pump 085 SAV-B9-B,Zone Temp / Zone Temp,#sav-b9-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-291,Air Flow Feedback,#291_thermafuser/m073
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-291,Terminal Load,#291_thermafuser/m076
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-291,Room Occupied,#291_thermafuser/m078
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-291,htg setpt,#291_thermafuser/m134
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-291,clg setpt,#291_thermafuser/m135
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-291,Zone Temp,#291_thermafuser/m186
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-291,Supply Air,#291_thermafuser/m190
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-292,Air Flow Feedback,#292_thermafuser/m073
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-292,Terminal Load,#292_thermafuser/m076
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-292,Room Occupied,#292_thermafuser/m078
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-292,htg setpt,#292_thermafuser/m134
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-292,clg setpt,#292_thermafuser/m135
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-292,Zone Temp,#292_thermafuser/m186
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-292,Supply Air,#292_thermafuser/m190
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-293,Air Flow Feedback,#293_thermafuser/m073
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-293,Terminal Load,#293_thermafuser/m076
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-293,Room Occupied,#293_thermafuser/m078
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-293,htg setpt,#293_thermafuser/m134
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-293,clg setpt,#293_thermafuser/m135
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-293,Zone Temp,#293_thermafuser/m186
+10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Room-293,Supply Air,#293_thermafuser/m190
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-391,Air Flow Feedback,#391_thermafuser/m073
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-391,Terminal Load,#391_thermafuser/m076
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-391,Room Occupied,#391_thermafuser/m078
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-391,htg setpt,#391_thermafuser/m134
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-391,clg setpt,#391_thermafuser/m135
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-391,Zone Temp,#391_thermafuser/m186
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-391,Supply Air,#391_thermafuser/m190
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-392,Air Flow Feedback,#392_thermafuser/m073
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-392,Terminal Load,#392_thermafuser/m076
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-392,Room Occupied,#392_thermafuser/m078
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-392,htg setpt,#392_thermafuser/m134
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-392,clg setpt,#392_thermafuser/m135
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-392,Zone Temp,#392_thermafuser/m186
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-392,Supply Air,#392_thermafuser/m190
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-393,Air Flow Feedback,#393_thermafuser/m073
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-393,Terminal Load,#393_thermafuser/m076
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-393,Room Occupied,#393_thermafuser/m078
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-393,htg setpt,#393_thermafuser/m134
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-393,clg setpt,#393_thermafuser/m135
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-393,Zone Temp,#393_thermafuser/m186
+10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Room-393,Supply Air,#393_thermafuser/m190
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,SEM 090D SAV-B5-A,GEX Dmpr Pos,#sav-b5-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,SEM 090D SAV-B5-A,Cool Requests,#sav-b5-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,SEM 090D SAV-B5-A,Heat Requests,#sav-b5-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,SEM 090D SAV-B5-A,SAV Dmpr Pos,#sav-b5-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,SEM 090D SAV-B5-A,Exhaust Flow,#sav-b5-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,SEM 090D SAV-B5-A,Supply Flow,#sav-b5-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,SEM 090D SAV-B5-A,Flow Difference,#sav-b5-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,SEM 090D SAV-B5-A,Exhaust Flow Stpt,#sav-b5-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,SEM 090D SAV-B5-A,Discharge Temp,#sav-b5-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,SEM 090D SAV-B5-A,HW Valve,#sav-b5-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,SEM 090D SAV-B5-A,CHW Valve,#sav-b5-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,SEM 090D SAV-B5-A,Clg%,#sav-b5-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,SEM 090D SAV-B5-A,Htg%,#sav-b5-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,SEM 090D SAV-B5-A,Clg Stpt,#sav-b5-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,SEM 090D SAV-B5-A,Htg Stpt,#sav-b5-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,SEM 090D SAV-B5-A,Zone Temp / Zone Temp,#sav-b5-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Server Tech 030 SAV-B33-A,GEX Dmpr Pos,#sav-b33-a_/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Server Tech 030 SAV-B33-A,Cool Requests,#sav-b33-a_/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Server Tech 030 SAV-B33-A,Heat Requests,#sav-b33-a_/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Server Tech 030 SAV-B33-A,SAV Dmpr Pos,#sav-b33-a_/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Server Tech 030 SAV-B33-A,Exhaust Flow,#sav-b33-a_/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Server Tech 030 SAV-B33-A,Supply Flow,#sav-b33-a_/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Server Tech 030 SAV-B33-A,Flow Difference,#sav-b33-a_/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Server Tech 030 SAV-B33-A,Exhaust Flow Stpt,#sav-b33-a_/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Server Tech 030 SAV-B33-A,Discharge Temp,#sav-b33-a_/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Server Tech 030 SAV-B33-A,HW Valve,#sav-b33-a_/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Server Tech 030 SAV-B33-A,CHW Valve,#sav-b33-a_/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Server Tech 030 SAV-B33-A,Clg%,#sav-b33-a_/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Server Tech 030 SAV-B33-A,Htg%,#sav-b33-a_/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Server Tech 030 SAV-B33-A,Clg Stpt,#sav-b33-a_/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Server Tech 030 SAV-B33-A,Htg Stpt,#sav-b33-a_/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Server Tech 030 SAV-B33-A,Zone Temp / Zone Temp,#sav-b33-a_/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050A SAV-B29-B,GEX Dmpr Pos,#sav-b29-b_/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050A SAV-B29-B,Cool Requests,#sav-b29-b_/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050A SAV-B29-B,Heat Requests,#sav-b29-b_/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050A SAV-B29-B,SAV Dmpr Pos,#sav-b29-b_/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050A SAV-B29-B,Exhaust Flow,#sav-b29-b_/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050A SAV-B29-B,Supply Flow,#sav-b29-b_/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050A SAV-B29-B,Flow Difference,#sav-b29-b_/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050A SAV-B29-B,Exhaust Flow Stpt,#sav-b29-b_/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050A SAV-B29-B,Discharge Temp,#sav-b29-b_/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050A SAV-B29-B,HW Valve,#sav-b29-b_/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050A SAV-B29-B,CHW Valve,#sav-b29-b_/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050A SAV-B29-B,Clg%,#sav-b29-b_/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050A SAV-B29-B,Htg%,#sav-b29-b_/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050A SAV-B29-B,Clg Stpt,#sav-b29-b_/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050A SAV-B29-B,Htg Stpt,#sav-b29-b_/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050A SAV-B29-B,Zone Temp / Zone Temp,#sav-b29-b_/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050G SAV-B24-A,GEX Dmpr Pos,#sav-b24-a_/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050G SAV-B24-A,Cool Requests,#sav-b24-a_/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050G SAV-B24-A,Heat Requests,#sav-b24-a_/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050G SAV-B24-A,SAV Dmpr Pos,#sav-b24-a_/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050G SAV-B24-A,Exhaust Flow,#sav-b24-a_/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050G SAV-B24-A,Supply Flow,#sav-b24-a_/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050G SAV-B24-A,Flow Difference,#sav-b24-a_/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050G SAV-B24-A,Exhaust Flow Stpt,#sav-b24-a_/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050G SAV-B24-A,Discharge Temp,#sav-b24-a_/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050G SAV-B24-A,HW Valve,#sav-b24-a_/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050G SAV-B24-A,CHW Valve,#sav-b24-a_/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050G SAV-B24-A,Clg%,#sav-b24-a_/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050G SAV-B24-A,Htg%,#sav-b24-a_/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050G SAV-B24-A,Clg Stpt,#sav-b24-a_/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050G SAV-B24-A,Htg Stpt,#sav-b24-a_/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050G SAV-B24-A,Zone Temp / Zone Temp,#sav-b24-a_/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Tech Office 135 SAV-1B17-CA,GEX Dmpr Pos,#sav-1b17-a/m277
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Tech Office 135 SAV-1B17-CA,Cool Requests,#sav-1b17-a/m285
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Tech Office 135 SAV-1B17-CA,Heat Requests,#sav-1b17-a/m288
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Tech Office 135 SAV-1B17-CA,SAV Dmpr Pos,#sav-1b17-a/m310
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Tech Office 135 SAV-1B17-CA,Exhaust Flow,#sav-1b17-a/m318
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Tech Office 135 SAV-1B17-CA,Supply Flow,#sav-1b17-a/m320
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Tech Office 135 SAV-1B17-CA,Flow Difference,#sav-1b17-a/m322
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Tech Office 135 SAV-1B17-CA,Exhaust Flow Stpt,#sav-1b17-a/m328
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Tech Office 135 SAV-1B17-CA,Discharge Temp,#sav-1b17-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Tech Office 135 SAV-1B17-CA,HW Valve,#sav-1b17-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Tech Office 135 SAV-1B17-CA,CHW Valve,#sav-1b17-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Tech Office 135 SAV-1B17-CA,Clg%,#sav-1b17-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Tech Office 135 SAV-1B17-CA,Htg%,#sav-1b17-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Tech Office 135 SAV-1B17-CA,Clg Stpt,#sav-1b17-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Tech Office 135 SAV-1B17-CA,Htg Stpt,#sav-1b17-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Tech Office 135 SAV-1B17-CA,Zone Temp / Zone Temp,#sav-1b17-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,TEM 090C SAV-B10-B,GEX Dmpr Pos,#sav-b10-b/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,TEM 090C SAV-B10-B,Cool Requests,#sav-b10-b/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,TEM 090C SAV-B10-B,Heat Requests,#sav-b10-b/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,TEM 090C SAV-B10-B,SAV Dmpr Pos,#sav-b10-b/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,TEM 090C SAV-B10-B,Exhaust Flow,#sav-b10-b/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,TEM 090C SAV-B10-B,Supply Flow,#sav-b10-b/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,TEM 090C SAV-B10-B,Flow Difference,#sav-b10-b/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,TEM 090C SAV-B10-B,Exhaust Flow Stpt,#sav-b10-b/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,TEM 090C SAV-B10-B,Discharge Temp,#sav-b10-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,TEM 090C SAV-B10-B,HW Valve,#sav-b10-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,TEM 090C SAV-B10-B,CHW Valve,#sav-b10-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,TEM 090C SAV-B10-B,Clg%,#sav-b10-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,TEM 090C SAV-B10-B,Htg%,#sav-b10-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,TEM 090C SAV-B10-B,Clg Stpt,#sav-b10-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,TEM 090C SAV-B10-B,Htg Stpt,#sav-b10-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,TEM 090C SAV-B10-B,Zone Temp / Zone Temp,#sav-b10-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Thermofluid Lab 180 SAV-1A4-C,GEX Dmpr Pos,#sav-1a4-c/m277
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Thermofluid Lab 180 SAV-1A4-C,Cool Requests,#sav-1a4-c/m285
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Thermofluid Lab 180 SAV-1A4-C,Heat Requests,#sav-1a4-c/m288
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Thermofluid Lab 180 SAV-1A4-C,SAV Dmpr Pos,#sav-1a4-c/m310
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Thermofluid Lab 180 SAV-1A4-C,Exhaust Flow,#sav-1a4-c/m318
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Thermofluid Lab 180 SAV-1A4-C,Supply Flow,#sav-1a4-c/m320
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Thermofluid Lab 180 SAV-1A4-C,Flow Difference,#sav-1a4-c/m322
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Thermofluid Lab 180 SAV-1A4-C,Exhaust Flow Stpt,#sav-1a4-c/m328
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Thermofluid Lab 180 SAV-1A4-C,Discharge Temp,#sav-1a4-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Thermofluid Lab 180 SAV-1A4-C,HW Valve,#sav-1a4-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Thermofluid Lab 180 SAV-1A4-C,CHW Valve,#sav-1a4-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Thermofluid Lab 180 SAV-1A4-C,Clg%,#sav-1a4-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Thermofluid Lab 180 SAV-1A4-C,Htg%,#sav-1a4-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Thermofluid Lab 180 SAV-1A4-C,Clg Stpt,#sav-1a4-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Thermofluid Lab 180 SAV-1A4-C,Htg Stpt,#sav-1a4-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Thermofluid Lab 180 SAV-1A4-C,Zone Temp / Zone Temp,#sav-1a4-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B North SAV-B6-A,GEX Dmpr Pos,#sav-b6-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B North SAV-B6-A,Cool Requests,#sav-b6-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B North SAV-B6-A,Heat Requests,#sav-b6-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B North SAV-B6-A,SAV Dmpr Pos,#sav-b6-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B North SAV-B6-A,Exhaust Flow,#sav-b6-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B North SAV-B6-A,Supply Flow,#sav-b6-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B North SAV-B6-A,Flow Difference,#sav-b6-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B North SAV-B6-A,Exhaust Flow Stpt,#sav-b6-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B North SAV-B6-A,Discharge Temp,#sav-b6-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B North SAV-B6-A,HW Valve,#sav-b6-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B North SAV-B6-A,CHW Valve,#sav-b6-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B North SAV-B6-A,Clg%,#sav-b6-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B North SAV-B6-A,Htg%,#sav-b6-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B North SAV-B6-A,Clg Stpt,#sav-b6-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B North SAV-B6-A,Htg Stpt,#sav-b6-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B North SAV-B6-A,Zone Temp / Zone Temp,#sav-b6-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B South SAV-B8-B,GEX Dmpr Pos,#sav-b8-b/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B South SAV-B8-B,Cool Requests,#sav-b8-b/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B South SAV-B8-B,Heat Requests,#sav-b8-b/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B South SAV-B8-B,SAV Dmpr Pos,#sav-b8-b/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B South SAV-B8-B,Exhaust Flow,#sav-b8-b/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B South SAV-B8-B,Supply Flow,#sav-b8-b/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B South SAV-B8-B,Flow Difference,#sav-b8-b/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B South SAV-B8-B,Exhaust Flow Stpt,#sav-b8-b/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B South SAV-B8-B,Discharge Temp,#sav-b8-b/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B South SAV-B8-B,HW Valve,#sav-b8-b/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B South SAV-B8-B,CHW Valve,#sav-b8-b/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B South SAV-B8-B,Clg%,#sav-b8-b/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B South SAV-B8-B,Htg%,#sav-b8-b/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B South SAV-B8-B,Clg Stpt,#sav-b8-b/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B South SAV-B8-B,Htg Stpt,#sav-b8-b/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B South SAV-B8-B,Zone Temp / Zone Temp,#sav-b8-b/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Training 090E SAV-B4-A,GEX Dmpr Pos,#sav-b4-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Training 090E SAV-B4-A,Cool Requests,#sav-b4-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Training 090E SAV-B4-A,Heat Requests,#sav-b4-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Training 090E SAV-B4-A,SAV Dmpr Pos,#sav-b4-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Training 090E SAV-B4-A,Exhaust Flow,#sav-b4-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Training 090E SAV-B4-A,Supply Flow,#sav-b4-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Training 090E SAV-B4-A,Flow Difference,#sav-b4-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Training 090E SAV-B4-A,Exhaust Flow Stpt,#sav-b4-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Training 090E SAV-B4-A,Discharge Temp,#sav-b4-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Training 090E SAV-B4-A,HW Valve,#sav-b4-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Training 090E SAV-B4-A,CHW Valve,#sav-b4-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Training 090E SAV-B4-A,Clg%,#sav-b4-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Training 090E SAV-B4-A,Htg%,#sav-b4-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Training 090E SAV-B4-A,Clg Stpt,#sav-b4-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Training 090E SAV-B4-A,Htg Stpt,#sav-b4-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Training 090E SAV-B4-A,Zone Temp / Zone Temp,#sav-b4-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Visualization 060 SAV-B22-A,GEX Dmpr Pos,#sav-b22-a/m277
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Visualization 060 SAV-B22-A,Cool Requests,#sav-b22-a/m285
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Visualization 060 SAV-B22-A,Heat Requests,#sav-b22-a/m288
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Visualization 060 SAV-B22-A,SAV Dmpr Pos,#sav-b22-a/m310
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Visualization 060 SAV-B22-A,Exhaust Flow,#sav-b22-a/m318
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Visualization 060 SAV-B22-A,Supply Flow,#sav-b22-a/m320
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Visualization 060 SAV-B22-A,Flow Difference,#sav-b22-a/m322
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Visualization 060 SAV-B22-A,Exhaust Flow Stpt,#sav-b22-a/m328
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Visualization 060 SAV-B22-A,Discharge Temp,#sav-b22-a/da_temp
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Visualization 060 SAV-B22-A,HW Valve,#sav-b22-a/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Visualization 060 SAV-B22-A,CHW Valve,#sav-b22-a/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Visualization 060 SAV-B22-A,Clg%,#sav-b22-a/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Visualization 060 SAV-B22-A,Htg%,#sav-b22-a/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Visualization 060 SAV-B22-A,Clg Stpt,#sav-b22-a/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Visualization 060 SAV-B22-A,Htg Stpt,#sav-b22-a/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Visualization 060 SAV-B22-A,Zone Temp / Zone Temp,#sav-b22-a/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 East SAV-1B15-C,GEX Dmpr Pos,#sav-1b15-c/m277
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 East SAV-1B15-C,Cool Requests,#sav-1b15-c/m285
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 East SAV-1B15-C,Heat Requests,#sav-1b15-c/m288
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 East SAV-1B15-C,SAV Dmpr Pos,#sav-1b15-c/m310
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 East SAV-1B15-C,Exhaust Flow,#sav-1b15-c/m318
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 East SAV-1B15-C,Supply Flow,#sav-1b15-c/m320
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 East SAV-1B15-C,Flow Difference,#sav-1b15-c/m322
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 East SAV-1B15-C,Exhaust Flow Stpt,#sav-1b15-c/m328
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 East SAV-1B15-C,Discharge Temp,#sav-1b15-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 East SAV-1B15-C,HW Valve,#sav-1b15-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 East SAV-1B15-C,CHW Valve,#sav-1b15-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 East SAV-1B15-C,Clg%,#sav-1b15-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 East SAV-1B15-C,Htg%,#sav-1b15-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 East SAV-1B15-C,Clg Stpt,#sav-1b15-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 East SAV-1B15-C,Htg Stpt,#sav-1b15-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 East SAV-1B15-C,Zone Temp / Zone Temp,#sav-1b15-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 West SAV-1B14-C,GEX Dmpr Pos,#sav-1b14-c/m277
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 West SAV-1B14-C,Cool Requests,#sav-1b14-c/m285
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 West SAV-1B14-C,Heat Requests,#sav-1b14-c/m288
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 West SAV-1B14-C,SAV Dmpr Pos,#sav-1b14-c/m310
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 West SAV-1B14-C,Exhaust Flow,#sav-1b14-c/m318
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 West SAV-1B14-C,Supply Flow,#sav-1b14-c/m320
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 West SAV-1B14-C,Flow Difference,#sav-1b14-c/m322
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 West SAV-1B14-C,Exhaust Flow Stpt,#sav-1b14-c/m328
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 West SAV-1B14-C,Discharge Temp,#sav-1b14-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 West SAV-1B14-C,HW Valve,#sav-1b14-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 West SAV-1B14-C,CHW Valve,#sav-1b14-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 West SAV-1B14-C,Clg%,#sav-1b14-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 West SAV-1B14-C,Htg%,#sav-1b14-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 West SAV-1B14-C,Clg Stpt,#sav-1b14-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 West SAV-1B14-C,Htg Stpt,#sav-1b14-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 West SAV-1B14-C,Zone Temp / Zone Temp,#sav-1b14-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 East SAV-1B12-C,GEX Dmpr Pos,#sav-1b12-c/m277
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 East SAV-1B12-C,Cool Requests,#sav-1b12-c/m285
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 East SAV-1B12-C,Heat Requests,#sav-1b12-c/m288
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 East SAV-1B12-C,SAV Dmpr Pos,#sav-1b12-c/m310
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 East SAV-1B12-C,Exhaust Flow,#sav-1b12-c/m318
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 East SAV-1B12-C,Supply Flow,#sav-1b12-c/m320
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 East SAV-1B12-C,Flow Difference,#sav-1b12-c/m322
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 East SAV-1B12-C,Exhaust Flow Stpt,#sav-1b12-c/m328
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 East SAV-1B12-C,Discharge Temp,#sav-1b12-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 East SAV-1B12-C,HW Valve,#sav-1b12-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 East SAV-1B12-C,CHW Valve,#sav-1b12-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 East SAV-1B12-C,Clg%,#sav-1b12-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 East SAV-1B12-C,Htg%,#sav-1b12-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 East SAV-1B12-C,Clg Stpt,#sav-1b12-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 East SAV-1B12-C,Htg Stpt,#sav-1b12-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 East SAV-1B12-C,Zone Temp / Zone Temp,#sav-1b12-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 West SAV-1B11-C,GEX Dmpr Pos,#sav-1b11-c/m277
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 West SAV-1B11-C,Cool Requests,#sav-1b11-c/m285
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 West SAV-1B11-C,Heat Requests,#sav-1b11-c/m288
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 West SAV-1B11-C,SAV Dmpr Pos,#sav-1b11-c/m310
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 West SAV-1B11-C,Exhaust Flow,#sav-1b11-c/m318
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 West SAV-1B11-C,Supply Flow,#sav-1b11-c/m320
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 West SAV-1B11-C,Flow Difference,#sav-1b11-c/m322
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 West SAV-1B11-C,Exhaust Flow Stpt,#sav-1b11-c/m328
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 West SAV-1B11-C,Discharge Temp,#sav-1b11-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 West SAV-1B11-C,HW Valve,#sav-1b11-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 West SAV-1B11-C,CHW Valve,#sav-1b11-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 West SAV-1B11-C,Clg%,#sav-1b11-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 West SAV-1B11-C,Htg%,#sav-1b11-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 West SAV-1B11-C,Clg Stpt,#sav-1b11-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 West SAV-1B11-C,Htg Stpt,#sav-1b11-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 West SAV-1B11-C,Zone Temp / Zone Temp,#sav-1b11-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 East SAV-1A7-C,GEX Dmpr Pos,#sav-1a7-c/m277
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 East SAV-1A7-C,Cool Requests,#sav-1a7-c/m285
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 East SAV-1A7-C,Heat Requests,#sav-1a7-c/m288
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 East SAV-1A7-C,SAV Dmpr Pos,#sav-1a7-c/m310
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 East SAV-1A7-C,Exhaust Flow,#sav-1a7-c/m318
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 East SAV-1A7-C,Supply Flow,#sav-1a7-c/m320
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 East SAV-1A7-C,Flow Difference,#sav-1a7-c/m322
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 East SAV-1A7-C,Exhaust Flow Stpt,#sav-1a7-c/m328
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 East SAV-1A7-C,Discharge Temp,#sav-1a7-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 East SAV-1A7-C,HW Valve,#sav-1a7-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 East SAV-1A7-C,CHW Valve,#sav-1a7-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 East SAV-1A7-C,Clg%,#sav-1a7-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 East SAV-1A7-C,Htg%,#sav-1a7-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 East SAV-1A7-C,Clg Stpt,#sav-1a7-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 East SAV-1A7-C,Htg Stpt,#sav-1a7-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 East SAV-1A7-C,Zone Temp / Zone Temp,#sav-1a7-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 West SAV-1A6-C,GEX Dmpr Pos,#sav-1a6-c/m277
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 West SAV-1A6-C,Cool Requests,#sav-1a6-c/m285
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 West SAV-1A6-C,Heat Requests,#sav-1a6-c/m288
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 West SAV-1A6-C,SAV Dmpr Pos,#sav-1a6-c/m310
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 West SAV-1A6-C,Exhaust Flow,#sav-1a6-c/m318
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 West SAV-1A6-C,Supply Flow,#sav-1a6-c/m320
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 West SAV-1A6-C,Flow Difference,#sav-1a6-c/m322
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 West SAV-1A6-C,Exhaust Flow Stpt,#sav-1a6-c/m328
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 West SAV-1A6-C,Discharge Temp,#sav-1a6-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 West SAV-1A6-C,HW Valve,#sav-1a6-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 West SAV-1A6-C,CHW Valve,#sav-1a6-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 West SAV-1A6-C,Clg%,#sav-1a6-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 West SAV-1A6-C,Htg%,#sav-1a6-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 West SAV-1A6-C,Clg Stpt,#sav-1a6-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 West SAV-1A6-C,Htg Stpt,#sav-1a6-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 West SAV-1A6-C,Zone Temp / Zone Temp,#sav-1a6-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 East SAV-1A2-C,GEX Dmpr Pos,#sav-1a2-c/m277
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 East SAV-1A2-C,Cool Requests,#sav-1a2-c/m285
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 East SAV-1A2-C,Heat Requests,#sav-1a2-c/m288
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 East SAV-1A2-C,SAV Dmpr Pos,#sav-1a2-c/m310
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 East SAV-1A2-C,Exhaust Flow,#sav-1a2-c/m318
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 East SAV-1A2-C,Supply Flow,#sav-1a2-c/m320
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 East SAV-1A2-C,Flow Difference,#sav-1a2-c/m322
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 East SAV-1A2-C,Exhaust Flow Stpt,#sav-1a2-c/m328
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 East SAV-1A2-C,Discharge Temp,#sav-1a2-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 East SAV-1A2-C,HW Valve,#sav-1a2-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 East SAV-1A2-C,CHW Valve,#sav-1a2-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 East SAV-1A2-C,Clg%,#sav-1a2-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 East SAV-1A2-C,Htg%,#sav-1a2-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 East SAV-1A2-C,Clg Stpt,#sav-1a2-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 East SAV-1A2-C,Htg Stpt,#sav-1a2-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 East SAV-1A2-C,Zone Temp / Zone Temp,#sav-1a2-c/lstat/zone_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 West SAV-1A1-C,GEX Dmpr Pos,#sav-1a1-c/m277
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 West SAV-1A1-C,Cool Requests,#sav-1a1-c/m285
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 West SAV-1A1-C,Heat Requests,#sav-1a1-c/m288
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 West SAV-1A1-C,SAV Dmpr Pos,#sav-1a1-c/m310
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 West SAV-1A1-C,Exhaust Flow,#sav-1a1-c/m318
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 West SAV-1A1-C,Supply Flow,#sav-1a1-c/m320
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 West SAV-1A1-C,Flow Difference,#sav-1a1-c/m322
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 West SAV-1A1-C,Exhaust Flow Stpt,#sav-1a1-c/m328
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 West SAV-1A1-C,Discharge Temp,#sav-1a1-c/da_temp
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 West SAV-1A1-C,HW Valve,#sav-1a1-c/hw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 West SAV-1A1-C,CHW Valve,#sav-1a1-c/chw_valve
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 West SAV-1A1-C,Clg%,#sav-1a1-c/cl_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 West SAV-1A1-C,Htg%,#sav-1a1-c/ht_pct_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 West SAV-1A1-C,Clg Stpt,#sav-1a1-c/cl_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 West SAV-1A1-C,Htg Stpt,#sav-1a1-c/ht_stpt_tn
+10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 West SAV-1A1-C,Zone Temp / Zone Temp,#sav-1a1-c/lstat/zone_temp
