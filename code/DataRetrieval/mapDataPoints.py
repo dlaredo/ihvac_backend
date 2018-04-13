@@ -88,7 +88,7 @@ def zonecsvToDb(filepath, dbsession, zone, deviceAddressDict, trendPointDict, de
 
 		#commit changes to the database
 		dbsession.commit()
-		
+
 
 def determineBacnetAddress(controlProgram, path, point, deviceAddressDict, devComponentsDF, bacnetPath = None):
 	"""Determine the bacnet address for accessing the data in this point"""
@@ -714,7 +714,7 @@ def main():
 	zoneFilePaths = {"4":"../../csv_files/Zone4.csv", "3":"../../csv_files/Zone3.csv", "1_2":"../../csv_files/Zone_1and2.csv"}
 	#zoneFilePaths = {"4":"../../csv_files/AHUOnly/Zone4AHU.csv", "3":"../../csv_files/AHUOnly/Zone3AHU.csv", "1_2":"../../csv_files/AHUOnly/Zone_1and2AHU.csv"}
 	#zoneFilePaths = {"1_2":"../../csv_files/Zone_1and2.csv"}
-	zoneFilePaths = {"4":"../../csv_files/Zone4.csv"}
+	#zoneFilePaths = {"4":"../../csv_files/Zone4.csv"}
 	#zoneFilePaths = {"4":"../../csv_files/AHUOnly/Zone4AHU.csv"}
 	database = "mysql+mysqldb://dlaredorazo:@Dexsys13@localhost:3306/HVAC2018_01"
 

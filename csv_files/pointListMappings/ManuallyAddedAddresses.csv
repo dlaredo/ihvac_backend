@@ -1,0 +1,61 @@
+Path,Server,Location,Branch,SubBranch,ControlProgram,Point,Zone,BacnetAddress,BacnetDevId,BacnetObjectType,PointType,ComponentId,PathMappingsId
+#001_thermafuser/m190,10.20.0.47,"Science & Engineering 2: 0206",Basement,,Room-001,"Supply Air",4,20603:2,-1,,0,1,6
+#ahu-3_0206/m045,10.20.0.47,"Science & Engineering 2: 0206",Roof,,AHU-3,"Cl Req",3,20606:24,-1,,0,5,24
+#ahu-3_0206/sf_cfm_tnd,10.20.0.47,"Science & Engineering 2: 0206",Roof,,AHU-3,"Supply Fan 3 Total  CFM",3,20606:24,-1,,0,30,23
+#ahu-4_0206/m045,10.20.0.47,"Science & Engineering 2: 0206",Roof,,AHU-4,"Cl Req",4,20620:75,-1,,0,2,24
+#ahu_1b_supply/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-1B Supply",1610_power_kw,1_2,20606:30,-1,,0,2,46
+#ahu_1b_supply/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-1B Supply",1617_speed_rpm,1_2,20606:30,-1,,0,2,47
+#ahu_1c_supply/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-1C Supply",1610_power_kw,1_2,20606:30,-1,,0,3,46
+#ahu_1c_supply/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-1C Supply",1617_speed_rpm,1_2,20606:30,-1,,0,3,47
+#ahu_1d_supply/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-1D Supply",1610_power_kw,1_2,20606:30,-1,,0,4,46
+#ahu_1d_supply/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-1D Supply",1617_speed_rpm,1_2,20606:30,-1,,0,4,47
+#ahu_2a_supply/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-2A Supply",1610_power_kw,1_2,20606:41,-1,,0,5,46
+#ahu_2a_supply/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-2A Supply",1617_speed_rpm,1_2,20606:41,-1,,0,5,47
+#ahu_2b_supply/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-2B Supply",1610_power_kw,1_2,20606:41,-1,,0,6,46
+#ahu_2b_supply/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-2B Supply",1617_speed_rpm,1_2,20606:41,-1,,0,6,47
+#ahu_2c_supply/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-2C Supply",1610_power_kw,1_2,20606:41,-1,,0,7,46
+#ahu_2c_supply/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-2C Supply",1617_speed_rpm,1_2,20606:41,-1,,0,7,47
+#ahu_2d_supply/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-2D Supply",1610_power_kw,1_2,20606:41,-1,,0,8,46
+#ahu_2d_supply/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-2D Supply",1617_speed_rpm,1_2,20606:41,-1,,0,8,47
+#ahu_3a_return/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-3A Return",1610_power_kw,3,20606:30,-1,,0,9,46
+#ahu_3a_return/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-3A Return",1617_speed_rpm,3,20606:30,-1,,0,9,47
+#ahu_3a_supply/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-3A Supply",1610_power_kw,3,20606:30,-1,,0,10,46
+#ahu_3a_supply/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-3A Supply",1617_speed_rpm,3,20606:30,-1,,0,10,47
+#ahu_3b_return/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-3B Return",1610_power_kw,3,20606:30,-1,,0,11,46
+#ahu_3b_return/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-3B Return",1617_speed_rpm,3,20606:30,-1,,0,11,47
+#ahu_3b_supply/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-3B Supply",1610_power_kw,3,20606:30,-1,,0,12,46
+#ahu_3b_supply/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-3B Supply",1617_speed_rpm,3,20606:30,-1,,0,12,47
+#ahu_3c_return/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-3C Return",1610_power_kw,3,20606:30,-1,,0,13,46
+#ahu_3c_return/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-3C Return",1617_speed_rpm,3,20606:30,-1,,0,13,47
+#ahu_3c_supply/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-3C Supply",1610_power_kw,3,20606:30,-1,,0,14,46
+#ahu_3c_supply/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-3C Supply",1617_speed_rpm,3,20606:30,-1,,0,14,47
+#ahu_3d_return/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-3D Return",1610_power_kw,3,20606:30,-1,,0,15,46
+#ahu_3d_return/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-3D Return",1617_speed_rpm,3,20606:30,-1,,0,15,47
+#ahu_3d_supply/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-3D Supply",1610_power_kw,3,20606:30,-1,,0,16,46
+#ahu_3d_supply/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-3D Supply",1617_speed_rpm,3,20606:30,-1,,0,16,47
+#ahu_4a_return/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-4A Return",1610_power_kw,4,20603:2,-1,,0,17,46
+#ahu_4a_return/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-4A Return",1617_speed_rpm,4,20603:2,-1,,0,17,47
+#ahu_4a_supply/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-4A Supply",1610_power_kw,4,20603:2,-1,,0,18,46
+#ahu_4a_supply/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-4A Supply",1617_speed_rpm,4,20603:2,-1,,0,18,47
+#ahu_4b_return/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-4B Return",1610_power_kw,4,20603:2,-1,,0,19,46
+#ahu_4b_return/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-4B Return",1617_speed_rpm,4,20603:2,-1,,0,19,47
+#ahu_4b_supply/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-4B Supply",1610_power_kw,4,20603:2,-1,,0,20,46
+#ahu_4b_supply/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-4B Supply",1617_speed_rpm,4,20603:2,-1,,0,20,47
+#ahu_4c_return/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-4C Return",1610_power_kw,4,20603:2,-1,,0,21,46
+#ahu_4c_return/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-4C Return",1617_speed_rpm,4,20603:2,-1,,0,21,47
+#ahu_4c_supply/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-4C Supply",1610_power_kw,4,20603:2,-1,,0,22,46
+#ahu_4c_supply/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-4C Supply",1617_speed_rpm,4,20603:2,-1,,0,22,47
+#ahu_4d_return/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-4D Return",1610_power_kw,4,20603:2,-1,,0,23,46
+#ahu_4d_return/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-4D Return",1617_speed_rpm,4,20603:2,-1,,0,23,47
+#ahu_4d_supply/power_kw_1610_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-4D Supply",1610_power_kw,4,20603:2,-1,,0,24,46
+#ahu_4d_supply/speed_rpm_1617_tn,10.20.0.47,"Science & Engineering 2: 0206",VFD,,"AHU-4D Supply",1617_speed_rpm,4,20603:2,-1,,0,24,47
+#sav-2a2-c/m045,10.20.0.47,"Science & Engineering 2: 0206","Second Floor","Long Bar","Offices 291-293 SAV-2A2-C","Cl Req",1_2,20618:2,-1,,0,30,73
+#sav-2a23-c/cl_stpt_tn,10.20.0.47,"Science & Engineering 2: 0206","Second Floor","Long Bar","Computation 230A SAV-2A23-C","Clg Stpt",1_2,20618:23,-1,,0,34,68
+#sav-3a2-c/m045,10.20.0.47,"Science & Engineering 2: 0206","Third Floor","Long Bar","Offices 391-393 SAV-3A2-C","Cl Req",1_2,20618:25,-1,,0,53,73
+#sav-b37-d_/m277,10.20.0.47,"Science & Engineering 2: 0206",Basement,"Long Bar","Mass Spec 024 SAV-B37-D","GEX Dmpr Pos",1_2,20604:12,-1,,0,90,57
+#vav-2-26/dmpr_pos_tn,10.20.0.47,"Science & Engineering 2: 0206","Second Floor","Short bar","Conference 224 VAV-2-26","Dmpr Pos",4,20620:3,-1,,0,11,51
+#vav-2-26/m211,10.20.0.47,"Science & Engineering 2: 0206","Second Floor","Short bar","Conference 224 VAV-2-26","Static SP1",4,20620:3,-1,,0,11,55
+#vav-2-26/m311,10.20.0.47,"Science & Engineering 2: 0206","Second Floor","Short bar","Conference 224 VAV-2-26","Zone Temps",4,20620:3,-1,,0,11,54
+#vav-2-29/dmpr_pos_tn,10.20.0.47,"Science & Engineering 2: 0206","Second Floor","Short bar","Scholarly Activity 220 VAV-2-29","Dmpr Pos",4,20620:6,-1,,0,14,51
+#vav-2-29/m211,10.20.0.47,"Science & Engineering 2: 0206","Second Floor","Short bar","Scholarly Activity 220 VAV-2-29","Static SP1",4,20620:6,-1,,0,14,55
+#vav-2-29/m311,10.20.0.47,"Science & Engineering 2: 0206","Second Floor","Short bar","Scholarly Activity 220 VAV-2-29","Zone Temps",4,20620:6,-1,,0,14,54
