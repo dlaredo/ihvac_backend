@@ -16,7 +16,7 @@ componentsClasses = {"ahu":AHU, "vfd":VFD, "filter":Filter, "damper":Damper, "fa
 numberRegex = re.compile(r'\d+', flags = re.IGNORECASE)
 
 
-def zonecsvToDb(filepath, dbsession, zone, deviceAddressDict, devComponentsBacnetDF, devComponentsPhysicalDF):
+def zonecsvToDb(filepath, dbsession, zone, deviceAddressDict, trendPointDict, devComponentsBacnetDF, devComponentsPhysicalDF, devComponentsBacnetDisabledDF):
 	"""Function used to read from csv files"""
 
 	count = 0
@@ -45,6 +45,7 @@ def zonecsvToDb(filepath, dbsession, zone, deviceAddressDict, devComponentsBacne
 				controlProgram = row[4]
 				point = row[5]
 
+				logging.debug("\n\nLooking for object {} {}\n".format(point, path))
 
 				#logging.debug("point type value {}".format(str(pointType)))
 				#Determine bacnet address for the path
@@ -55,8 +56,20 @@ def zonecsvToDb(filepath, dbsession, zone, deviceAddressDict, devComponentsBacne
 					
 					(bacNetAddress, bacnetDevId, bacnetObjectType) = determineBacnetAddress(controlProgram, path, point, deviceAddressDict, devComponentsPhysicalDF)
 					
+					#Bacnet address not found, try disabled points.
 					if bacnetDevId == -1:
-						pass
+
+						(bacnetPoint,  bacnetPath) = trendPointDict[point]  #Try to map trend point to bacnet point
+
+						if bacnetPoint != None:
+							(bacNetAddress, bacnetDevId, bacnetObjectType) = determineBacnetAddress(controlProgram, path, bacnetPoint, deviceAddressDict, devComponentsBacnetDisabledDF, bacnetPath)
+
+							if bacnetDevId != -1:
+								pointType = 3 #Point type 3 for trend points mapped to bacnet
+							else:
+								logging.error("Object {} {} could not be mapped\n\n".format(bacnetPoint, bacnetPath))
+						else:
+							logging.error("Object {} {} could not be mapped\n\n".format(point, path))
 					else:
 						pointType = 2 #Point type 2 for physical points
 				else:
@@ -75,8 +88,9 @@ def zonecsvToDb(filepath, dbsession, zone, deviceAddressDict, devComponentsBacne
 
 		#commit changes to the database
 		dbsession.commit()
+		
 
-def determineBacnetAddress(controlProgram, path, point, deviceAddressDict, devComponentsDF):
+def determineBacnetAddress(controlProgram, path, point, deviceAddressDict, devComponentsDF, bacnetPath = None):
 	"""Determine the bacnet address for accessing the data in this point"""
 
 	splittedPath = path.split("/", 1)
@@ -88,8 +102,6 @@ def determineBacnetAddress(controlProgram, path, point, deviceAddressDict, devCo
 	objectType = ""
 	objectId = -1
 
-	logging.debug("Looking for object {} {}".format(point, path))
-
 	#Find the bacnet address of the component
 	(devAddress, devId) = deviceAddressDict[componentPath]
 
@@ -98,29 +110,35 @@ def determineBacnetAddress(controlProgram, path, point, deviceAddressDict, devCo
 		logging.debug("for object with address {} and devId {}".format(devAddress, devId))
 
 		#Find the type of bacnet object (analogInput, analogOutput, analogValue, etc..)
-		devComponentRow = devComponentsDF.loc[ (devComponentsDF['Device ID'] == 'DEV:'+str(devId)) & 
-		(devComponentsDF['Path'].str.contains(componentPath).any()) & 
+		devComponentResult = devComponentsDF.loc[ (devComponentsDF['Device ID'] == 'DEV:'+str(devId)) & 
+		(devComponentsDF['Path'].str.contains(componentPath)) & 
 		(devComponentsDF['Name'] == point), 
 		['Control Program', 'Type', 'Object ID', 'Device ID', 'Object Name', 'Path'] ]
 
-		objectType = devComponentRow['Type'].values
-		objectId = devComponentRow['Object ID'].values
+		#Some trend points are just named as "point name", therefore we need to use its bacnet path to find the corresponding address and devid
+		if bacnetPath != None:
+			devComponentResult = devComponentResult.loc[ devComponentResult['Path'].str.contains(bacnetPath) ]
+
+		objectType = devComponentResult['Type'].values
+		objectId = devComponentResult['Object ID'].values
 
 		if len(objectId) == 1:
 			objectType = objectType[0]
 			objectId = int(objectId[0].split(":")[1])
 		elif len(objectId) > 1:
-			logging.debug("Object matches with more than one row")
-			logging.debug(str(objectType))
-			logging.debug(str(objectId))
+			bPath = bacnetPath if bacnetPath != None else 'n/a'
+			logging.error("Object with point {}, path {}, bacnetPath {}, address {} and devID {} matches with more than one row".format(
+				point, path, bacnetPath, devAddress, devId))
+			logging.error(str(objectType))
+			logging.error(str(objectId))
 			objectType = ""
 			objectId = -1
 		else:
-			debugNoMatch(controlProgram, componentPath, point, devAddress, devId, devComponentsDF)
+			debugNoMatch(controlProgram, path, point, devAddress, devId, bacnetPath, devComponentsDF)
 			objectType = ""
 			objectId = -1
 	else:
-		logging.debug("Object doesnt match")
+		logging.error("Object with path {} doesnt match for any address".format(componentPath))
 		devAddress = ""
 		objectType = ""
 		objectId = -1
@@ -128,7 +146,7 @@ def determineBacnetAddress(controlProgram, path, point, deviceAddressDict, devCo
 	return (devAddress, objectId, objectType)
 
 
-def debugNoMatch(controlProgram, path, point, devAddress, devId, devComponentsDF):
+def debugNoMatch(controlProgram, path, point, devAddress, devId, bacnetPath, devComponentsDF):
 	"""Help to debug when a no match was found"""
 
 	debugRow = devComponentsDF.loc[ devComponentsDF['Device ID'] == 'DEV:'+str(devId) ]
@@ -136,17 +154,20 @@ def debugNoMatch(controlProgram, path, point, devAddress, devId, devComponentsDF
 	if debugRow.shape[0] > 0:
 
 		debugRow = devComponentsDF.loc[ (devComponentsDF['Device ID'] == 'DEV:'+str(devId)) & 
-		(devComponentsDF['Path'].str.contains(path).any()) ]
+		(devComponentsDF['Path'].str.contains(path)) ]
 
 		if debugRow.shape[0] > 0:
 
-			logging.debug("DevId {} could not be matched with path {} and point {}".format(devId, path, point))
+			if bacnetPath != None:
+				logging.warning("DevId {} could not be matched with path {}, point {} and bacnetPath {}".format(devId, path, point, bacnetPath))
+			else:
+				logging.warning("DevId {} could not be matched with path {} and point {}".format(devId, path, point))
 
 		else:
-			logging.debug("DevId {} could not be matched with path {}".format(devId, path))
+			logging.warning("DevId {} could not be matched with path {}".format(devId, path))
 	
 	else:
-		logging.debug("DevId {} could not be matched ".format(devId))
+		logging.warning("DevId {} could not be matched ".format(devId))
 
 
 def deviceAddressDictionary(addressPointFile):
@@ -169,6 +190,28 @@ def deviceAddressDictionary(addressPointFile):
 				addressPointDict[pointName] = (bacNetAddress, deviceId)
 
 	return addressPointDict
+
+
+def trendToPointDictionary(trendToPointFile):
+	"""Create a dictionary containing the mapping of each trend to its corresponding point name"""
+
+	trendPointDict = dict()
+	count = 0
+
+	with open(trendToPointFile, 'r') as csvfile:
+		reader = csv.reader(csvfile)
+		for row in reader:
+			#skip the header
+			if count == 0:
+				count += 1
+			else:	
+
+				trendName = row[0]
+				pointName = row[3]
+				bacnetPath = row[4] if row[4] != '' else None
+				trendPointDict[trendName] = (pointName, bacnetPath)
+
+	return trendPointDict
 
 
 def deviceComponentsDF(pointListFile):
@@ -670,16 +713,19 @@ def main():
 
 	zoneFilePaths = {"4":"../../csv_files/Zone4.csv", "3":"../../csv_files/Zone3.csv", "1_2":"../../csv_files/Zone_1and2.csv"}
 	#zoneFilePaths = {"4":"../../csv_files/AHUOnly/Zone4AHU.csv", "3":"../../csv_files/AHUOnly/Zone3AHU.csv", "1_2":"../../csv_files/AHUOnly/Zone_1and2AHU.csv"}
-	#zoneFilePaths = {"1_2":"../csv_files/Zone_1and2.csv"}
+	#zoneFilePaths = {"1_2":"../../csv_files/Zone_1and2.csv"}
+	zoneFilePaths = {"4":"../../csv_files/Zone4.csv"}
 	#zoneFilePaths = {"4":"../../csv_files/AHUOnly/Zone4AHU.csv"}
 	database = "mysql+mysqldb://dlaredorazo:@Dexsys13@localhost:3306/HVAC2018_01"
 
 	deviceAddressFile = "../../csv_files/pointListMappings/deviceAddress.csv"
 	bacnetPointsFile = "../../csv_files/pointListMappings/pointListBacnet.csv"
 	physicalPointsFile = "../../csv_files/pointListMappings/pointListPhysical.csv"
+	trendToPointFile = "../../csv_files/pointListMappings/UnmatchedPointsTrendsToPoints.csv"
+	bacnetDisabledFile = "../../csv_files/pointListMappings/pointListBacnetFull.csv"
 
 	#set the logger config
-	logging.basicConfig(filename='mappingDataPoints.log', level=logging.DEBUG,\
+	logging.basicConfig(filename='mappingDataPoints.log', level=logging.INFO,\
 	format='%(levelname)s:%(threadName)s:%(asctime)s:%(filename)s:%(funcName)s:%(message)s', datefmt='%m/%d/%Y %H:%M:%S')
 	
 	#Attempt connection to the database
@@ -698,19 +744,22 @@ def main():
 	print("Writting csv files to the DB")
 	logging.info("Writting csv files to the DB")
 
-	#Create device_address dictionary
+	#Create device_address and trend_point dictionaries
 	devAddr_dict = deviceAddressDictionary(deviceAddressFile)
+	trendPoint_dict = trendToPointDictionary(trendToPointFile)
+
 
 	#Create pandas dataframe from bacnetPointListFile
 	devComponentsBacnetDF = pandas.read_csv(bacnetPointsFile)
 	devComponentsPhysicalDF = pandas.read_csv(physicalPointsFile)
+	devComponentsBacnetDisabledDF = pandas.read_csv(bacnetDisabledFile)
 
 	#Attempt to write csv to the database
 	try:
 
 		for key in zoneFilePaths:
 			filePath = zoneFilePaths[key]
-			zonecsvToDb(filePath, session, key, devAddr_dict, devComponentsBacnetDF, devComponentsPhysicalDF)
+			zonecsvToDb(filePath, session, key, devAddr_dict, trendPoint_dict, devComponentsBacnetDF, devComponentsPhysicalDF, devComponentsBacnetDisabledDF)
 			logging.info("Writting of the csv file" + filePath + " to the DB was sucessfull")
 	except:
 		logging.error("Error writting the csv file " + filePath + " to the DB")

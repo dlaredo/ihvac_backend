@@ -1,0 +1,47 @@
+Point,min(Path),Point ALC,Point Bacnet,Path
+1610_power_kw,#ahu_1a_supply/power_kw_1610_tn,1610_power_kw,1610_power_kw,
+1617_speed_rpm,#ahu_1a_supply/speed_rpm_1617_tn,1617_speed_rpm,1617_speed_rpm,
+Air Flow Feedback,#001_thermafuser/m073,air_flow_fdbk/air_flow_fdbk_dis,air_flow_fdbk_dis,
+Cl Req,#ahu-1_0206/m045,point name (m362),point name,m362
+clg setpt,#001_thermafuser/m135,Cool Stpt,Cool Stpt,
+Clg Stpt,#copy_of_sav-b38-a_/cl_stpt_tn,Alarm Sources / Cool Stpt,Cool Stpt,
+Clg%,#copy_of_sav-b38-a_/cl_pct_tn,Alarm Sources / Clg Pct,Clg Pct,
+Cool Requests,#copy_of_sav-b38-a_/m285,Alarm Sources / Cool Request,Cool Request,
+Cool Stpt,#ahu-3_0206/cl_stpt_tn,Alarm Sources / Cool Setpoint,Cool Setpoint,
+Dmpr Pos,#vav-1-18/dmpr_pos_tn,Alarm Sources / Damper Position,Damper Position,
+Econ Stpt,#ahu-3_0206/econ_stpt_tn,Alarm Sources / Economizer Setpoit,Economizer Setpoint,
+Exhaust Flow,#copy_of_sav-b38-a_/m318,Total_Exhaust,Total Exhaust,
+Exhaust Flow Stpt,#copy_of_sav-b38-a_/m328,point name (m327),point name,m327
+Flow Difference,#copy_of_sav-b38-a_/m322,point name (m321),point name,m321
+GEX Dmpr Pos,#copy_of_sav-b38-a_/m277,point name (m276),point name,m276
+Heat Requests,#copy_of_sav-b38-a_/m288,Alarm Sources / Heat Request,Heat Request,
+Heat Stpt,#ahu-3_0206/ht_stpt_tn,Alarm Sources / Heat Setpoint,Heat Setpoint,
+Ht Req,#ahu-3_0206/m044,Alarm Sources / Total Heat Request,Total Heat Request,
+htg setpt,#001_thermafuser/m134,Heat Stpt,Heat Stpt,
+Htg Stpt,#copy_of_sav-b38-a_/ht_stpt_tn,Alarm Sources / Heat Stpt,Heat Stpt,
+Htg%,#copy_of_sav-b38-a_/ht_pct_tn,Alarm Sources / Htg Pct,Htg Pct,
+Occ Mode,#ahu-1_0206/m041,Mode,Mode,
+RA CO2 Stpt,#ahu-3_0206/co2_stpt_tn,Alarm Sources / Max CO2 Level,Max CO2 Level,
+Return Fan  CFM,#ahu-3_0206/rf_cfm_tnd,Alarm Sources / Return Fan CFM (rf_cfm),Return Fan CFM,rf_cfm
+Return Fan 1 CFM,#ahu-3_0206/rf1_cfm_tnd,Alarm Sources / Return Fan CFM (rf1_cfm),Return Fan CFM,rf1_cfm
+Return Fan 2 CFM,#ahu-3_0206/rf2_cfm_tnd,Alarm Sources / Return Fan 2 CFM (rf2_cfm),Return Fan 2 CFM,rf2_cfm
+Return Fan 3 CFM,#ahu-3_0206/rf3_cfm_tnd,Alarm Sources / Return Fan 3 CFM (rf3_cfm),Return Fan 3 CFM,rf3_cfm
+Return Fan 4 CFM,#ahu-3_0206/rf4_cfm_tnd,Alarm Sources / Supply Fan CFM (rf4_cfm),Supply Fan 4 CFM,rf4_cfm
+Room Occupied,#001_thermafuser/m078,Alarm Sources / occ,occ,
+SA Stpt,#ahu-3_0206/sa_stpt_tn,Alarm Sources / Supply Air Temperature Setpoint,Supply Air Temperature Setpoint,
+SAV Dmpr Pos,#copy_of_sav-b38-a_/m310,point name (m309),point name,m309
+St Req,#ahu-1_0206/m496,Alarm Sources / Total Static Request,Total Static Request,
+Static SP,#ahu-3_0206/m403,Alarm Sources / Static pressure Setpoint,Static Pressure Setpoint,
+Static SP1,#ahu-1_0206/m124 - #vav-3-35/m211,Alarm Sources / Static Pressure 1 Setpoint,Static Pressure 1 Setpoint,
+Static SP2,#ahu-1_0206/m415,Alarm Sources / Static Pressure 2 Setpoint,Static Pressure 2 Setpoint,
+Supply Air,#001_thermafuser/m190,point name (m086),point name,m086
+Supply Fan  CFM,#ahu-1_0206/sf_cfm_tnd,Alarm Sources / Supply Fan CFM (sf_cfm),Supply Fan CFM,sf_cfm
+Supply Fan 1 CFM,#ahu-1_0206/sf1_cfm_tnd,Alarm Sources / Supply Fan CFM (sf1_cfm),Supply Fan CFM,sf1_cfm
+Supply Fan 2 CFM,#ahu-1_0206/sf2_cfm_tnd,Alarm Sources / Supply Fan 2 CFM (sf2_cfm),Supply Fan 2 CFM,sf2_cfm
+Supply Fan 3 CFM,#ahu-1_0206/sf3_cfm_tnd,Alarm Sources / Supply Fan 3 CFM (sf3_cfm),Supply Fan 3 CFM,sf3_cfm
+Supply Fan 3 Total  CFM,#ahu-3_0206/sf_cfm_tnd,Alarm Sources / Supply Fan CFM (sf_cfm),Alarm Sources / Supply Fan CFM (sf_cfm),
+Supply Fan 4 CFM,#ahu-1_0206/sf4_cfm_tnd,Alarm Sources / Supply Fan 4 CFM (sf4_cfm),Supply Fan 4 CFM,sf4_cfm
+Supply Flow,#copy_of_sav-b38-a_/m320,point name (m319),point name,m319
+Terminal Load,#270_thermafuser/m076,terminal_load,terminal_load,
+Zone Temp,#001_thermafuser/m186,Zone_Tenp,Zone Tenp,
+Zone Temps,#vav-1-18/m311,Zone Temp,Zone Temp / Zone Temp,
