@@ -16,7 +16,8 @@ componentsClasses = {"ahu":AHU, "vfd":VFD, "filter":Filter, "damper":Damper, "fa
 numberRegex = re.compile(r'\d+', flags = re.IGNORECASE)
 
 
-def zonecsvToDb(filepath, dbsession, zone, deviceAddressDict, trendPointDict, devComponentsBacnetDF, devComponentsPhysicalDF, devComponentsBacnetDisabledDF):
+def zonecsvToDb(filepath, dbsession, zone, deviceAddressDict, trendPointDict, manualTrendPointDict, 
+	devComponentsBacnetDF, devComponentsPhysicalDF, devComponentsBacnetDisabledDF):
 	"""Function used to read from csv files"""
 
 	count = 0
@@ -62,12 +63,27 @@ def zonecsvToDb(filepath, dbsession, zone, deviceAddressDict, trendPointDict, de
 						(bacnetPoint,  bacnetPath) = trendPointDict[point]  #Try to map trend point to bacnet point
 
 						if bacnetPoint != None:
-							(bacNetAddress, bacnetDevId, bacnetObjectType) = determineBacnetAddress(controlProgram, path, bacnetPoint, deviceAddressDict, devComponentsBacnetDisabledDF, bacnetPath)
+							(bacNetAddress, bacnetDevId, bacnetObjectType) = determineBacnetAddress(controlProgram, path, bacnetPoint, 
+								deviceAddressDict, devComponentsBacnetDisabledDF, bacnetPath)
 
-							if bacnetDevId != -1:
-								pointType = 3 #Point type 3 for trend points mapped to bacnet
+							#Finally consider the manually mapped points, those points whose names are not consistent and had to be mapped to bacnetPoint manually
+							if bacnetDevId == -1:
+
+								bacnetPoint = manualTrendPointDict[path]
+
+								if bacnetPoint != None:
+
+									(bacNetAddress, bacnetDevId, bacnetObjectType) = determineBacnetAddress(controlProgram, path, bacnetPoint, 
+								deviceAddressDict, devComponentsBacnetDisabledDF, None)
+
+									if bacnetDevId != -1:
+										pointType = 4 #Point type 3 for trend points mapped to bacnet
+									else:
+										logging.error("Object {} converted to {} could not be mapped\n\n".format(point, bacnetPoint))
+								else:
+									logging.error("Object {} {} could not be mapped\n\n".format(point, path))
 							else:
-								logging.error("Object {} {} could not be mapped\n\n".format(bacnetPoint, bacnetPath))
+								pointType = 3 #Point type 3 for trend points mapped to bacnet
 						else:
 							logging.error("Object {} {} could not be mapped\n\n".format(point, path))
 					else:
@@ -212,6 +228,27 @@ def trendToPointDictionary(trendToPointFile):
 				trendPointDict[trendName] = (pointName, bacnetPath)
 
 	return trendPointDict
+
+
+def manualTrendToPointDictionary(manualTrendToPointFile):
+	"""Create a dictionary containing the mapping of each trend to its corresponding point name"""
+
+	manualTrendPointDict = dict()
+	count = 0
+
+	with open(manualTrendToPointFile, 'r') as csvfile:
+		reader = csv.reader(csvfile)
+		for row in reader:
+			#skip the header
+			if count == 0:
+				count += 1
+			else:	
+
+				trendPath = row[0]
+				bacnetPoint = row[14] if row[14] != '' else None
+				manualTrendPointDict[trendPath] = bacnetPoint
+
+	return manualTrendPointDict
 
 
 def deviceComponentsDF(pointListFile):
@@ -723,6 +760,7 @@ def main():
 	physicalPointsFile = "../../csv_files/pointListMappings/pointListPhysical.csv"
 	trendToPointFile = "../../csv_files/pointListMappings/UnmatchedPointsTrendsToPoints.csv"
 	bacnetDisabledFile = "../../csv_files/pointListMappings/pointListBacnetFull.csv"
+	manuallyMappedFile = "../../csv_files/pointListMappings/ManuallyMappedTrends.csv"
 
 	#set the logger config
 	logging.basicConfig(filename='mappingDataPoints.log', level=logging.INFO,\
@@ -747,6 +785,7 @@ def main():
 	#Create device_address and trend_point dictionaries
 	devAddr_dict = deviceAddressDictionary(deviceAddressFile)
 	trendPoint_dict = trendToPointDictionary(trendToPointFile)
+	manualTrendPoint_dict = manualTrendToPointDictionary(manuallyMappedFile)
 
 
 	#Create pandas dataframe from bacnetPointListFile
@@ -759,7 +798,10 @@ def main():
 
 		for key in zoneFilePaths:
 			filePath = zoneFilePaths[key]
-			zonecsvToDb(filePath, session, key, devAddr_dict, trendPoint_dict, devComponentsBacnetDF, devComponentsPhysicalDF, devComponentsBacnetDisabledDF)
+			zonecsvToDb(filePath, session, key, devAddr_dict, trendPoint_dict, manualTrendPoint_dict, 
+				devComponentsBacnetDF, devComponentsPhysicalDF, devComponentsBacnetDisabledDF)
+			
+
 			logging.info("Writting of the csv file" + filePath + " to the DB was sucessfull")
 	except:
 		logging.error("Error writting the csv file " + filePath + " to the DB")

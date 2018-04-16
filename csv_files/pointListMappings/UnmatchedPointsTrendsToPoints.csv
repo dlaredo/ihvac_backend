@@ -39,7 +39,7 @@ Supply Fan  CFM,#ahu-1_0206/sf_cfm_tnd,Alarm Sources / Supply Fan CFM (sf_cfm),S
 Supply Fan 1 CFM,#ahu-1_0206/sf1_cfm_tnd,Alarm Sources / Supply Fan CFM (sf1_cfm),Supply Fan CFM,sf1_cfm
 Supply Fan 2 CFM,#ahu-1_0206/sf2_cfm_tnd,Alarm Sources / Supply Fan 2 CFM (sf2_cfm),Supply Fan 2 CFM,sf2_cfm
 Supply Fan 3 CFM,#ahu-1_0206/sf3_cfm_tnd,Alarm Sources / Supply Fan 3 CFM (sf3_cfm),Supply Fan 3 CFM,sf3_cfm
-Supply Fan 3 Total  CFM,#ahu-3_0206/sf_cfm_tnd,Alarm Sources / Supply Fan CFM (sf_cfm),Alarm Sources / Supply Fan CFM (sf_cfm),
+Supply Fan 3 Total  CFM,#ahu-3_0206/sf_cfm_tnd,Alarm Sources / Supply Fan CFM (sf_cfm),Supply Fan CFM,sf_cfm
 Supply Fan 4 CFM,#ahu-1_0206/sf4_cfm_tnd,Alarm Sources / Supply Fan 4 CFM (sf4_cfm),Supply Fan 4 CFM,sf4_cfm
 Supply Flow,#copy_of_sav-b38-a_/m320,point name (m319),point name,m319
 Terminal Load,#270_thermafuser/m076,terminal_load,terminal_load,
