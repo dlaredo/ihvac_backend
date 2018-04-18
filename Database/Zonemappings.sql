@@ -51,10 +51,10 @@ insert into PathMappings (Path, ComponentType, Description, DatabaseMapping) val
 insert into PathMappings (Path, ComponentType, Description, DatabaseMapping) values ("m798", "AHU", "Static Pressure Smoothed", "staticPressureSmoothed");
 insert into PathMappings (Path, ComponentType, Description, DatabaseMapping) values ("m403", "AHU", "Static SP", "staticSP");
 insert into PathMappings (Path, ComponentType, Description, DatabaseMapping) values ("sa_temp", "AHU", "Supple Air Temperature", "supplyAirTemperature");
-insert into PathMappings (Path, ComponentType, Description, DatabaseMapping) values ("ra_sp", "AHU" , "Return Air Static Pressure", "staticPressure");
+insert into PathMappings (Path, ComponentType, Description, DatabaseMapping) values ("st_press1","AHU","Static Pressure 2 A", "staticPressure");
 insert into PathMappings (Path, ComponentType, Description, DatabaseMapping) values ("sa_stpt_tn", "AHU", "Supply Air Set Point", "supplyAirSetpoint");
 #Zone 3
-insert into PathMappings (Path, ComponentType, Description, DatabaseMapping) values ("st_press1","AHU","Static Pressure 2 A", "staticPressure");
+#insert into PathMappings (Path, ComponentType, Description, DatabaseMapping) values ("ra_sp", "AHU" , "Return Air Static Pressure", "returnStaticPressure");
 #Zones 1_2
 insert into PathMappings (Path, ComponentType, Description, DatabaseMapping) values ("m496","AHU","ST Req", "STReq");
 insert into PathMappings (Path, ComponentType, Description, DatabaseMapping) values ("m124","AHU","Static SP1", "staticSP1");
