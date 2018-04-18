@@ -343,8 +343,6 @@ def printComponents(components):
 def MapDataPoints(session):
 	"""Map each datapoint to its corresponding table and component"""
 
-	dataPointMapped = True
-
 	#data structures
 	mappedDataPoints = {key:list() for key in componentsList}
 
@@ -352,6 +350,8 @@ def MapDataPoints(session):
 	datapoints = session.query(DataPoint).all()
 
 	for dataPoint in datapoints:
+
+		dataPointMapped = True
 
 		#If the point has already been mapped, skip it
 		if dataPoint.pathMapping != None:
@@ -367,7 +367,6 @@ def MapDataPoints(session):
 			if fanNumber != 0:
 				fanSplitted = componentPath.split(str(fanNumber))
 				componentPath = fanSplitted[0] + fanSplitted[1]
-
 
 		mappedDataPoint = session.query(PathMapping).filter(PathMapping._path == componentPath).first()
 
@@ -752,8 +751,8 @@ def main():
 	#zoneFilePaths = {"4":"../../csv_files/AHUOnly/Zone4AHU.csv", "3":"../../csv_files/AHUOnly/Zone3AHU.csv", "1_2":"../../csv_files/AHUOnly/Zone_1and2AHU.csv"}
 	#zoneFilePaths = {"1_2":"../../csv_files/Zone_1and2.csv"}
 	#zoneFilePaths = {"4":"../../csv_files/Zone4.csv"}
-	#zoneFilePaths = {"4":"../../csv_files/AHUOnly/Zone4AHU.csv"}
-	database = "mysql+mysqldb://dlaredorazo:@Dexsys13@localhost:3306/HVAC2018_01"
+	#zoneFilePaths = {"3":"../../csv_files/AHUOnly/Zone3AHU.csv"}
+	database = "mysql+mysqldb://dlaredorazo:@Dexsys13@localhost:3306/HVAC2018_02"
 
 	deviceAddressFile = "../../csv_files/pointListMappings/deviceAddress.csv"
 	bacnetPointsFile = "../../csv_files/pointListMappings/pointListBacnet.csv"
