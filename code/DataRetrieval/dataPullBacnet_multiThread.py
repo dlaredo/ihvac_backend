@@ -49,7 +49,7 @@ class PullingWorker(Thread):
 			else:
 				presentValue = None
 
-			errorMsg = str(e)
+			errorMsg = type(e).__name__
 
 		return presentValue, errorMsg
 
@@ -86,7 +86,7 @@ class PullingWorker(Thread):
 				if readingValue == None:
 					#lock.acquire()
 					#print("Error in retrieving value for " + path)
-					notReadableDataPoints.append(dataPoint)
+					notReadableDataPoints.append((dataPoint, errorMsg))
 					logging.error("Error in retrieving value for " + bacnetQueryString + " " + errorMsg)
 					#lock.release()
 
@@ -159,10 +159,11 @@ def dumpNotReadableDataPoints():
 
 	with open('notReadableDataPoints.csv','w') as t:
 		writer = csv.writer(t)
-		writer.writerow (['Path','Address', 'DevId', 'ObjectType', 'PointType'])
+		writer.writerow (['Path','Address', 'DevId', 'ObjectType', 'PointType', 'Error Type'])
 
-		for dp in notReadableDataPoints:
-			writer.writerow ([dp[0], dp[1], dp[2], dp[3], dp[5]])
+		for dataPoint in notReadableDataPoints:
+			dp, errorType = dataPoint
+			writer.writerow ([dp[0], dp[1], dp[2], dp[3], dp[5], errorType])
 
 
 def pullData_multiThread(databaseSession, startDateTime, timeIntervalMin, finishingDateTime=None):
@@ -177,6 +178,8 @@ def pullData_multiThread(databaseSession, startDateTime, timeIntervalMin, finish
 	dataPoints = {key.lower():databaseSession.query(DataPoint._path, DataPoint._bacnetAddress, DataPoint._bacnetDevId, 
 		DataPoint._bacnetObjectType, DataPoint._componentId, DataPoint._pointType, PathMapping._databaseMapping).
 	join(PathMapping).filter(PathMapping._componentType == key).all() for key in componentsList}
+
+	print(dataPoints["ahu"][0]._databaseMapping)
 
 	PDT = timezone(-timedelta(hours=7), 'PDT')
 	#timeDelta = timedelta(minutes = 5)
@@ -213,7 +216,8 @@ def pullData_multiThread(databaseSession, startDateTime, timeIntervalMin, finish
 
 			#Add datapoints to the queue
 			for dataPoint in dataPoints[key]:
-				queue.put((dataPoint, 1))
+				if dataPoint._databaseMapping != None:
+					queue.put((dataPoint, 1))
 			
 			#create the threads and start them
 			# Create numberOfThreads worker threads
@@ -249,7 +253,7 @@ def main():
 
 	global bacnetConnection
 
-	databaseString = "mysql+mysqldb://ihvac:ihvac@192.168.100.2:3306/HVAC2018_01"
+	databaseString = "mysql+mysqldb://ihvac:ihvac@192.168.100.2:3306/HVAC2018_02"
 	timeIntervalMin = 1
 	timeIntervalSec = timeIntervalMin*60
 
