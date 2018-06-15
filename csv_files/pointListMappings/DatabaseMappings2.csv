@@ -1,0 +1,151 @@
+Path,Server,Location,Branch,SubBranch,ControlProgram,Point,Zone,BacnetAddress,BacnetDevId,BacnetObjectType,PointType,ComponentId,PathMappingsId,Point ALC
+#ahu-3_0206/cwcr,10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-3,CW Coil Return,3,20606:24,1,BAI,2,1,10,CW Coil Return
+#ahu-3_0206/cwcs,10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-3,CW Coil Supply,3,20606:24,2,BAI,2,1,11,CW Coil Supply
+#ahu-3_0206/hwcr,10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-3,HW Coil Return,3,20606:24,5,BAI,2,2,13,HW Coil Return
+#ahu-3_0206/hwcs,10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-3,HW Coil Supply,3,20606:24,6,BAI,2,2,14,HW Coil Supply
+#ahu-3_0206/osacfm,10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-3,OSA CFM,3,20606:24,9,BAI,2,4,33,OSA CFM
+#ahu-4_0206/cwcr,10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-4,CW Coil Return,4,20620:75,1,BAI,2,3,10,CW Coil Return
+#ahu-4_0206/cwcs,10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-4,CW Coil Supply,4,20620:75,2,BAI,2,3,11,CW Coil Supply
+#ahu-4_0206/hwcr,10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-4,HW Coil Return,4,20620:75,5,BAI,2,4,13,HW Coil Return
+#ahu-4_0206/hwcs,10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-4,HW Coil Supply,4,20620:75,6,BAI,2,4,14,HW Coil Supply
+#ahu-4_0206/osacfm,10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-4,OSA CFM,4,20620:75,9,BAI,2,5,33,OSA CFM
+#copy_of_sav-b38-a_/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 330  3A22,Zone Temp / Zone Temp,1_2,20606:25,1,BAI,2,1,69,Zone Temp / Zone Temp
+#sav-1a1-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 West SAV-1A1-C,Zone Temp / Zone Temp,1_2,20613:34,1,BAI,2,2,69,Zone Temp / Zone Temp
+#sav-1a2-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wind Tunnel 185 East SAV-1A2-C,Zone Temp / Zone Temp,1_2,20613:35,1,BAI,2,3,69,Zone Temp / Zone Temp
+#sav-1a3-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Instructor Support 190 SAV-1A3-B,Zone Temp / Zone Temp,1_2,20613:36,1,BAI,2,4,69,Zone Temp / Zone Temp
+#sav-1a4-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Thermofluid Lab 180 SAV-1A4-C,Zone Temp / Zone Temp,1_2,20613:37,1,BAI,2,5,69,Zone Temp / Zone Temp
+#sav-1a5-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 170 SAV-1A5-C,Zone Temp / Zone Temp,1_2,20613:38,1,BAI,2,6,69,Zone Temp / Zone Temp
+#sav-1a6-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 West SAV-1A6-C,Zone Temp / Zone Temp,1_2,20613:39,1,BAI,2,7,69,Zone Temp / Zone Temp
+#sav-1a7-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 160 East SAV-1A7-C,Zone Temp / Zone Temp,1_2,20613:40,1,BAI,2,8,69,Zone Temp / Zone Temp
+#sav-1a8-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Machine Shop 175 SAV-1A8-C,Zone Temp / Zone Temp,1_2,20613:41,1,BAI,2,9,69,Zone Temp / Zone Temp
+#sav-1b10-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 East SAV-1B10-C,Zone Temp / Zone Temp,1_2,20613:43,1,BAI,2,10,69,Zone Temp / Zone Temp
+#sav-1b11-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 West SAV-1B11-C,Zone Temp / Zone Temp,1_2,20613:44,1,BAI,2,11,69,Zone Temp / Zone Temp
+#sav-1b12-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 150 East SAV-1B12-C,Zone Temp / Zone Temp,1_2,20613:45,1,BAI,2,12,69,Zone Temp / Zone Temp
+#sav-1b13-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Prep 140 SAV-1B13-C,Zone Temp / Zone Temp,1_2,20613:46,1,BAI,2,13,69,Zone Temp / Zone Temp
+#sav-1b14-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 West SAV-1B14-C,Zone Temp / Zone Temp,1_2,20613:47,1,BAI,2,14,69,Zone Temp / Zone Temp
+#sav-1b15-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Wet Lab 130 East SAV-1B15-C,Zone Temp / Zone Temp,1_2,20613:48,1,BAI,2,15,69,Zone Temp / Zone Temp
+#sav-1b16-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Electronics 155 SAV-1B16-C,Zone Temp / Zone Temp,1_2,20613:49,1,BAI,2,16,69,Zone Temp / Zone Temp
+#sav-1b17-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Tech Office 135 SAV-1B17-CA,Zone Temp / Zone Temp,1_2,20613:50,1,BAI,2,17,69,Zone Temp / Zone Temp
+#sav-1b9-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,First Floor,Long Bar,Learning 165 West SAV-1B9-C,Zone Temp / Zone Temp,1_2,20613:42,1,BAI,2,18,69,Zone Temp / Zone Temp
+#sav-2a10-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A10-C,Zone Temp / Zone Temp,1_2,20618:10,1,BAI,2,20,69,Zone Temp / Zone Temp
+#sav-2a11-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 2C9 SAV-2A11-A,Zone Temp / Zone Temp,1_2,20618:11,1,BAI,2,21,69,Zone Temp / Zone Temp
+#sav-2a12-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230S SAV-2A12-A,Zone Temp / Zone Temp,1_2,20618:12,1,BAI,2,22,69,Zone Temp / Zone Temp
+#sav-2a13-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230J SAV-2A13-B,Zone Temp / Zone Temp,1_2,20618:13,1,BAI,2,23,69,Zone Temp / Zone Temp
+#sav-2a14-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230T SAV-2A14-A,Zone Temp / Zone Temp,1_2,20618:14,1,BAI,2,24,69,Zone Temp / Zone Temp
+#sav-2a15-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230H SAV-2A15-C,Zone Temp / Zone Temp,1_2,20618:15,1,BAI,2,25,69,Zone Temp / Zone Temp
+#sav-2a16-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230F SAV-2A16-B,Zone Temp / Zone Temp,1_2,20618:16,1,BAI,2,26,69,Zone Temp / Zone Temp
+#sav-2a17-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Hallway 230 SAV-2A17-A,Zone Temp / Zone Temp,1_2,20618:17,1,BAI,2,27,69,Zone Temp / Zone Temp
+#sav-2a18-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230U SAV-2A18-A,Zone Temp / Zone Temp,1_2,20618:18,1,BAI,2,28,69,Zone Temp / Zone Temp
+#sav-2a19-d/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230E SAV-2A19-D,Zone Temp / Zone Temp,1_2,20618:19,1,BAI,2,29,69,Zone Temp / Zone Temp
+#sav-2a20-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230V SAV-2A20-A,Zone Temp / Zone Temp,1_2,20618:20,1,BAI,2,31,69,Zone Temp / Zone Temp
+#sav-2a21-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230D SAV-2A21-C,Zone Temp / Zone Temp,1_2,20618:21,1,BAI,2,32,69,Zone Temp / Zone Temp
+#sav-2a22-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230C SAV-2A22-A,Zone Temp / Zone Temp,1_2,20618:22,1,BAI,2,33,69,Zone Temp / Zone Temp
+#sav-2a3-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230Q SAV-2A3-A,Zone Temp / Zone Temp,1_2,20618:3,1,BAI,2,35,69,Zone Temp / Zone Temp
+#sav-2a4-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230P SAV-2A4-A,Zone Temp / Zone Temp,1_2,20618:4,1,BAI,2,36,69,Zone Temp / Zone Temp
+#sav-2a5-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230N SAV-2A5-C,Zone Temp / Zone Temp,1_2,20618:5,1,BAI,2,37,69,Zone Temp / Zone Temp
+#sav-2a6-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Office 265 SAV-2A6-CA,Zone Temp / Zone Temp,1_2,20618:6,1,BAI,2,38,69,Zone Temp / Zone Temp
+#sav-2a7-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Enginnering 230M SAV-2A7-B,Zone Temp / Zone Temp,1_2,20618:7,1,BAI,2,39,69,Zone Temp / Zone Temp
+#sav-2a8-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech. Engineering 230R  SAV-2A8-A,Zone Temp / Zone Temp,1_2,20618:8,1,BAI,2,40,69,Zone Temp / Zone Temp
+#sav-2a9-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Mech Engineering 230K SAV-2A9-B,Zone Temp / Zone Temp,1_2,20618:9,1,BAI,2,41,69,Zone Temp / Zone Temp
+#sav-3a10-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340J SAV-3A10-B,Zone Temp / Zone Temp,1_2,20618:33,1,BAI,2,43,69,Zone Temp / Zone Temp
+#sav-3a11-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Hallway 3C9 SAV-3A11-A,Zone Temp / Zone Temp,1_2,20618:34,1,BAI,2,44,69,Zone Temp / Zone Temp
+#sav-3a12-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340H SAV-3A12-B,Zone Temp / Zone Temp,1_2,20618:35,1,BAI,2,45,69,Zone Temp / Zone Temp
+#sav-3a13-e/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 Center SAV-3A13-E,Zone Temp / Zone Temp,1_2,20618:36,1,BAI,2,46,69,Zone Temp / Zone Temp
+#sav-3a14-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340G SAV-3A14-A,Zone Temp / Zone Temp,1_2,20618:37,1,BAI,2,47,69,Zone Temp / Zone Temp
+#sav-3a15-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Autoclave 355 SAV-3A15-B,Zone Temp / Zone Temp,1_2,20618:38,1,BAI,2,48,69,Zone Temp / Zone Temp
+#sav-3a16-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340F SAV-3A16-B,Zone Temp / Zone Temp,1_2,20618:39,1,BAI,2,49,69,Zone Temp / Zone Temp
+#sav-3a17-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340C SAV-3A17-A,Zone Temp / Zone Temp,1_2,20618:40,1,BAI,2,50,69,Zone Temp / Zone Temp
+#sav-3a18-e/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 East SAV-3A18-E,Zone Temp / Zone Temp,1_2,20618:41,1,BAI,2,51,69,Zone Temp / Zone Temp
+#sav-3a19-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340D SAV-3A19-A,Zone Temp / Zone Temp,1_2,20618:42,1,BAI,2,52,69,Zone Temp / Zone Temp
+#sav-3a20-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340B SAV-3A20-A,Zone Temp / Zone Temp,1_2,20618:43,1,BAI,2,54,69,Zone Temp / Zone Temp
+#sav-3a21-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Organic Chemistry 335 SAV-3A21-A,Zone Temp / Zone Temp,1_2,20618:44,1,BAI,2,55,69,Zone Temp / Zone Temp
+#sav-3a3-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Office Support 365 SAV-3A3-A,Zone Temp / Zone Temp,1_2,20618:26,1,BAI,2,56,69,Zone Temp / Zone Temp
+#sav-3a4-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340P SAV-3A4-A,Zone Temp / Zone Temp,1_2,20618:27,1,BAI,2,57,69,Zone Temp / Zone Temp
+#sav-3a5-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340R SAV-3A5-B,Zone Temp / Zone Temp,1_2,20618:28,1,BAI,2,58,69,Zone Temp / Zone Temp
+#sav-3a6-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340Q SAV-3A6-A,Zone Temp / Zone Temp,1_2,20618:29,1,BAI,2,59,69,Zone Temp / Zone Temp
+#sav-3a7-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Instrument 340N SAV-3A7-A,Zone Temp / Zone Temp,1_2,20618:30,1,BAI,2,60,69,Zone Temp / Zone Temp
+#sav-3a8-e/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Bioengineering 340 West SAV-3A8-E,Zone Temp / Zone Temp,1_2,20618:31,1,BAI,2,61,69,Zone Temp / Zone Temp
+#sav-3a9-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Cell Culture 340L SAV-3A9-A,Zone Temp / Zone Temp,1_2,20618:32,1,BAI,2,62,69,Zone Temp / Zone Temp
+#sav-b1-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Microtome 090F SAV-B1-A,Zone Temp / Zone Temp,1_2,20613:1,1,BAI,2,63,69,Zone Temp / Zone Temp
+#sav-b10-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,TEM 090C SAV-B10-B,Zone Temp / Zone Temp,1_2,20613:10,1,BAI,2,64,69,Zone Temp / Zone Temp
+#sav-b11-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080G SAV-B11-A,Zone Temp / Zone Temp,1_2,20613:11,1,BAI,2,65,69,Zone Temp / Zone Temp
+#sav-b12-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080F SAV-B12-A,Zone Temp / Zone Temp,1_2,20613:12,1,BAI,2,66,69,Zone Temp / Zone Temp
+#sav-b13-e_/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 West SAV-B13-E,Zone Temp / Zone Temp,1_2,20613:13,1,BAI,2,67,69,Zone Temp / Zone Temp
+#sav-b14-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 080C SAV-B14-B,Zone Temp / Zone Temp,1_2,20613:14,1,BAI,2,68,69,Zone Temp / Zone Temp
+#sav-b15-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080E SAV-B15-A,Zone Temp / Zone Temp,1_2,20613:15,1,BAI,2,69,69,Zone Temp / Zone Temp
+#sav-b16-a_/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 080D SAV-B16-A,Zone Temp / Zone Temp,1_2,20613:16,1,BAI,2,70,69,Zone Temp / Zone Temp
+#sav-b17-c_/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Hallway 0C9 SAV-B17-C,Zone Temp / Zone Temp,1_2,20613:17,1,BAI,2,71,69,Zone Temp / Zone Temp
+#sav-b18-e_/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080 East SAV-B18-E,Zone Temp / Zone Temp,1_2,20613:18,1,BAI,2,72,69,Zone Temp / Zone Temp
+#sav-b19-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 080A SAV-B19-A,Zone Temp / Zone Temp,1_2,20613:19,1,BAI,2,73,69,Zone Temp / Zone Temp
+#sav-b2-c/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Prep 090G SAV-B2-C,Zone Temp / Zone Temp,1_2,20613:2,1,BAI,2,74,69,Zone Temp / Zone Temp
+#sav-b20-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Laser lab 070 SAV-B20-B,Zone Temp / Zone Temp,1_2,20613:20,1,BAI,2,75,69,Zone Temp / Zone Temp
+#sav-b21-e/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Material Science 080B SAV-B21-E,Zone Temp / Zone Temp,1_2,20613:21,1,BAI,2,76,69,Zone Temp / Zone Temp
+#sav-b22-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Visualization 060 SAV-B22-A,Zone Temp / Zone Temp,1_2,20613:22,1,BAI,2,77,69,Zone Temp / Zone Temp
+#sav-b23-a_/m423,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,CER 50H SAV-B23-A,CER Temp,1_2,20613:23,1,BAI,2,78,70,CER Temp
+#sav-b24-a_/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050G SAV-B24-A,Zone Temp / Zone Temp,1_2,20613:24,1,BAI,2,79,69,Zone Temp / Zone Temp
+#sav-b25-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050D SAV-B25-B,Zone Temp / Zone Temp,1_2,20613:25,1,BAI,2,80,69,Zone Temp / Zone Temp
+#sav-b26-a_/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050F SAV-B26-A,Zone Temp / Zone Temp,1_2,20613:26,1,BAI,2,81,69,Zone Temp / Zone Temp
+#sav-b27-e_/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 West SAV-B27-E,Zone Temp / Zone Temp,1_2,20613:27,1,BAI,2,82,69,Zone Temp / Zone Temp
+#sav-b28-e_/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Engineering 050 East SAV-B28-E,Zone Temp / Zone Temp,1_2,20613:28,1,BAI,2,83,69,Zone Temp / Zone Temp
+#sav-b29-b_/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Support 050A SAV-B29-B,Zone Temp / Zone Temp,1_2,20613:29,1,BAI,2,84,69,Zone Temp / Zone Temp
+#sav-b3-b/hw_valve,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,HW Valve,1_2,20613:3,2,BAO,2,171,12,HW Valve
+#sav-b3-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Imaging 090 SAV-B3-B,Zone Temp / Zone Temp,1_2,20613:3,1,BAI,2,85,69,Zone Temp / Zone Temp
+#sav-b30-a_/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Instrument 050C SAV-B30-A,Zone Temp / Zone Temp,1_2,20613:30,1,BAI,2,86,69,Zone Temp / Zone Temp
+#sav-b31-a_/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Computation 050B SAV-B31-A,Zone Temp / Zone Temp,1_2,20613:31,1,BAI,2,87,69,Zone Temp / Zone Temp
+#sav-b32-b_/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Equipment 050E SAV-B32-B,Zone Temp / Zone Temp,1_2,20613:32,1,BAI,2,88,69,Zone Temp / Zone Temp
+#sav-b33-a_/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Server Tech 030 SAV-B33-A,Zone Temp / Zone Temp,1_2,20613:33,1,BAI,2,89,69,Zone Temp / Zone Temp
+#sav-b37-d_/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,Zone Temp / Zone Temp,1_2,20604:12,1,BAI,2,90,69,Zone Temp / Zone Temp
+#sav-b38-a_/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,NMR Pumps 020C SAV-B38-A,Zone Temp / Zone Temp,1_2,20604:13,1,BAI,2,91,69,Zone Temp / Zone Temp
+#sav-b4-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Training 090E SAV-B4-A,Zone Temp / Zone Temp,1_2,20613:4,1,BAI,2,92,69,Zone Temp / Zone Temp
+#sav-b5-a/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,SEM 090D SAV-B5-A,Zone Temp / Zone Temp,1_2,20613:5,1,BAI,2,93,69,Zone Temp / Zone Temp
+#sav-b7-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Dual Beam 090A SAV-B7-B,Zone Temp / Zone Temp,1_2,20613:7,1,BAI,2,95,69,Zone Temp / Zone Temp
+#sav-b8-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Titan 090B South SAV-B8-B,Zone Temp / Zone Temp,1_2,20613:8,1,BAI,2,96,69,Zone Temp / Zone Temp
+#sav-b9-b/lstat/zone_temp,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Pump 085 SAV-B9-B,Zone Temp / Zone Temp,1_2,20613:9,1,BAI,2,97,69,Zone Temp / Zone Temp
+#vav-1-18/cw_valve,10.20.0.47,Science & Engineering 2: 0206,First Floor,Short bar,Scholarly Activity 102 VAV-1-18,CW Valve,4,20604:4,1,BAO,2,196,8,CW Valve
+#vav-1-19/cw_valve,10.20.0.47,Science & Engineering 2: 0206,First Floor,Short bar,Hallway 1C6 VAV-1-19,CW Valve,4,20604:5,1,BAO,2,198,8,CW Valve
+#vav-1-20/cw_valve,10.20.0.47,Science & Engineering 2: 0206,First Floor,Short bar,Hallway 1C1 VAV-1-20,CW Valve,4,20604:6,1,BAO,2,200,8,CW Valve
+#vav-1-21/cw_valve,10.20.0.47,Science & Engineering 2: 0206,First Floor,Short bar,Printers 120C VAV-1-21,CW Valve,4,20604:7,1,BAO,2,202,8,CW Valve
+#vav-1-22/cw_valve,10.20.0.47,Science & Engineering 2: 0206,First Floor,Short bar,Research Equip. 120D VAV-1-22,CW Valve,4,20604:8,1,BAO,2,204,8,CW Valve
+#vav-1-23/cw_valve,10.20.0.47,Science & Engineering 2: 0206,First Floor,Short bar,Breakout 120J VAV-1-23,CW Valve,4,20604:9,1,BAO,2,206,8,CW Valve
+#vav-1-24/cw_valve,10.20.0.47,Science & Engineering 2: 0206,First Floor,Short bar,Office 120E-H VAV-1-24,CW Valve,4,20604:10,1,BAO,2,208,8,CW Valve
+#vav-1-25/cw_valve,10.20.0.47,Science & Engineering 2: 0206,First Floor,Short bar,Computation 120A&B VAV-1-25,CW Valve,4,20604:11,1,BAO,2,210,8,CW Valve
+#vav-2-24/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,Hallway 2C5 VAV-2-24,CW Valve,4,20620:1,1,BAO,2,212,8,CW Valve
+#vav-2-25/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,"Hallway 2C1,6,7 VAV-2-25",CW Valve,4,20620:2,1,BAO,2,214,8,CW Valve
+#vav-2-26/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,Conference 224 VAV-2-26,CW Valve,4,20620:3,1,BAO,2,216,8,CW Valve
+#vav-2-26/flow_input,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,Conference 224 VAV-2-26,Flow Control / Flow Input,4,20620:3,1,BAI,2,11,52,Flow Control / Flow Input
+#vav-2-26/hw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,Conference 224 VAV-2-26,HW Valve,4,20620:3,2,BFM,2,217,12,HW Valve
+#vav-2-27/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,Office 222 & 223 VAV-2-27,CW Valve,4,20620:4,1,BAO,2,218,8,CW Valve
+#vav-2-28/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,"Hallway 2C4, Office 221 VAV-2-28",CW Valve,4,20620:5,1,BAO,2,220,8,CW Valve
+#vav-2-29/air_flow/flow_input,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,Scholarly Activity 220 VAV-2-29,Flow Control / Flow Input,4,20620:6,1,BAI,2,14,52,Flow Control / Flow Input
+#vav-2-29/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,Scholarly Activity 220 VAV-2-29,CW Valve,4,20620:6,1,BAO,2,222,8,CW Valve
+#vav-2-29/hw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,Scholarly Activity 220 VAV-2-29,HW Valve,4,20620:6,2,BFM,2,223,12,HW Valve
+#vav-2-30/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,Office 207-217 VAV-2-30,CW Valve,4,20620:7,1,BAO,2,224,8,CW Valve
+#vav-2-31/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,CSE Storage & Soldering 218 & 219 VAV-2-31,CW Valve,4,20620:8,1,BAO,2,226,8,CW Valve
+#vav-2-32/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,Research Group 5 213F VAV-2-32,CW Valve,4,20620:9,1,BAO,2,228,8,CW Valve
+#vav-2-33/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,Research Group 1-3 213C-E VAV-2-33,CW Valve,4,20620:10,1,BAO,2,230,8,CW Valve
+#vav-2-34/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,CSE Break Out 213A VAV-2-34,CW Valve,4,20620:11,1,BAO,2,232,8,CW Valve
+#vav-2-35/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,Hallway 2C2 & 3 VAV-2-35,CW Valve,4,20620:12,1,BAO,2,234,8,CW Valve
+#vav-2-36/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,Hallway 213 VAV-2-36,CW Valve,4,20620:13,1,BAO,2,236,8,CW Valve
+#vav-2-37/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,Research Group 4 213B VAV-2-37,CW Valve,4,20620:14,1,BAO,2,238,8,CW Valve
+#vav-2-38/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,CSE Lab 206 VAV-2-38,CW Valve,4,20620:15,1,BAO,2,240,8,CW Valve
+#vav-2-39/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,Office 205 VAV-2-39,CW Valve,4,20620:16,1,BAO,2,242,8,CW Valve
+#vav-3-22/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Short Bar,Conference 301 VAV-3-22,CW Valve,4,20620:17,1,BAO,2,244,8,CW Valve
+#vav-3-23/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Short Bar,"Hallway 3C1,5,6,7 VAV-3-23",CW Valve,4,20620:18,1,BAO,2,246,8,CW Valve
+#vav-3-24/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Short Bar,Video Conference 302 VAV-3-24,CW Valve,4,20620:19,1,BAO,2,248,8,CW Valve
+#vav-3-25/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Short Bar,"Hallway 3C4, Conference Support 325  VAV-3-25",CW Valve,4,20620:20,1,BAO,2,250,8,CW Valve
+#vav-3-26/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Short Bar,Conference 324 VAV-3-26,CW Valve,4,20620:21,1,BAO,2,252,8,CW Valve
+#vav-3-26/hw_valve,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Short Bar,Conference 324 VAV-3-26,HW Valve,4,20620:21,2,BFM,2,253,12,HW Valve
+#vav-3-27/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Short Bar,Research Group 8 314 VAV-3-27,CW Valve,4,20620:22,1,BAO,2,254,8,CW Valve
+#vav-3-28/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Short Bar,Research Group 7 313 VAV-3-28,CW Valve,4,20620:23,1,BAO,2,256,8,CW Valve
+#vav-3-29/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Short Bar,Research Group 6 311 VAV-3-29,CW Valve,4,20620:24,1,BAO,2,258,8,CW Valve
+#vav-3-30/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Short Bar,Office 305 VAV-3-30,CW Valve,4,20620:25,1,BAO,2,260,8,CW Valve
+#vav-3-31/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Short Bar,"Office 310 D,E Lactaion 312 VAV-3-31",CW Valve,4,20620:26,1,BAO,2,262,8,CW Valve
+#vav-3-32/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Short Bar,Office Support 315B & C VAV-3-32,CW Valve,4,20620:27,1,BAO,2,264,8,CW Valve
+#vav-3-33/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Short Bar,"Office 321, 322, 323 VAV-3-33",CW Valve,4,20620:28,1,BAO,2,266,8,CW Valve
+#vav-3-34/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Short Bar,Scholarly Activity 320  VAV-3-34,CW Valve,4,20620:29,1,BAO,2,268,8,CW Valve
+#vav-3-34/hw_valve,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Short Bar,Scholarly Activity 320  VAV-3-34,HW Valve,4,20620:29,2,BFM,2,269,12,HW Valve
+#vav-3-35/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Short Bar,"Engineering 315, Reception 315A VAV-3-35",CW Valve,4,20620:30,1,BAO,2,270,8,CW Valve
+#vav-3-37/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Short Bar,Office 315H VAV-3-37,CW Valve,4,20620:32,1,BAO,2,274,8,CW Valve
+#vav-b-34/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Basement,,Research Equip. 001 VAV-B-34,CW Valve,4,20604:1,1,BAO,2,276,8,CW Valve
+#vav-b-35/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Basement,,Vending 002 VAV-B-35,CW Valve,4,20604:2,1,BAO,2,278,8,CW Valve
+#vav-b-36/cw_valve,10.20.0.47,Science & Engineering 2: 0206,Basement,,Hallway 0C6 VAV-B-36,CW Valve,4,20604:3,1,BAO,2,280,8,CW Valve

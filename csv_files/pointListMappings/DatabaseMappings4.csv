@@ -1,0 +1,10 @@
+Path,Server,Location,Branch,SubBranch,ControlProgram,Point,Zone,BacnetAddress,BacnetDevId,BacnetObjectType,PointType,ComponentId,PathMappingsId,Point ALC
+#001_thermafuser/m190,10.20.0.47,Science & Engineering 2: 0206,Basement,,Room-001,Supply Air,4,20603:2,52,BAV,4,1,6,Zone Temp
+#ahu-3_0206/m045,10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-3,Cl Req,3,20606:24,41,BAV,4,4,24,Total Cool Request
+#ahu-4_0206/m045,10.20.0.47,Science & Engineering 2: 0206,Roof,,AHU-4,Cl Req,4,20620:75,41,BAV,4,5,24,Total Cool Request
+#sav-2a2-c/m045,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Offices 291-293 SAV-2A2-C,Cl Req,1_2,20618:2,23,BAV,4,30,72,Total Cool Request
+#sav-2a23-c/cl_stpt_tn,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Long Bar,Computation 230A SAV-2A23-C,Clg Stpt,1_2,20618:23,5,BAV,4,34,67,Cool_stpt
+#sav-3a2-c/m045,10.20.0.47,Science & Engineering 2: 0206,Third Floor,Long Bar,Offices 391-393 SAV-3A2-C,Cl Req,1_2,20618:25,23,BAV,4,53,72,Total Cool Request
+#sav-b37-d_/m277,10.20.0.47,Science & Engineering 2: 0206,Basement,Long Bar,Mass Spec 024 SAV-B37-D,GEX Dmpr Pos,1_2,20604:12,3,BAV,4,90,56,GEX Dmpr Pos
+#vav-2-26/m311,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,Conference 224 VAV-2-26,Zone Temps,4,20620:3,5,ASVI,4,11,53,Zone Temp
+#vav-2-29/m311,10.20.0.47,Science & Engineering 2: 0206,Second Floor,Short bar,Scholarly Activity 220 VAV-2-29,Zone Temps,4,20620:6,5,ASVI,4,14,53,Zone Temp

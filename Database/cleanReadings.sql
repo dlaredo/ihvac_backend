@@ -1,4 +1,4 @@
-use hvacinternettest;
+use hvac2018_03;
 
 truncate air_handling_unit_reading;
 truncate damper_reading;

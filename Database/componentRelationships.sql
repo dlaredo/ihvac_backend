@@ -1,4 +1,4 @@
-use HVAC2017;
+use hvac2018_03;
 
 #Insert ghost AHU (AHU-1/AHU-2)
 insert into Air_Handling_Unit (AHUNumber, AHUName) values (1, "AHU-1/AHU-2");
