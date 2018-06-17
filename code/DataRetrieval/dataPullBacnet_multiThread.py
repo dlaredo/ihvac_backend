@@ -261,7 +261,7 @@ def main():
 	global bacnetConnection
 
 	databaseString = "mysql+mysqldb://ihvac:ihvac@192.168.100.2:3306/HVAC2018_03"
-	timeIntervalMin = 1
+	timeIntervalMin = 5 #This defines the time interval to be used for storing the readings
 	timeIntervalSec = timeIntervalMin*60
 
 	bacnetConnection = BAC0.connect('10.20.0.169/22', bokeh_server=False)
@@ -279,7 +279,7 @@ def main():
 	timeNow = datetime.now(tz=PDT)
 	timeDelta = timedelta(minutes = timeIntervalMin)
 
-	#timeNow = pauseExecution(timeNow, timeIntervalMin, PDT)
+	timeNow = pauseExecution(timeNow, timeIntervalMin, PDT)
 
 	print("Reading started")
 
