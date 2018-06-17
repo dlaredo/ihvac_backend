@@ -865,8 +865,8 @@ class VFDReading(Base):
 
 	_timestamp = Column('Time_stamp', DateTime, primary_key = True)
 	_vfdId = Column('VFDId', Integer, ForeignKey("VFD.VFDId"), primary_key = True)
-	_powerKW = Column('PowerKW', Float)
-	_speedRPM = Column('SpeedRPM', Float)
+	_powerKW = Column('PowerKW', Float, nullable=True)
+	_speedRPM = Column('SpeedRPM', Float, nullable=True)
 	
 	#Relationship between Filter and Filter_Reading
 	_vfd = relationship("VFD", back_populates = "_vfdReadings", cascade = "all, delete-orphan", single_parent = True)
@@ -1021,7 +1021,7 @@ class FilterReading(Base):
 
 	_timestamp = Column('Time_stamp', DateTime, primary_key = True)
 	_filterId = Column('FilterId', Integer, ForeignKey("Filter.FilterId"), primary_key = True)
-	_differencePressure = Column('DifferencePressure', Float)
+	_differencePressure = Column('DifferencePressure', Float, nullable=True)
 	
 	#Relationship between Filter and Filter_Reading
 	_filter = relationship("Filter", back_populates = "_filterReadings", cascade = "all, delete-orphan", single_parent = True)
@@ -1988,7 +1988,7 @@ class VAVReading(Base):
 
 	_VAVId = Column('VAVId', Integer, ForeignKey("Variable_Air_Volume.VAVId"), primary_key = True)
 	_timestamp = Column('Time_stamp', DateTime, primary_key = True)
-	_flowInput = Column('FlowInput', Float)
+	_flowInput = Column('FlowInput', Float, nullable=True)
 	_zoneTemperature = Column('ZoneTemperature', Float, nullable=True)
 	_dischargeTemperature = Column('DischargeTemperature', Float, nullable=True)
 	_ductStaticPressure = Column('DuctStaticPressure', String(255), nullable=True)
@@ -2229,9 +2229,10 @@ class ThermafuserReading(Base):
 
 	_timestamp = Column('Time_stamp', DateTime, primary_key = True)
 	_thermafuserId = Column('ThermafuserId', Integer, ForeignKey("Thermafuser.ThermafuserId"), primary_key = True)
-	_roomOccupied = Column('RoomOccupied', Boolean)
-	_zoneTemperature = Column('ZoneTemperature', Float)
+	_roomOccupied = Column('RoomOccupied', Boolean, nullable=True)
+	_zoneTemperature = Column('ZoneTemperature', Float, nullable=True)
 	_supplyAir = Column('SupplyAir', Float, nullable=True)
+	_airflowFeedback = Column('AirflowFeedback', Float, nullable=True)
 	_occupiedCoolingSetpoint = Column('OccupiedCoolingSetpoint', Float, nullable=True)
 	_occupiedHeatingSetpoint = Column('OccupiedHeatingSetpoint', Float, nullable=True)
 	_terminalLoad = Column('TerminalLoad', Float, nullable=True)
