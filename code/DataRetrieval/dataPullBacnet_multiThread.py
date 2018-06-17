@@ -14,12 +14,12 @@ from threading import Thread
 
 global componentsList, componentsClasses, readings, bacnetConnection, notReadableDataPoints
 
-componentsList = ["AHU"]
-#componentsList = ["AHU", "VFD", "Filter", "Damper", "Fan", "HEC", "SAV", "VAV", "Thermafuser"]
+#componentsList = ["Thermafuser"]
+componentsList = ["AHU", "VFD", "Filter", "Damper", "Fan", "HEC", "SAV", "VAV", "Thermafuser"]
 componentsClasses = {"ahu":AHU, "vfd":VFD, "filter":Filter, "damper":Damper, "fan":Fan, "hec":HEC, "sav":SAV, "vav":VAV, "thermafuser":Thermafuser}
 readingClasses = {"ahu":AHUReading, "vfd":VFDReading, "filter":FilterReading, "damper":DamperReading, "fan":FanReading, "hec":HECReading, "sav":SAVReading, "vav":VAVReading, "thermafuser":ThermafuserReading}
 bacnetObjectTypes = {"BAV":"analogValue", "BAI":"analogInput", 
-"BMSV":"multiStateValue", "BAO":"analogOuput", "ASVI":"analogInput", "BBV":"binaryValue", "BFM":"analogOutput"}
+"BMSV":"multiStateValue", "BAO":"analogOutput", "ASVI":"analogInput", "BBV":"binaryValue", "BFM":"analogOutput"}
 notReadableDataPoints = list()
 
 class PullingWorker(Thread):
@@ -43,7 +43,6 @@ class PullingWorker(Thread):
 		try:
 			presentValue = bacnetConnection.read(bacnetQueryString)
 		except Exception as e:
-
 			if attemptNumber < self.maxAttempts:
 				presentValue, _ = self.attemptReading(bacnetQueryString, attemptNumber+1)
 			else:
@@ -64,17 +63,20 @@ class PullingWorker(Thread):
 			data = self.queue.get()
 
 			dataPoint, timesRead = data
+			#print(data)
 			path, bacnetAddress, bacnetDevId, bacnetObjectType, componentId, pointType, databaseMapping = dataPoint
 
 			#if the devId of the point is known proceed otherwise assign value of -1
 			if bacnetDevId != -1:
 
 				reading = readings[componentId]
+				#print(reading._AHUNumber)
 
 				#Build the bacnet query string
 				readObjectType = bacnetObjectTypes[bacnetObjectType]
 
 				if readObjectType == None:
+					print("Object type not determined for " + dataPoint)
 					pass
 
 				bacnetQueryString = str(bacnetAddress) + " " + readObjectType + " " + str(bacnetDevId) + " " + "presentValue"
@@ -90,6 +92,7 @@ class PullingWorker(Thread):
 					logging.error("Error in retrieving value for " + bacnetQueryString + " " + errorMsg)
 					#lock.release()
 
+				#print(databaseMapping)
 				setattr(reading, databaseMapping, readingValue)
 			else:
 				setattr(reading, databaseMapping, -1)  #For points whose address is unknown
@@ -179,7 +182,8 @@ def pullData_multiThread(databaseSession, startDateTime, timeIntervalMin, finish
 		DataPoint._bacnetObjectType, DataPoint._componentId, DataPoint._pointType, PathMapping._databaseMapping).
 	join(PathMapping).filter(PathMapping._componentType == key).all() for key in componentsList}
 
-	print(dataPoints["ahu"][0]._databaseMapping)
+	#print(dataPoints["ahu"])
+	#print(dataPoints["ahu"][0]._databaseMapping)
 
 	PDT = timezone(-timedelta(hours=7), 'PDT')
 	#timeDelta = timedelta(minutes = 5)
@@ -198,7 +202,7 @@ def pullData_multiThread(databaseSession, startDateTime, timeIntervalMin, finish
 	#If a finishing datetime is defined continue until that datetime is reached, otherwise continue indefinetely
 	while continueUntil(readingDateTime):
 
-		print("Pulling data from at " + str(readingDateTime))
+		#print("Pulling data from at " + str(readingDateTime))
 		logging.info("Pulling data from at " + str(readingDateTime))
 
 		notReadableDataPoints = list()
@@ -210,6 +214,7 @@ def pullData_multiThread(databaseSession, startDateTime, timeIntervalMin, finish
 
 			#create the necessary classes for the readings
 			createReadingClasses(dataPoints, readingDateTime, key)
+			#print(readings)
 
 			# Create a queue to communicate with the worker threads
 			queue = Queue()
@@ -218,6 +223,8 @@ def pullData_multiThread(databaseSession, startDateTime, timeIntervalMin, finish
 			for dataPoint in dataPoints[key]:
 				if dataPoint._databaseMapping != None:
 					queue.put((dataPoint, 1))
+				else:
+					print("No db mapping for "+dataPoint)
 			
 			#create the threads and start them
 			# Create numberOfThreads worker threads
@@ -253,14 +260,17 @@ def main():
 
 	global bacnetConnection
 
-	databaseString = "mysql+mysqldb://ihvac:ihvac@192.168.100.2:3306/HVAC2018_02"
+	databaseString = "mysql+mysqldb://ihvac:ihvac@192.168.100.2:3306/HVAC2018_03"
 	timeIntervalMin = 1
 	timeIntervalSec = timeIntervalMin*60
 
 	bacnetConnection = BAC0.connect('10.20.0.169/22', bokeh_server=False)
 
+	for handler in logging.root.handlers[:]:
+		logging.root.removeHandler(handler)
+
 	#set the logger config
-	logging.basicConfig(filename='dataPull.log', level=logging.INFO,\
+	logging.basicConfig(filename='dataPull.log', level=logging.WARNING,\
 	format='%(levelname)s:%(threadName)s:%(asctime)s:%(filename)s:%(funcName)s:%(message)s', datefmt='%m/%d/%Y %H:%M:%S')
 
 	#Make sure starting time is a multiple of 5 in the minutes and that its a past time.

@@ -506,18 +506,12 @@ class AHUReading(Base):
 
 	_AHUNumber = Column('AHUNumber', Integer, ForeignKey("Air_Handling_Unit.AHUNumber"), primary_key = True)
 	_timestamp = Column('Time_stamp', DateTime, primary_key = True)
-	_zoneTemperature = Column('ZoneTemperature', Float)
 	_staticPressure = Column('StaticPressure', Float)
 	_returnAirTemperature = Column('ReturnAirTemperature', Float, nullable=True)
 	_supplyAirTemperature = Column('SupplyAirTemperature', Float, nullable=True)
-	_exhaustAirTemperature = Column('ExhaustAirTemperature', Float, nullable=True)
 	_outsideAirTemperature = Column('OutsideAirTemperature', Float, nullable=True)
-	_smokeDetector = Column('SmokeDetector', Boolean, nullable=True)
 	_outsideAirCo2 = Column('OutsideAirCO2', Float, nullable=True)
 	_returnAirCo2 = Column('ReturnAirCO2', Float, nullable=True)
-	_spare = Column('Spare', Float, nullable=True)
-	_hiStatic = Column('HiStatic', Boolean, nullable=True)
-	_ductStaticPressure = Column('DuctStaticPressure', Float, nullable=True)
 	_mixedAirTemperature = Column('MixedAirTemperature', Float, nullable=True)        
 	_OSACFM = Column('OutsideAirCFM', Float, nullable=True)
 	_coolingRequest = Column('CoolingRequest', Float, nullable=True)
@@ -539,25 +533,19 @@ class AHUReading(Base):
 
 	#Constructor
 
-	def __init__(self, timestamp = None, AHUNumber = None, zoneTemperature = None, staticPressure = None, returnAirTemperature = None, supplyAirTemperature = None, exhaustAirTemperature = None,\
-	 outsideAirTemperature = None, smokeDetector = None, outsideAirCo2 = None, returnAirCo2 = None, spare = None, hiStatic = None, ductStaticPressure = None,\
+	def __init__(self, timestamp = None, AHUNumber = None, staticPressure = None, returnAirTemperature = None, supplyAirTemperature = None,\
+	 outsideAirTemperature = None, outsideAirCo2 = None, returnAirCo2 = None,\
 	  mixedAirTemperature = None, OSACFM = None, coolingRequest = None, coolingSetpoint = None, heatingRequest = None, heatingSetpoint = None, economizerSetpoint = None,\
 	  occupiedMode = None, returnAirCo2Setpoint = None, staticPressureSmoothed = None, staticSP = None, supplyAirSetpoint = None, STReq = None, staticSP1 = None, staticSP2 = None, ahu = None):
 
 		self._AHUNumber = AHUNumber
 		self._timestamp = timestamp
-		self._zoneTemperature = zoneTemperature
 		self._staticPressure = staticPressure
 		self._returnAirTemperature = returnAirTemperature
 		self._supplyAirTemperature = supplyAirTemperature
-		self._exhaustAirTemperature = exhaustAirTemperature
 		self._outsideAirTemperature = outsideAirTemperature                
-		self._smokeDetector = smokeDetector
 		self._outsideAirCo2 = outsideAirCo2
 		self._returnAirCo2 = returnAirCo2
-		self._spare = spare
-		self._hiStatic = hiStatic
-		self._ductStaticPressure = ductStaticPressure
 		self._mixedAirTemperature = mixedAirTemperature                
 		self._OSACFM = OSACFM
 		self._coolingRequest = coolingRequest
@@ -594,14 +582,6 @@ class AHUReading(Base):
 		self._timestamp = value
 
 	@property
-	def zoneTemperature(self):
-		return self._zoneTemperature
-
-	@zoneTemperature.setter
-	def zoneTemperature(self, value):
-		self._zoneTemperature = float(value) if value != None else None
-
-	@property
 	def staticPressure(self):
 		return self._staticPressure
 
@@ -626,27 +606,12 @@ class AHUReading(Base):
 		self._supplyAirTemperature = float(value) if value != None else None  
 
 	@property
-	def exhaustAirTemperature(self):
-		return self._exhaustAirTemperature
-
-	@exhaustAirTemperature.setter
-	def exhaustAirTemperature(self, value):
-		self._exhaustAirTemperature = float(value) if value != None else None 
-	@property
 	def outsideAirTemperature(self):
 		return self._outsideAirTemperature
 
 	@outsideAirTemperature.setter
 	def outsideAirTemperature(self, value):
 		self._outsideAirTemperature = float(value) if value != None else None 
-		
-	@property
-	def smokeDetector(self):
-		return self._smokeDetector
-
-	@smokeDetector.setter
-	def smokeDetector(self, value):
-		self._smokeDetector = bool(value) if value != None else None 
 		
 	@property
 	def outsideAirCo2(self):
@@ -663,30 +628,6 @@ class AHUReading(Base):
 	@returnAirCo2.setter
 	def returnAirCo2(self, value):
 		self._returnAirCo2 = float(value) if value != None else None
-		
-	@property
-	def spare(self):
-		return self._spare
-
-	@spare.setter
-	def spare(self, value):
-		self._spare = float(value) if value != None else None 
-	
-	@property
-	def hiStatic(self):
-		return self._hiStatic
-
-	@hiStatic.setter
-	def hiStatic(self, value):
-		self._hiStatic = bool(value) if value != None else None  
-	
-	@property
-	def ductStaticPressure(self):
-		return self._ductStaticPressure
-
-	@ductStaticPressure.setter
-	def ductStaticPressure(self, value):
-		self._ductStaticPressure = float(value) if value != None else None    
 	
 	@property
 	def mixedAirTemperature(self):
@@ -815,7 +756,7 @@ class AHUReading(Base):
 	@ahu.setter
 	def ahu(self, value):
 		self._ahu = value
-
+'''
 	def __str__(self):
 		return "<AHUReading(AHUNumber = '%s', timestamp = '%s', zoneTemperature = '%s', staticPressure = '%s', returnAirTemperature = '%s', supplyAirTemperature = '%s', \
 		exhaustAirTemperature = '%s', outsideAirTemperature = '%s', smokeDetector = '%s', outsideAirCo2 = '%s', returnAirCo2 = '%s',spare = '%s',hiStatic = '%s', \
@@ -826,7 +767,7 @@ class AHUReading(Base):
 		 self._exhaustAirTemperature, self._outsideAirTemperature,self._smokeDetector, self._outsideAirCo2, self._returnAirCo2, self._spare, self._hiStatic, \
 		 self.ductStaticPressure, self._mixedAirTemperature, self._OSACFM, self._coolingRequest, self._coolingSetpoint, self._heatingRequest, self._heatingSetpoint,\
 		 self._economizerSetpoint, self._occupiedMode, self._returnAirCo2Setpoint, self._staticPressureSmoothed, self._staticSP, self._supplyAirSetpoint, self._STReq,\
-		 self._staticSP1, self._staticSP2)
+		 self._staticSP1, self._staticSP2)'''
 
 
 
