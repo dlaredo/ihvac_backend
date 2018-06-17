@@ -10,6 +10,7 @@ CREATE TABLE Thermafuser_Reading (
   AirflowFeedback           real, 
   OccupiedCoolingSetpoint   real, 
   OccupiedHeatingSetpoint   real, 
+  TerminalLoad				real,
   PRIMARY KEY (Time_stamp, 
   ThermafuserId)) ENGINE=InnoDB;
 CREATE TABLE Staged_Air_Volume_Reading (

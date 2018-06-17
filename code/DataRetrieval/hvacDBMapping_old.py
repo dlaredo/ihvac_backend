@@ -756,18 +756,18 @@ class AHUReading(Base):
 	@ahu.setter
 	def ahu(self, value):
 		self._ahu = value
-
+'''
 	def __str__(self):
-		return "<AHUReading(AHUNumber = '%s', timestamp = '%s', staticPressure = '%s', returnAirTemperature = '%s', supplyAirTemperature = '%s', \
-		outsideAirTemperature = '%s' outsideAirCo2 = '%s', returnAirCo2 = '%s', \
-		mixedAirTemperature = '%s', OSACFM = '%s', CoolingRequest = '%s', CoolingSetpoint = '%s', HeatingRequest = '%s', HeatingSetpoint = '%s',\
+		return "<AHUReading(AHUNumber = '%s', timestamp = '%s', zoneTemperature = '%s', staticPressure = '%s', returnAirTemperature = '%s', supplyAirTemperature = '%s', \
+		exhaustAirTemperature = '%s', outsideAirTemperature = '%s', smokeDetector = '%s', outsideAirCo2 = '%s', returnAirCo2 = '%s',spare = '%s',hiStatic = '%s', \
+		ductstaticPressure = '%s',mixedAirTemperature = '%s', OSACFM = '%s', CoolingRequest = '%s', CoolingSetpoint = '%s', HeatingRequest = '%s', HeatingSetpoint = '%s',\
 		EconomizerSetpoint = '%s', OccupiedMode = '%s', ReturnAirCo2Setpoint = '%s', StaticPressureSmoothed = '%s', StaticSP = '%s', supplyAirSetpoint = '%s', STReq = '%s',\
 		StaticSP1 = '%s', StaticSP2 = '%s')>" \
-		% (self._AHUNumber, str(self._timestamp), self._staticPressure, self._returnAirTemperature, self._supplyAirTemperature, \
-		 self._outsideAirTemperature, self._outsideAirCo2, self._returnAirCo2, \
-		 self._mixedAirTemperature, self._OSACFM, self._coolingRequest, self._coolingSetpoint, self._heatingRequest, self._heatingSetpoint,\
+		% (self._AHUNumber, str(self._timestamp), self._zoneTemperature, self._staticPressure, self._returnAirTemperature, self._supplyAirTemperature, \
+		 self._exhaustAirTemperature, self._outsideAirTemperature,self._smokeDetector, self._outsideAirCo2, self._returnAirCo2, self._spare, self._hiStatic, \
+		 self.ductStaticPressure, self._mixedAirTemperature, self._OSACFM, self._coolingRequest, self._coolingSetpoint, self._heatingRequest, self._heatingSetpoint,\
 		 self._economizerSetpoint, self._occupiedMode, self._returnAirCo2Setpoint, self._staticPressureSmoothed, self._staticSP, self._supplyAirSetpoint, self._STReq,\
-		 self._staticSP1, self._staticSP2)
+		 self._staticSP1, self._staticSP2)'''
 
 
 
@@ -1168,18 +1168,22 @@ class DamperReading(Base):
 
 	_damperId = Column('DamperId', Integer, ForeignKey("Damper.DamperId"), primary_key = True)
 	_timestamp = Column('Time_stamp', DateTime, primary_key=True)
+	_damperInputVoltage = Column('DamperInputVoltage', Float, nullable=True)
 	_damperOpeningPercentage = Column('DamperOpeningPercentage', Float, nullable=True)
+	_isolationDamper = Column('isolationDamper', Boolean, nullable=True )
 
 	#Relationship between Damper and Damper_Reading
 	_damper = relationship("Damper", back_populates = "_damperReadings", cascade = "all, delete-orphan", single_parent = True)
 
 	#Constructor
 
-	def __init__(self, timestamp = None, damperId = None, damperOpeningPercentage = None, damper = None):
+	def __init__(self, timestamp = None, damperId = None, damperInputVoltage = None, damperOpeningPercentage = None, isolationDamper = None, damper = None):
 
 		self._damperId = damperId
 		self._timestamp = timestamp
+		self._damperInputVoltage = damperInputVoltage
 		self._damperOpeningPercentage = damperOpeningPercentage
+		self._isolationDamper = isolationDamper
 		self._damper = damper
 
 	#properties
@@ -1201,12 +1205,28 @@ class DamperReading(Base):
 		self._timestamp = value
 
 	@property
+	def damperInputVoltage(self):
+		return self.damperInputVoltage
+
+	@damperInputVoltage.setter
+	def damperInputVoltage(self, value):
+		self._damperInputVoltage = float(value) if value != None else None
+
+	@property
 	def damperOpeningPercentage(self):
 		return self._damperOpeningPercentage
 
 	@damperOpeningPercentage.setter
 	def damperOpeningPercentage(self, value):
 		self._damperOpeningPercentage = float(value) if value != None else None   
+
+	@property
+	def isolationDamper(self):
+		return self._isolationDamper
+
+	@isolationDamper.setter
+	def isolationDamper(self, value):
+		self._isolationDamper = bool(value) if value != None else None
 
 	@property
 	def damper(self):
@@ -1217,8 +1237,8 @@ class DamperReading(Base):
 		self._damper = value            
 
 	def __str__(self):
-		return "<DamperReading(damperId = '%s', timestamp = '%s', damperOpeningPercentage = '%s')>" \
-		% (self._damperId, str(self._timestamp), self._damperOpeningPercentage)
+		return "<DamperReading(damperId = '%s', timestamp = '%s', damperInputVoltage = '%s', damperOpeningPercentage = '%s', isolationDamper = '%s')>" \
+		% (self._damperId, str(self._timestamp), self._damperInputVoltage, self._damperOpeningPercentage, self._isolationDamper)
 
 
 class Fan(Base):
@@ -1317,6 +1337,14 @@ class FanReading(Base):
 	_fanId = Column('FanId', Integer, ForeignKey("Fan.FanId"), primary_key = True)
 	_timestamp = Column('Time_stamp', DateTime, primary_key = True)
 	_airVelocityPressure = Column('AirVelocityPressure', Float, nullable=True)
+	_VFDSpeed = Column('VFDSpeed', Float, nullable=True)
+	_fanStatus = Column('FanStatus', Boolean, nullable=True)
+	_VFDFault = Column('VFDFault', Boolean, nullable=True)
+	_HiStaticReset = Column('HiStaticReset', Boolean, nullable=True)
+	_FAReturnFanShutdown = Column('FAReturnFanShutdown', Boolean, nullable=True)
+	_fanVFD = Column('FanVFD', Boolean, nullable=True)
+	_isolationDampers = Column('IsolationDampers', Boolean, nullable=True)
+	_fanSS = Column('FanSS', Boolean, nullable=True)
 	_airVelocityCFM = Column('AirVelocityCFM', Float, nullable=True)
 
 	#Relationship between Fan and Fan_Reading
@@ -1324,11 +1352,20 @@ class FanReading(Base):
 
 	#Constructor
 
-	def __init__(self, timestamp = None, fanId = None, airVelocityPressure = None, airVelocityCFM = None, fan = None):
+	def __init__(self, timestamp = None, fanId = None, airVelocityPressure = None, VFDSpeed = None, fanStatus = None, VFDFault = None, HiStaticReset = None,\
+	 FAReturnFanShutdown = None, fanVFD = None, isolationDampers = None, fanSS = None, airVelocityCFM = None, fan = None):
 
 		self._fanId = fanId
 		self._timestamp = timestamp
 		self._airVelocityPressure = airVelocityPressure
+		self._VFDSpeed = VFDSpeed
+		self._fanStatus = fanStatus
+		self._VFDFault = VFDFault
+		self._HiStaticReset = HiStaticReset
+		self._FAReturnFanShutdown = FAReturnFanShutdown                
+		self._fanVFD = fanVFD
+		self._isolationDampers = isolationDampers
+		self._fanSS = fanSS
 		self._airVelocityCFM = airVelocityCFM
 		self._fan = fan
 
@@ -1359,6 +1396,70 @@ class FanReading(Base):
 		self._airVelocityPressure = float(value) if value != None else None
 
 	@property
+	def VFDSpeed(self):
+		return self._VFDSpeed
+
+	@VFDSpeed.setter
+	def VFDSpeed(self, value):
+		self._VFDSpeed = float(value) if value != None else None
+
+	@property
+	def fanStatus(self):
+		return self._fanStatus
+
+	@fanStatus.setter
+	def fanStatus(self, value):
+		self._fanStatus = bool(value) if value != None else None 
+
+	@property
+	def VFDFault(self):
+		return self._VFDFault
+
+	@VFDFault.setter
+	def VFDFault(self, value):
+		self._VFDFault = bool(value) if value != None else None  
+
+	@property
+	def HiStaticReset(self):
+		return self._HiStaticReset
+
+	@HiStaticReset.setter
+	def HiStaticReset(self, value):
+		self._HiStaticReset = bool(value) if value != None else None 
+
+	@property
+	def FAReturnFanShutdown(self):
+		return self._FAReturnFanShutdown
+
+	@FAReturnFanShutdown.setter
+	def FAReturnFanShutdown(self, value):
+		self._FAReturnFanShutdown = bool(value) if value != None else None   
+		
+	@property
+	def fanVFD(self):
+		return self._fanVFD
+
+	@fanVFD.setter
+	def fanVFD(self, value):
+		self._fanVFD = bool(value) if value != None else None    
+		
+	@property
+	def isolationDampers(self):
+		return self._isolationDampers
+
+	@isolationDampers.setter
+	def isolationDampers(self, value):
+		self._isolationDampers = bool(value) if value != None else None  
+		
+	@property
+	def fanSS(self):
+		return self._fanSS
+
+	@fanSS.setter
+	def fanSS(self, value):
+		self._fanSS = bool(value) if value != None else None
+
+	@property
 	def airVelocityCFM(self):
 		return self._airVelocityCFM
 
@@ -1375,8 +1476,10 @@ class FanReading(Base):
 		self._fan = value
 
 	def __str__(self):
-		return "<FanReading(fanId = '%s', timestamp = '%s', 'airVelocityPressure' = '%s', airVelocityCFM = '%s')>" \
-		% (self._fanId, str(self._timestamp), self.airVelocityPressure, self._airVelocityCFM)
+		return "<FanReading(fanId = '%s', timestamp = '%s', 'airVelocityPressure' = '%s' VFDSpeed = '%s', fanStatus = '%s', VFDFault = '%s',\
+		 HiStaticReset = '%s', FAReturnFanShutdown = '%s',fanVFD = '%s',isolationDampers = '%s', fanSS = '%s', airVelocityCFM = '%s')>" \
+		% (self._fanId, str(self._timestamp), self.airVelocityPressure, self._VFDSpeed, self._fanStatus, self._VFDFault, self._HiStaticReset,\
+		 self._FAReturnFanShutdown, self._fanVFD, self._isolationDampers, self._fanSS, self._airVelocityCFM)
 
 
 class HEC(Base):
@@ -1692,8 +1795,12 @@ class SAVReading(Base):
 
 	_SAVId = Column('SAVId', Integer, ForeignKey("Staged_Air_Volume.SAVId"), primary_key = True)
 	_timestamp = Column('Time_stamp', DateTime, primary_key = True)
+	_miscSpareInput = Column('MiscSpareInput', Float, nullable=True)
 	_zoneTemperature = Column('ZoneTemperature', Float, nullable=True)
 	_dischargeTemperature = Column('DischargeTemperature', Float, nullable=True)
+	_miscInput = Column('MiscInput', Boolean, nullable=True)
+	_condensateDetector = Column('CondensateDetector', Boolean, nullable=True)
+	_valveOutputPercentage = Column('ValveOutputPercentage', Float, nullable=True)
 	_GEXDamperPosition = Column('GEXDamperPosition', Float, nullable=True)
 	_coolingRequest = Column('CoolingRequest', Boolean, nullable=True)
 	_heatingRequest = Column('HeatingRequest', Boolean, nullable=True)
@@ -1706,6 +1813,9 @@ class SAVReading(Base):
 	_coolingPercentage = Column('CoolingPercentage', Float, nullable=True)
 	_coolingSetpoint = Column('CoolingSetpoint', Float, nullable=True)
 	_heatingSetpoint = Column('HeatingSetpoint', Float, nullable=True)
+	_CERTemperature = Column('CERTemperature', Float, nullable=True)
+	_htRequest = Column('HtRequest', Float, nullable=True)
+	_clRequest = Column('ClRequest', Float, nullable=True)
 
 
 	#Relationship between SAV Reading and SAV
@@ -1713,15 +1823,19 @@ class SAVReading(Base):
   
 	#Constructor
 
-	def __init__(self, timestamp = None, SAVId = None, zoneTemperature = None, dischargeTemperature = None, \
-		GEXDamperPosition = None, coolingRequest = None, heatingRequest = None, damperPosition = None,\
-	 	exhaustAirflow = None, supplyAirflow = None, flowDifference = None, exhaustFlowSetpoint = None, heatingPercentage = None, coolingPercentage = None,\
-	 	coolingSetpoint = None, heatingSetpoint = None, sav = None):
+	def __init__(self, timestamp = None, SAVId = None, miscSpareInput = None, zoneTemperature = None, dischargeTemperature = None, miscInput = None,\
+	 condensateDetector = None, valveOutputPercentage = None, GEXDamperPosition = None, coolingRequest = None, heatingRequest = None, damperPosition = None,\
+	 exhaustAirflow = None, supplyAirflow = None, flowDifference = None, exhaustFlowSetpoint = None, heatingPercentage = None, coolingPercentage = None,\
+	 coolingSetpoint = None, heatingSetpoint = None, CERTemperature = None, htRequest = None, clRequest = None, sav = None):
 
 		self._SAVId = SAVId
 		self._timestamp = timestamp
+		self._miscSpareInput = miscSpareInput
 		self._zoneTemperature = zoneTemperature
 		self._dischargeTemperature = dischargeTemperature
+		self._miscInput = miscInput
+		self._condensateDetector = condensateDetector                
+		self._valveOutputPercentage = valveOutputPercentage
 		self._GEXDamperPosition = GEXDamperPosition
 		self._coolingRequest = coolingRequest
 		self._heatingRequest = heatingRequest
@@ -1734,6 +1848,9 @@ class SAVReading(Base):
 		self._coolingPercentage = coolingPercentage
 		self._coolingSetpoint = coolingSetpoint
 		self._heatingSetpoint = heatingSetpoint
+		self._CERTemperature = CERTemperature
+		self._htRequest = htRequest
+		self._clRequest = clRequest
 		self._sav = sav
 
 	#properties
@@ -1755,6 +1872,14 @@ class SAVReading(Base):
 		self._timestamp = value
 
 	@property
+	def miscSpareInput(self):
+		return self._miscSpareInput
+
+	@miscSpareInput.setter
+	def miscSpareInput(self, value):
+		self._miscSpareInput = float(value) if value != None else None
+
+	@property
 	def zoneTemperature(self):
 		return self._zoneTemperature
 
@@ -1769,6 +1894,29 @@ class SAVReading(Base):
 	@dischargeTemperature.setter
 	def dischargeTemperature(self, value):
 		self._dischargeTemperature = float(value) if value != None else None  
+
+	@property
+	def miscInput(self):
+		return self._miscInput
+
+	@miscInput.setter
+	def miscInput(self, value):
+		self._miscInput = bool(value) if value != None else None 
+	@property
+	def condensateDetector(self):
+		return self._condensateDetector
+
+	@condensateDetector.setter
+	def condensateDetector(self, value):
+		self._condensateDetector = bool(value) if value != None else None    
+		
+	@property
+	def valveOutputPercentage(self):
+		return self._valveOutputPercentage
+
+	@valveOutputPercentage.setter
+	def valveOutputPercentage(self, value):
+		self._valveOutputPercentage = float(value) if value != None else None
 
 	@property
 	def GEXDamperPosition(self):
@@ -1867,6 +2015,30 @@ class SAVReading(Base):
 		self._heatingSetpoint = float(value) if value != None else None
 
 	@property
+	def CERTemperature(self):
+		return self._CERTemperature
+
+	@CERTemperature.setter
+	def CERTemperature(self, value):
+		self._CERTemperature = float(value) if value != None else None
+
+	@property
+	def htRequest(self):
+		return self._htRequest
+
+	@htRequest.setter
+	def htRequest(self, value):
+		self._htRequest = float(value) if value != None else None
+
+	@property
+	def clRequest(self):
+		return self._clRequest
+
+	@clRequest.setter
+	def clRequest(self, value):
+		self._clRequest = float(value) if value != None else None
+
+	@property
 	def sav(self):
 		return self._sav
 
@@ -1875,13 +2047,16 @@ class SAVReading(Base):
 		self._sav = value
 
 	def __str__(self):
-		return "<SAVReading(SAVId = '%s', timestamp = '%s', zoneTemperature = '%s', dischargeTemperature = '%s',\
-		 GEXDamperPosition = '%s', coolingRequest = '%s', heatingRequest = '%s', damperPosition = '%s', exhaustAirflow = '%s', supplyAirflow = '%s', flowDifference = '%s'\
-		 exhaustFlowSetpoint = '%s', heatingPercentage = '%s', coolingPercentage = '%s', coolingSetpoint = '%s', heatingSetpoint = '%s')>" \
-		% (self._SAVId, str(self._timestamp), self._zoneTemperature, self._dischargeTemperature, \
-		 self._GEXDamperPosition, self._coolingRequest, self._heatingRequest,\
+		return "<SAVReading(SAVId = '%s', timestamp = '%s', miscSpareInput = '%s', zoneTemperature = '%s', dischargeTemperature = '%s',\
+		 miscInput = '%s', condensateDetector = '%s', valveOutputPercentage = '%s', GEXDamperPosition = '%s', coolingRequest = '%s',\
+		 heatingRequest = '%s', damperPosition = '%s', exhaustAirflow = '%s', supplyAirflow = '%s', flowDifference = '%s'\
+		 exhaustFlowSetpoint = '%s', heatingPercentage = '%s', coolingPercentage = '%s', coolingSetpoint = '%s', heatingSetpoint = '%s'\
+		 CERTemperature = '%s', htRequest = '%s', clRequest = '%s')>" \
+		% (self._SAVId, str(self._timestamp), self._miscSpareInput, self._zoneTemperature, self._dischargeTemperature, self._miscInput,\
+		 self._condensateDetector, self._valveOutputPercentage, self._GEXDamperPosition, self._coolingRequest, self._heatingRequest,\
 		 self._damperPosition, self._exhaustAirflow, self._supplyAirflow, self._flowDifference, self._exhaustFlowSetpoint,\
-		 self._heatingPercentage, self._coolingPercentage, self._coolingSetpoint, self._heatingSetpoint)
+		 self._heatingPercentage, self._coolingPercentage, self._coolingSetpoint, self._heatingSetpoint, self._CERTemperature,\
+		 self._htRequest, self._clRequest)
 
 
 class VAV(Base):
@@ -1989,9 +2164,12 @@ class VAVReading(Base):
 	_VAVId = Column('VAVId', Integer, ForeignKey("Variable_Air_Volume.VAVId"), primary_key = True)
 	_timestamp = Column('Time_stamp', DateTime, primary_key = True)
 	_flowInput = Column('FlowInput', Float)
+	_miscSpareInput = Column('MiscSpareInput', Float, nullable=True)
 	_zoneTemperature = Column('ZoneTemperature', Float, nullable=True)
 	_dischargeTemperature = Column('DischargeTemperature', Float, nullable=True)
+	_condensateDetector = Column('CondensateDetector', Boolean, nullable=True)
 	_ductStaticPressure = Column('DuctStaticPressure', String(255), nullable=True)
+	_zoneCO2 = Column('ZoneCO2', Float, nullable=True)
 	_damperPosition = Column('DamperPosition', Float, nullable=True)
 	_coolingSetpoint = Column('CoolingSetpoint', Float, nullable=True)
 	_heatingSetpoint = Column('HeatingSetpoint', Float, nullable=True)
@@ -2001,15 +2179,18 @@ class VAVReading(Base):
  
 	#Constructor
 
-	def __init__(self, timestamp = None, VAVId = None, flowInput = None, zoneTemperature = None, dischargeTemperature = None,\
-	 ductStaticPressure = None, damperPosition = None, coolingSetpoint = None, heatingSetpoint = None, vav = None):
+	def __init__(self, timestamp = None, VAVId = None, flowInput = None, miscSpareInput = None, zoneTemperature = None, dischargeTemperature = None,\
+	 condensateDetector = None, ductStaticPressure = None, zoneCO2 = None, damperPosition = None, coolingSetpoint = None, heatingSetpoint = None, vav = None):
 
 		self._VAVId = VAVId
 		self._timestamp = timestamp
 		self._flowInput = flowInput
+		self._miscSpareInput = miscSpareInput
 		self._zoneTemperature = zoneTemperature
-		self._dischargeTemperature = dischargeTemperature      
+		self._dischargeTemperature = dischargeTemperature
+		self._condensateDetector = condensateDetector          
 		self._ductStaticPressure = ductStaticPressure
+		self._zoneCO2 = zoneCO2
 		self._damperPosition = damperPosition
 		self._coolingSetpoint = coolingSetpoint
 		self._heatingSetpoint = heatingSetpoint
@@ -2039,7 +2220,15 @@ class VAVReading(Base):
 
 	@flowInput.setter
 	def flowInput(self, value):
-		self._flowInput = float(value) if value != None else None   
+		self._flowInput = float(value) if value != None else None
+
+	@property
+	def miscSpareInput(self):
+		return self._miscSpareInput
+
+	@miscSpareInput.setter
+	def miscSpareInput(self, value):
+		self._miscSpareInput = float(value) if value != None else None    
 
 	@property
 	def zoneTemperature(self):
@@ -2056,6 +2245,13 @@ class VAVReading(Base):
 	@dischargeTemperature.setter
 	def dischargeTemperature(self, value):
 		self._dischargeTemperature = float(value) if value != None else None  
+	@property
+	def condensateDetector(self):
+		return self._condensateDetector
+
+	@condensateDetector.setter
+	def condensateDetector(self, value):
+		self._condensateDetector = bool(value) if value != None else None    
 		
 	@property
 	def ductStaticPressure(self):
@@ -2063,7 +2259,15 @@ class VAVReading(Base):
 
 	@ductStaticPressure.setter
 	def ductStaticPressure(self, value):
-		self._ductStaticPressure = float(value) if value != None else None     
+		self._ductStaticPressure = float(value) if value != None else None    
+		
+	@property
+	def zoneCO2(self):
+		return self._zoneCO2
+
+	@zoneCO2.setter
+	def zoneCO2(self, value):
+		self._zoneCO2 = float(value) if value != None else None   
 		
 	@property
 	def damperPosition(self):
@@ -2098,10 +2302,10 @@ class VAVReading(Base):
 		self._vav = value
 
 	def __str__(self):
-		return "<VAVReading(VAVId = '%s', timestamp = '%s', flowInput = '%s', zoneTemperature = '%s', dischargeTemperature = '%s',\
-		 ductStaticPressure = '%s',damperPosition = '%s', coolingSetpoint = '%s', heatingSetpoint = '%s')>" \
-		% (self._VAVId, str(self._timestamp), self._flowInput, self._zoneTemperature, self._dischargeTemperature,\
-		 self._ductStaticPressure, self._damperPosition, self._coolingSetpoint, self._heatingSetpoint)
+		return "<VAVReading(VAVId = '%s', timestamp = '%s', flowInput = '%s', miscSpareInput = '%s', zoneTemperature = '%s', dischargeTemperature = '%s',\
+		 condensateDetector = '%s',ductStaticPressure = '%s',zoneCO2 = '%s', damperPosition = '%s', coolingSetpoint = '%s', heatingSetpoint = '%s')>" \
+		% (self._VAVId, str(self._timestamp), self._flowInput, self._miscSpareInput, self._zoneTemperature, self._dischargeTemperature,\
+		 self._condensateDetector, self._ductStaticPressure, self._zoneCO2, self._damperPosition, self._coolingSetpoint, self._heatingSetpoint)
 
 
 class Thermafuser(Base):
@@ -2232,6 +2436,12 @@ class ThermafuserReading(Base):
 	_roomOccupied = Column('RoomOccupied', Boolean)
 	_zoneTemperature = Column('ZoneTemperature', Float)
 	_supplyAir = Column('SupplyAir', Float, nullable=True)
+	_airflowFeedback = Column('AirflowFeedback', Float, nullable=True)
+	_CO2Input = Column('CO2Input', Float, nullable=True)
+	_maxAirflow = Column('MaxAirflow', Float, nullable=True)
+	_minAirflow = Column('MinAirflow', Float, nullable=True)
+	_unoccupiedHeatingSetpoint = Column('UnoccupiedHeatingSetpoint', Float, nullable=True)
+	_unoccupiedCoolingSetpoint = Column('UnoccupiedCoolingSetpoint', Float, nullable=True)
 	_occupiedCoolingSetpoint = Column('OccupiedCoolingSetpoint', Float, nullable=True)
 	_occupiedHeatingSetpoint = Column('OccupiedHeatingSetpoint', Float, nullable=True)
 	_terminalLoad = Column('TerminalLoad', Float, nullable=True)
@@ -2241,8 +2451,9 @@ class ThermafuserReading(Base):
 
 	#Constructor
 
-	def __init__(self, timestamp = None, thermafuserId = None, roomOccupied = None, zoneTemperature = None, supplyAir = None, airflowFeedback = None, \
-		occupiedCoolingSetpoint = None, occupiedHeatingSetpoint = None, terminalLoad = None, thermafuser = None):
+	def __init__(self, timestamp = None, thermafuserId = None, roomOccupied = None, zoneTemperature = None, supplyAir = None, airflowFeedback = None, CO2Input = None, maxAirflow = None,\
+	 minAirflow = None, unoccupiedHeatingSetpoint = None, unoccupiedCoolingSetpoint = None, occupiedCoolingSetpoint = None, occupiedHeatingSetpoint = None, terminalLoad = None,\
+	  thermafuser = None):
 
 		self._thermafuserId = thermafuserId
 		self._timestamp = timestamp
@@ -2250,10 +2461,15 @@ class ThermafuserReading(Base):
 		self._zoneTemperature = zoneTemperature
 		self._supplyAir = supplyAir
 		self._airflowFeedback = airflowFeedback
+		self._CO2Input = CO2Input
+		self._maxAirflow = maxAirflow                
+		self._minAirflow = minAirflow
+		self._unoccupiedHeatingSetpoint = unoccupiedHeatingSetpoint
+		self._unoccupiedCoolingSetpoint = unoccupiedCoolingSetpoint
 		self._occupiedCoolingSetpoint = occupiedCoolingSetpoint
 		self._occupiedHeatingSetpoint = occupiedHeatingSetpoint
-		self._terminalLoad = terminalLoad
 		self._thermafuser = thermafuser
+		self._terminalLoad = terminalLoad
 
 	#properties
 
@@ -2306,6 +2522,45 @@ class ThermafuserReading(Base):
 		self._airflowFeedback = float(value) if value != None else None   
 
 	@property
+	def CO2Input(self):
+		return self._CO2Input
+
+	@CO2Input.setter
+	def CO2Input(self, value):
+		self._CO2Input = float(value) if value != None else None  
+	@property
+	def maxAirflow(self):
+		return self._maxAirflow
+
+	@maxAirflow.setter
+	def maxAirflow(self, value):
+		self._maxAirflow = float(value) if value != None else None    
+		
+	@property
+	def minAirflow(self):
+		return self._minAirflow
+
+	@minAirflow.setter
+	def minAirflow(self, value):
+		self._minAirflow = float(value) if value != None else None    
+		
+	@property
+	def unoccupiedHeatingSetpoint(self):
+		return self._unoccupiedHeatingSetpoint
+
+	@unoccupiedHeatingSetpoint.setter
+	def unoccupiedHeatingSetpoint(self, value):
+		self._unoccupiedHeatingSetpoint = float(value) if value != None else None 
+		
+	@property
+	def unoccupiedCoolingSetpoint(self):
+		return self._unoccupiedCoolingSetpoint
+
+	@unoccupiedCoolingSetpoint.setter
+	def unoccupiedCoolingSetpoint(self, value):
+		self._unoccupiedCoolingSetpoint = float(value) if value != None else None
+		
+	@property
 	def occupiedCoolingSetpoint(self):
 		return self._occupiedCoolingSetpoint
 
@@ -2339,8 +2594,10 @@ class ThermafuserReading(Base):
 
 	def __str2__(self):
 		return "<ThermafuserReading(thermafuserId = '%s', timestamp = '%s', roomOccupied = '%s', zoneTemperature = '%s', supplyAir = '%s', airflowFeedback = '%s',\
-		occupiedCoolingSetpoint = '%s', occupiedHeatingSetpoint = '%s', terminalLoad = '%s')>" \
-		% (self._thermafuserId, str(self._timestamp), self._roomOccupied, self._zoneTemperature, self._supplyAir, self._airflowFeedback, self._occupiedCoolingSetpoint,\
+		CO2Input = '%s', maxAirflow = '%s', minAirflow = '%s', unoccupiedHeatingSetpoint = '%s', unoccupiedCoolingSetpoint = '%s', occupiedCoolingSetpoint = '%s',\
+		 occupiedHeatingSetpoint = '%s', terminalLoad = '%s')>" \
+		% (self._thermafuserId, str(self._timestamp), self._roomOccupied, self._zoneTemperature, self._supplyAir, self._airflowFeedback, self._CO2Input,\
+		 self._maxAirflow,self._minAirflow,self._unoccupiedHeatingSetpoint,self._unoccupiedCoolingSetpoint, self._occupiedCoolingSetpoint,\
 		  self._occupiedHeatingSetpoint, self._terminalLoad)
 
 	def __str__(self):
