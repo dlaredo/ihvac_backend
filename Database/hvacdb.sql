@@ -1,5 +1,5 @@
-create database HVAC2018_03;
-use HVAC2018_03;
+create database HVAC2018_04;
+use HVAC2018_04;
 
 CREATE TABLE Thermafuser_Reading (
   Time_stamp                datetime NOT NULL, 
@@ -186,6 +186,7 @@ CREATE TABLE ComponentRelationships (
   ComponentGroup  int(10), 
   ComponentType   varchar(255) NOT NULL, 
   PRIMARY KEY (ComponentName)) ENGINE=InnoDB;
+
 ALTER TABLE Air_Handling_Unit_Reading ADD INDEX FKAir_Handli855032 (AHUNumber), ADD CONSTRAINT FKAir_Handli855032 FOREIGN KEY (AHUNumber) REFERENCES Air_Handling_Unit (AHUNumber);
 ALTER TABLE Fan ADD INDEX FKFan812080 (AHUNumber), ADD CONSTRAINT FKFan812080 FOREIGN KEY (AHUNumber) REFERENCES Air_Handling_Unit (AHUNumber);
 ALTER TABLE Damper ADD INDEX FKDamper841472 (AHUNumber), ADD CONSTRAINT FKDamper841472 FOREIGN KEY (AHUNumber) REFERENCES Air_Handling_Unit (AHUNumber);
