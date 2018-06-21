@@ -1,0 +1,3 @@
+#global.py
+
+dbConnection = None

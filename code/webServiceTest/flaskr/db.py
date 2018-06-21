@@ -1,8 +1,6 @@
-import sqlite3
-
-import click
 from flask import current_app, g
 from flask.cli import with_appcontext
+from flask_sqlalchemy import SQLAlchemy
 
 
 def getDatabaseConnection(databaseString):
@@ -28,8 +26,10 @@ def getDatabaseConnection(databaseString):
 def get_db():
     if 'db' not in g:
 
-        connectionString = current_app.config['DATABASE']
-        g.db = getDatabaseConnection(connectionString)
+        #connectionString = current_app.config['SQLALCHEMY_DATABASE_URI']
+        #g.db = getDatabaseConnection(connectionString)
+
+        g.db = SQLAlchemy(current_app)
 
         '''
         g.db = sqlite3.connect(
@@ -51,4 +51,5 @@ def close_db(e=None):
 
 def init_app(app):
     app.teardown_appcontext(close_db)
+    g.db = SQLAlchemy(app)
     #app.cli.add_command(get_db)
