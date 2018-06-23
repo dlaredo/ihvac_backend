@@ -9,9 +9,9 @@ from flask import jsonify
 bp = Blueprint('services', __name__, url_prefix='/services')
 
 # a simple page that says hello
-@bp.route('/reportHvacIssueForm')
-def reportHvacIssueForm():
-    return render_template('report_hvac_issue.html')
+@bp.route('/hello', methods=['POST'])
+def hello():
+    return "hello"
 
 @bp.route('/reportHvacIssue', methods=['POST'])
 def reporthvacIssue():
