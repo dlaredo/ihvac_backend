@@ -1,5 +1,5 @@
-create database HVACIssues2018_01;
-use HVACIssues2018_01;
+create database HVACIssues;
+use HVACIssues;
 
 CREATE TABLE HVACIssue (
   IssueId   int(10) NOT NULL AUTO_INCREMENT, 
