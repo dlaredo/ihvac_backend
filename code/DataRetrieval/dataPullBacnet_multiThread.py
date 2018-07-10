@@ -13,6 +13,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.sql import text
 from queue import Queue
 from threading import Thread
+from logging.handlers import RotatingFileHandler
 
 global componentsList, componentsClasses, readings, bacnetConnection, notReadableDataPoints
 
@@ -236,12 +237,26 @@ def main():
 	timeIntervalMin = 5
 	timeIntervalSec = timeIntervalMin*60
 
+	critical_error_msg = "Critical error, attempting to restart. See log for more information"
+
 	for handler in logging.root.handlers[:]:
 		logging.root.removeHandler(handler)
 
 	#set the logger config
-	logging.basicConfig(filename='dataPull.log', level=logging.ERROR,\
-	format='%(levelname)s:%(threadName)s:%(asctime)s:%(filename)s:%(funcName)s:%(message)s', datefmt='%m/%d/%Y %H:%M:%S')
+	log_formatter = logging.Formatter(fmt='%(levelname)s:%(threadName)s:%(asctime)s:%(filename)s:%(funcName)s:%(message)s', datefmt='%m/%d/%Y %H:%M:%S')
+	logFile = 'dataPull.log'
+	my_handler = RotatingFileHandler(logFile, mode='a', maxBytes=5*1024*1024, backupCount=2, encoding=None, delay=0)
+	my_handler.setFormatter(log_formatter)
+	my_handler.setLevel(logging.ERROR)
+	app_log = logging.getLogger('root')
+	app_log.setLevel(logging.ERROR)
+	app_log.addHandler(my_handler)
+
+
+	logging.basicConfig(handlers=[my_handler])
+
+	'''logging.basicConfig(filename='dataPull.log', level=logging.ERROR, \
+	format='%(levelname)s:%(threadName)s:%(asctime)s:%(filename)s:%(funcName)s:%(message)s', datefmt='%m/%d/%Y %H:%M:%S')'''
 
 	#Make sure starting time is a multiple of 5 in the minutes and that its a past time.
 	#To ensure that we will be able to get the readings we try to get the readings from 5+ minutes before the current time. 
@@ -257,8 +272,8 @@ def main():
 		bacnetConnection = BAC0.connect('10.20.0.169/22', bokeh_server=False)
 		sqlsession = getDatabaseConnection(databaseString)
 	except Exception as e:
-		print("Critical error, attempting to restart. See log for full more information")
-		requests.get('http://192.168.100.2/iHvac/services/errorMail')
+		print(critical_error_msg)
+		requests.get('http://192.168.100.2/iHvac/services/errorMail', params={'message':critical_error_msg, 'subj':'Critical error in server'})
 		raise
 	else:
 		pass
@@ -298,8 +313,8 @@ def main():
 			try:
 				pullData_multiThread(sqlsession, readingDateTime, dataPoints, 20)
 			except Exception as e:
-				print("Critical error, attempting to restart. See log for full more information")
-				requests.get('http://192.168.100.2/iHvac/services/errorMail')
+				print(critical_error_msg)
+				requests.get('http://192.168.100.2/iHvac/services/errorMail', params={'message':critical_error_msg, 'subj':'Critical error in server'})
 				raise
 			else:
 				pass

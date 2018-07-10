@@ -73,12 +73,14 @@ def errorMail():
 
     if request.method == 'GET':
 
-    	message_text = "Hello\nThis is a mail from your server\n\nBye\n"
-    	sendMail(message_text)
+    	message_text = request.args.get('message')
+    	subj = request.args.get('subj')
+    	#message_text = "Hello\nThis is a mail from your server\n\nBye\n"
+    	sendMail(message_text, subj)
     
     return "Mail sent"   	
 
-def sendMail(message_text):
+def sendMail(message_text, subj):
 
 	smtp = SMTP("smtp.gmail.com:587")
 	smtp.ehlo()
@@ -88,7 +90,7 @@ def sendMail(message_text):
 	from_addr = "Controls Lab <controlslab.uc@gmail.com>"
 	to_addr = "dlaredorazo@ucmerced.edu"
 
-	subj = "hello"
+	#subj = "Critical"
 	date = datetime.datetime.now().strftime("%d/%m/%Y %H:%M")
 
 	#message_text = "Hello\nThis is a mail from your server\n\nBye\n"
