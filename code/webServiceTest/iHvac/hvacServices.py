@@ -1,10 +1,12 @@
 from flask import request, current_app, Blueprint, render_template
 from sqlalchemy import and_
 from flask_sqlalchemy import SQLAlchemy
-from flaskr.db import *
-from flaskr.hvacIssueDBMapping import *
+from iHvac.db import *
+from iHvac.hvacIssueDBMapping import *
 from . import global_s
 from flask import jsonify
+from smtplib import SMTP
+import datetime
 
 bp = Blueprint('services', __name__, url_prefix='/services')
 
@@ -65,3 +67,33 @@ def getBuildings():
         bldgs = [b.serialize() for b in buildings]
 
     return jsonify(bldgs)
+
+@bp.route('/errorMail', methods=['GET'])
+def errorMail():
+
+    if request.method == 'GET':
+
+    	message_text = "Hello\nThis is a mail from your server\n\nBye\n"
+    	sendMail(message_text)
+    
+    return "Mail sent"   	
+
+def sendMail(message_text):
+
+	smtp = SMTP("smtp.gmail.com:587")
+	smtp.ehlo()
+	smtp.starttls()
+	smtp.login("controlslab.uc@gmail.com", "controlslab.uc")
+
+	from_addr = "Controls Lab <controlslab.uc@gmail.com>"
+	to_addr = "dlaredorazo@ucmerced.edu"
+
+	subj = "hello"
+	date = datetime.datetime.now().strftime("%d/%m/%Y %H:%M")
+
+	#message_text = "Hello\nThis is a mail from your server\n\nBye\n"
+
+	msg = "From %s\nTo: %s\nSubject: %s\nDate: %s\n\n%s" % (from_addr, to_addr, subj, date, message_text)
+
+	smtp.sendmail(from_addr, to_addr, msg)
+	smtp.quit()

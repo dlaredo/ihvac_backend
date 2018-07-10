@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="hvacIssueApp" ng-controller="hvacIssueCtrl" ng-init="rooms=[{number:0, name:'Jani'}, {number:1, name:'Hege'},{number:2, name:'Kai'}]">
+<head>
+    <meta charset="utf-8">
+    <title>HVAC Issue Form</title>
+    <link rel="stylesheet" media="screen" href="report_hvac_issue.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.0/angular.min.js"></script>
+    <script src="report_hvac_issue_app.js"></script>
+</head>
+<body>
+
+	<form class="issue_form" name="issue_form">
+
+		<ul>
+    		<li>
+        		<h2>Report an issue with HVAC</h2>
+         		<span class="required_notification">* Denotes Required Field</span>
+    		</li>
+    		<li>
+        		<label for="locBuilding">Building:</label>
+
+        		<select name="locBuilding" ng-change="changeBuildingLocation()" ng-model=selectedBuilding ng-options="building.buildingId as building.buildingName for building in buildings">
+        		</select>
+
+        	</li>
+        	<li>
+        		<label for="locFloor">Floor:</label>
+    			<select name="locFloor" ng-change="changeFloorLocation()" ng-model=selectedFloor ng-options="floor.floorNumber as floor.floorName for floor in buildingFloors">
+        		</select>
+    			<span class="form_hint">This is the floor where the fault is detected</span>
+    		</li>
+    		<li>
+        		<label for="locRoom">Room:</label>
+        		<select name="locRoom" ng-model=selectedRoom ng-options="room.roomId as room.roomName for room in buildingRoomsByFloor">
+        		</select>
+    			<span class="form_hint">This is the room where the fault is detected</span>
+    		</li>
+    		<li>
+    			<label for="description">Describe the issue:</label>
+    			<textarea name="description" cols="40" rows="6" required="" ng-model="description"></textarea>
+			</li>
+    		<li>
+    			<button class="submit" ng-click="submit()">Submit Form</button>
+			</li>
+		</ul>
+
+	</form>
+
+</body>
+</html>
