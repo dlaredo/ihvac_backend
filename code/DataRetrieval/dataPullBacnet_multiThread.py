@@ -6,9 +6,11 @@ import threading
 import logging
 import BAC0
 import csv
+import requests
 from datetime import datetime, timezone, timedelta
 from hvacDBMapping import *
 from sqlalchemy.orm import sessionmaker
+from sqlalchemy.sql import text
 from queue import Queue
 from threading import Thread
 
@@ -52,10 +54,7 @@ class PullingWorker(Thread):
 
 		return presentValue, errorMsg
 
-
 	def run(self):
-
-		#print("Thread started " + threading.current_thread().getName())
 
 		while self.queue.empty() == False:
 
@@ -63,14 +62,12 @@ class PullingWorker(Thread):
 			data = self.queue.get()
 
 			dataPoint, timesRead = data
-			#print(data)
 			path, bacnetAddress, bacnetDevId, bacnetObjectType, componentId, pointType, databaseMapping = dataPoint
 
 			#if the devId of the point is known proceed otherwise assign value of -1
 			if bacnetDevId != -1:
 
 				reading = readings[componentId]
-				#print(reading._AHUNumber)
 
 				#Build the bacnet query string
 				readObjectType = bacnetObjectTypes[bacnetObjectType]
@@ -86,20 +83,14 @@ class PullingWorker(Thread):
 
 				#The point could not be read
 				if readingValue == None:
-					#lock.acquire()
-					#print("Error in retrieving value for " + path)
 					notReadableDataPoints.append((dataPoint, errorMsg))
 					logging.error("Error in retrieving value for " + bacnetQueryString + " " + errorMsg)
-					#lock.release()
 
-				#print(databaseMapping)
 				setattr(reading, databaseMapping, readingValue)
 			else:
 				setattr(reading, databaseMapping, -1)  #For points whose address is unknown
 
 			self.queue.task_done()
-
-		#print("Thread exit " + threading.current_thread().getName())
 
 
 def createReadingClasses(dataPoints, readingDateTime, key):
@@ -127,12 +118,15 @@ def getDatabaseConnection(databaseString):
 		SQLSession = sessionmaker(bind=sqlengine)
 		sqlsession = SQLSession()
 
+		sqlsession.query("1").from_statement(text('SELECT 1')).all() #Test connection
+
 		print("Connection to " + databaseString + " successfull")
 		logging.info("Connection to " + databaseString + " successfull")
 	except Exception as e:
 		logging.error("Error in connection to the database")
 		logging.error(traceback.format_exc())
 		print("Error in connection to the database")
+		raise e
 
 	return sqlsession
 
@@ -169,108 +163,84 @@ def dumpNotReadableDataPoints():
 			writer.writerow ([dp[0], dp[1], dp[2], dp[3], dp[5], errorType])
 
 
-def pullData_multiThread(databaseSession, startDateTime, timeIntervalMin, finishingDateTime=None):
-	"""Retrieve the data stored in the trend points of the WebCtrl program from the indicated startDateTime onwards and store them in the database.
-	This function will pull data from the database every 5 minutes starting from startDateTime and will keep doing it indefinetly."""
-
-	global readings, notReadableDataPoints
-
-	numberOfThreads = 20
+def init_readings(databaseSession):
+	"""Retrieve the dataPoints to be read and init the readingClasses. A call to this method is necessary before attempting pullData_multiThread"""
 
 	#get the datapoints and separate them by component type (this should be relaunched everytime the database is modified)
 	dataPoints = {key.lower():databaseSession.query(DataPoint._path, DataPoint._bacnetAddress, DataPoint._bacnetDevId, 
 		DataPoint._bacnetObjectType, DataPoint._componentId, DataPoint._pointType, PathMapping._databaseMapping).
 	join(PathMapping).filter(PathMapping._componentType == key).all() for key in componentsList}
 
-	#print(dataPoints["ahu"])
-	#print(dataPoints["ahu"][0]._databaseMapping)
+	#create the necessary classes for the readings. Note that the readings are global since the are to be used by the threads later on
+	#for key in dataPoints:
+	#	createReadingClasses(dataPoints, readingDateTime, key)
 
-	PDT = timezone(-timedelta(hours=7), 'PDT')
-	#timeDelta = timedelta(minutes = 5)
+	return dataPoints
+
+
+def pullData_multiThread(databaseSession, readingDateTime, dataPoints, numberOfThreads):
+	"""Retrieve the data stored in the trend points of the WebCtrl program from the indicated startDateTime onwards and store them in the database.
+	This function will pull data from the database every 5 minutes starting from startDateTime and will keep doing it indefinetly."""
+
+	global readings, notReadableDataPoints  #Readings should have already been initialized by a previous call to init_readings
 
 	lock = threading.Lock()
 
-	if finishingDateTime != None:
-		continueUntil = lambda readingDateTime : readingDateTime <= finishingDateTime
-		print("Finishing dateTime " + str(finishingDateTime))
-		logging.info("Finishing dateTime " + str(finishingDateTime))
-	else:
-		continueUntil = lambda readingDateTime : True
+	logging.info("Pulling data from at " + str(readingDateTime))
 
-	readingDateTime = startDateTime
-	#endDateTime = startDateTime + timeDelta
-	#If a finishing datetime is defined continue until that datetime is reached, otherwise continue indefinetely
-	while continueUntil(readingDateTime):
+	notReadableDataPoints = list()
 
-		#print("Pulling data from at " + str(readingDateTime))
-		logging.info("Pulling data from at " + str(readingDateTime))
-
-		notReadableDataPoints = list()
-		#For each type of components get its readings from the bacnet
-		for key in dataPoints:
+	#For each type of components get its readings from the bacnet
+	for key in dataPoints:
 			
-			print("\nPulling points of " + key + "\n")
-			logging.info("\nPulling points of " + key + "\n")
+		#create the necessary classes for the readings
+		createReadingClasses(dataPoints, readingDateTime, key)
 
-			#create the necessary classes for the readings
-			createReadingClasses(dataPoints, readingDateTime, key)
-			#print(readings)
+		print("\nPulling points of " + key + "\n")
+		logging.info("\nPulling points of " + key + "\n")
 
-			# Create a queue to communicate with the worker threads
-			queue = Queue()
+		# Create a queue to communicate with the worker threads
+		queue = Queue()
 
-			#Add datapoints to the queue
-			for dataPoint in dataPoints[key]:
-				if dataPoint._databaseMapping != None:
-					queue.put((dataPoint, 1))
-				else:
-					print("No db mapping for "+dataPoint)
+		#Add datapoints to the queue
+		for dataPoint in dataPoints[key]:
+			if dataPoint._databaseMapping != None:
+				queue.put((dataPoint, 1))
+			else:
+				print("No db mapping for "+dataPoint)
 			
-			#create the threads and start them
-			# Create numberOfThreads worker threads
-			workingThreads  = list()
-			for i in range(numberOfThreads):
-				workingThreads.append(PullingWorker(queue, lock, key, 'Thread-' + str(i+1)))
-				workingThreads[i].start()
+		# Create numberOfThreads worker threads and start them
+		workingThreads  = list()
+		for i in range(numberOfThreads):
+			workingThreads.append(PullingWorker(queue, lock, key, 'Thread-' + str(i+1), 2))
+			workingThreads[i].start()
 
-			#Wait until all of the threads have finished
-			queue.join()
-			for i in range(numberOfThreads):
-				workingThreads[i].join()
-			
-			databaseSession.add_all(readings.values())
+		#Wait until all of the threads have finished
+		queue.join()
+		for i in range(numberOfThreads):
+			workingThreads[i].join()
+		
+		databaseSession.add_all(readings.values())
 
-		databaseSession.commit()
-		dumpNotReadableDataPoints()
-		print("Readings stored in the Database")
-		logging.info("Readings stored in the Database")
-
-		#Ensure that no more than one read is done per time interval
-		timeNow = datetime.now(tz=PDT)
-		if timeNow.minute - readingDateTime.minute == 0:
-			print("Sleeping for less than 1 minute before continuing (to prevent multiple readings at the sime timestamp)")
-			time.sleep(60-timeNow.second+1)
-
-		#Wait until the next time interval
-		timeNow = datetime.now(tz=PDT)
-		readingDateTime = pauseExecution(timeNow, timeIntervalMin, PDT)
+	databaseSession.commit()
+	dumpNotReadableDataPoints()
+	print("Readings stored in the Database")
+	logging.info("Readings stored in the Database")
 
 
 def main():
 
-	global bacnetConnection
+	global bacnetConnection #Needs to be global for the threads to use the connection
 
 	databaseString = "mysql+mysqldb://ihvac:ihvac@192.168.100.2:3306/HVAC2018_03"
-	timeIntervalMin = 5 #This defines the time interval to be used for storing the readings
+	timeIntervalMin = 5
 	timeIntervalSec = timeIntervalMin*60
-
-	bacnetConnection = BAC0.connect('10.20.0.169/22', bokeh_server=False)
 
 	for handler in logging.root.handlers[:]:
 		logging.root.removeHandler(handler)
 
 	#set the logger config
-	logging.basicConfig(filename='dataPull.log', level=logging.WARNING,\
+	logging.basicConfig(filename='dataPull.log', level=logging.ERROR,\
 	format='%(levelname)s:%(threadName)s:%(asctime)s:%(filename)s:%(funcName)s:%(message)s', datefmt='%m/%d/%Y %H:%M:%S')
 
 	#Make sure starting time is a multiple of 5 in the minutes and that its a past time.
@@ -279,23 +249,77 @@ def main():
 	timeNow = datetime.now(tz=PDT)
 	timeDelta = timedelta(minutes = timeIntervalMin)
 
-	timeNow = pauseExecution(timeNow, timeIntervalMin, PDT)
+	#finishingDateTime = timeNow + timeDelta  #This will perform the reading from a limited perior of time
+	finishingDateTime = None 	#This will perform the reading indefinetely
 
-	print("Reading started")
+	#Attempt connection to the bacnet and the database
+	try:
+		bacnetConnection = BAC0.connect('10.20.0.169/22', bokeh_server=False)
+		sqlsession = getDatabaseConnection(databaseString)
+	except Exception as e:
+		print("Critical error, attempting to restart. See log for full more information")
+		requests.get('http://192.168.100.2/iHvac/services/errorMail')
+		raise
+	else:
+		pass
+	finally:
+		sqlsession.close()
 
-	#Make second and microsecond 0 for simplicity purposes.
-	timeNow = timeNow.replace(second = 0)
-	timeNow = timeNow.replace(microsecond = 0)
-	finishingDateTime = timeNow + timeDelta
+	#Make sure reading starts at a multiple of timeIntervalMin
+	#timeNow = pauseExecution(timeNow, timeIntervalMin, PDT)
 
-	sqlsession = getDatabaseConnection(databaseString)
-
-	#Start reading from the devices and keep reading until the code is stopped
 	if sqlsession != None:
-		#pullData_multiThread(sqlsession)
-		pullData_multiThread(sqlsession, timeNow, timeIntervalMin, finishingDateTime)
+
+		PDT = timezone(-timedelta(hours=7), 'PDT')
+
+		#Define stopping condition. If a finishing datetime is defined continue until that datetime is reached, otherwise continue indefinetely
+		if finishingDateTime != None:
+			continueUntil = lambda readingDateTime : readingDateTime <= finishingDateTime
+			print("Finishing dateTime " + str(finishingDateTime))
+			logging.info("Finishing dateTime " + str(finishingDateTime))
+		else:
+			continueUntil = lambda readingDateTime : True
+
+		#Start reading from current time
+		#Make second and microsecond 0 for simplicity purposes.
+		timeNow = timeNow.replace(second = 0) 
+		timeNow = timeNow.replace(microsecond = 0)
+		readingDateTime = timeNow
+
+		#Init the reading classes and the dataPoints
+		dataPoints = init_readings(sqlsession)
+
+		print("Reading started")
+
+		#Start reading from the devices and keep reading until the stopping condition (either finishing time reached or manual stop)
+		while continueUntil(readingDateTime):
+
+			#Attempt reading from bacnet and storing into DB
+			try:
+				pullData_multiThread(sqlsession, readingDateTime, dataPoints, 20)
+			except Exception as e:
+				print("Critical error, attempting to restart. See log for full more information")
+				requests.get('http://192.168.100.2/iHvac/services/errorMail')
+				raise
+			else:
+				pass
+			finally:
+				sqlsession.close()
+
+			#Ensure that no more than one read is done per time interval
+			timeNow = datetime.now(tz=PDT)
+			if timeNow.minute - readingDateTime.minute == 0:
+				print("Sleeping for less than 1 minute before continuing (to prevent multiple readings at the same timestamp)")
+				time.sleep(60-timeNow.second+1)
+
+			#Wait until the next time interval
+			timeNow = datetime.now(tz=PDT)
+			readingDateTime = pauseExecution(timeNow, timeIntervalMin, PDT)
 
 	print("Main exit")
+
+	#Free resources
+	sqlsession.close()
 
 
 main()
