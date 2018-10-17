@@ -752,7 +752,7 @@ def main():
 	#zoneFilePaths = {"1_2":"../../csv_files/Zone_1and2.csv"}
 	#zoneFilePaths = {"4":"../../csv_files/Zone4.csv"}
 	#zoneFilePaths = {"3":"../../csv_files/AHUOnly/Zone3AHU.csv"}
-	database = "mysql+mysqldb://dlaredorazo:@Dexsys13@localhost:3306/HVAC2018_02"
+	database = "mysql+mysqldb://dbAdmin:dbAdmin@localhost:3306/hvac2018_04"
 
 	deviceAddressFile = "../../csv_files/pointListMappings/deviceAddress.csv"
 	bacnetPointsFile = "../../csv_files/pointListMappings/pointListBacnet.csv"

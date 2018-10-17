@@ -1,0 +1,8 @@
+Path,Address,DevId,ObjectType,PointType,Error Type
+#vav-3-26/cw_valve,20620:21,1,BAO,2,UnknownObjectError
+#vav-3-34/cw_valve,20620:29,1,BAO,2,UnknownObjectError
+#sav-b3-b/hw_valve,20613:3,2,BAO,2,UnknownObjectError
+#sav-b4-a/m320,20613:4,24,BAV,3,UnknownObjectError
+#sav-b13-e_/m320,20613:13,24,BAV,3,UnknownObjectError
+#sav-b8-b/ht_pct_tn,20613:8,9,BAV,3,UnknownObjectError
+#sav-b6-a/da_temp,20613:6,2,BAI,1,NoResponseFromController
